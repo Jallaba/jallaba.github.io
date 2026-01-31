@@ -1,0 +1,467 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "No Coming Back",
+			"rarity": "rare",
+			"mana_cost": "{W/B}",
+			"type": "Enchantment",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/0.png"
+			}
+		},
+		{
+			"name": "Make Your Dream Real",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/1.png"
+			}
+		},
+		{
+			"name": "Star of Predation",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/2.png"
+			}
+		},
+		{
+			"name": "Endless Seas",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/3.png"
+			}
+		},
+		{
+			"name": "Chirat, Chronomancer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/4.png"
+			}
+		},
+		{
+			"name": "Sudden Redirection",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/5.png"
+			}
+		},
+		{
+			"name": "Penitent Sinner",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Zombie Cleric",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/6.png"
+			}
+		},
+		{
+			"name": "Heartless Betrayal",
+			"rarity": "rare",
+			"mana_cost": "{X}{U/B}",
+			"type": "Sorcery",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/7.png"
+			}
+		},
+		{
+			"name": "Mourning Combattant",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/8.png"
+			}
+		},
+		{
+			"name": "Glorious Slayer",
+			"rarity": "rare",
+			"mana_cost": "{1}{R/G}{R/G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/9.png"
+			}
+		},
+		{
+			"name": "Strategic Surrender",
+			"rarity": "common",
+			"mana_cost": "{W/U}{W/U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/10.png"
+			}
+		},
+		{
+			"name": "Bane of the Azure Seas",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Legendary Creature — Octopus",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/11.png"
+			}
+		},
+		{
+			"name": "Ayed, Weary Traveler",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/12.png"
+			}
+		},
+		{
+			"name": "Magic Circle: Drei",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/13.png"
+			}
+		},
+		{
+			"name": "Strategic Council",
+			"rarity": "rare",
+			"mana_cost": "{X}{U/R}{U/R}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/14.png"
+			}
+		},
+		{
+			"name": "Dawngrove Unicorn",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Unicorn",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/15.png"
+			}
+		},
+		{
+			"name": "Ethelred, the Dealmaker",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U/B}{U/B}{U/B}{U/B}",
+			"type": "Legendary Creature — Noble",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/16.png"
+			}
+		},
+		{
+			"name": "Secret Blackmarket",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "17",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://jallaba.github.io/sets/ACPD-files/img/17_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/17_front.png"
+			}
+		},
+		{
+			"name": "Boundless Roads",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/18.png"
+			}
+		},
+		{
+			"name": "Ice Princess",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}{W/U}",
+			"type": "Creature — Human Wizard Noble",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/19.png"
+			}
+		},
+		{
+			"name": "Steel Sentinel",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/20.png"
+			}
+		},
+		{
+			"name": "Dreams of Peace",
+			"rarity": "rare",
+			"mana_cost": "{W/U}{W/U}",
+			"type": "Enchantment",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/21.png"
+			}
+		},
+		{
+			"name": "Dusk on the Battlefield",
+			"rarity": "rare",
+			"mana_cost": "{W/B}{W/B}{W/B}{W/B}",
+			"type": "Sorcery",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/22.png"
+			}
+		},
+		{
+			"name": "Horizon Wanderer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scout",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/23.png"
+			}
+		},
+		{
+			"name": "Evergreen Canopy",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/24.png"
+			}
+		},
+		{
+			"name": "Obnoxious Bard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/25.png"
+			}
+		},
+		{
+			"name": "Dream of Freedom",
+			"rarity": "rare",
+			"mana_cost": "{R/G}{R/G}",
+			"type": "Enchantment",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/26.png"
+			}
+		},
+		{
+			"name": "Song of the Forest",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/27.png"
+			}
+		},
+		{
+			"name": "Fated Vanguard",
+			"rarity": "rare",
+			"mana_cost": "{1}{R/W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/28.png"
+			}
+		},
+		{
+			"name": "Angelic Pity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W/B}{W/B}",
+			"type": "Sorcery",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/29.png"
+			}
+		},
+		{
+			"name": "Bathin, Demon Mentor",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Demon Knight",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/30.png"
+			}
+		},
+		{
+			"name": "Bottomless Chasm",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/31.png"
+			}
+		},
+		{
+			"name": "Chromatic Storm",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/32.png"
+			}
+		},
+		{
+			"name": "Misplaced Girl",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/33.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 No Coming Back
+	1 Star of Predation
+	1 Chirat, Chronomancer
+	2 Penitent Sinner
+	2 Heartless Betrayal
+	2 Glorious Slayer
+	2 Magic Circle: Drei
+	2 Strategic Council
+	1 Ethelred, the Dealmaker
+	2 Secret Blackmarket
+	2 Dreams of Peace
+	2 Dusk on the Battlefield
+	2 Dream of Freedom
+	2 Fated Vanguard
+	1 Bathin, Demon Mentor
+	2 Misplaced Girl
+[uncommon(3)]
+	4 Make Your Dream Real
+	4 Endless Seas
+	4 Sudden Redirection
+	4 Bane of the Azure Seas
+	4 Ayed, Weary Traveler
+	4 Boundless Roads
+	4 Evergreen Canopy
+	4 Obnoxious Bard
+	4 Angelic Pity
+	4 Bottomless Chasm
+[common(6)]
+	8 Mourning Combattant
+	8 Strategic Surrender
+	8 Dawngrove Unicorn
+	8 Ice Princess
+	8 Steel Sentinel
+	8 Horizon Wanderer
+	8 Song of the Forest
+	8 Chromatic Storm
+[common | masterpiece(1)]
+	8 Mourning Combattant
+	8 Strategic Surrender
+	8 Dawngrove Unicorn
+	8 Ice Princess
+	8 Steel Sentinel
+	8 Horizon Wanderer
+	8 Song of the Forest
+	8 Chromatic Storm
+[foil(1)]
+	2 No Coming Back
+	6 Make Your Dream Real
+	1 Star of Predation
+	6 Endless Seas
+	1 Chirat, Chronomancer
+	6 Sudden Redirection
+	2 Penitent Sinner
+	2 Heartless Betrayal
+	12 Mourning Combattant
+	2 Glorious Slayer
+	12 Strategic Surrender
+	6 Bane of the Azure Seas
+	6 Ayed, Weary Traveler
+	2 Magic Circle: Drei
+	2 Strategic Council
+	12 Dawngrove Unicorn
+	1 Ethelred, the Dealmaker
+	2 Secret Blackmarket
+	6 Boundless Roads
+	12 Ice Princess
+	12 Steel Sentinel
+	2 Dreams of Peace
+	2 Dusk on the Battlefield
+	12 Horizon Wanderer
+	6 Evergreen Canopy
+	6 Obnoxious Bard
+	2 Dream of Freedom
+	12 Song of the Forest
+	2 Fated Vanguard
+	6 Angelic Pity
+	1 Bathin, Demon Mentor
+	6 Bottomless Chasm
+	12 Chromatic Storm
+	2 Misplaced Girl
+[wildcard(1)]
+	7 No Coming Back
+	15 Make Your Dream Real
+	4 Star of Predation
+	15 Endless Seas
+	4 Chirat, Chronomancer
+	15 Sudden Redirection
+	7 Penitent Sinner
+	7 Heartless Betrayal
+	6 Mourning Combattant
+	7 Glorious Slayer
+	6 Strategic Surrender
+	15 Bane of the Azure Seas
+	15 Ayed, Weary Traveler
+	7 Magic Circle: Drei
+	7 Strategic Council
+	6 Dawngrove Unicorn
+	4 Ethelred, the Dealmaker
+	7 Secret Blackmarket
+	15 Boundless Roads
+	6 Ice Princess
+	6 Steel Sentinel
+	7 Dreams of Peace
+	7 Dusk on the Battlefield
+	6 Horizon Wanderer
+	15 Evergreen Canopy
+	15 Obnoxious Bard
+	7 Dream of Freedom
+	6 Song of the Forest
+	7 Fated Vanguard
+	15 Angelic Pity
+	4 Bathin, Demon Mentor
+	15 Bottomless Chasm
+	6 Chromatic Storm
+	7 Misplaced Girl

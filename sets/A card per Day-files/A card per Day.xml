@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>A card per Day</name>
+			<longname></longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-31</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>No Coming Back</name>
+			<text>Whenever this enchantment enters, put a finality counter on each creature. (If a creature with a finality counter on it would die, exile it instead.)
+Each creature enters with an additional finality counter.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/0.png" num="26">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W/B</manacost>
+				<cmc>1</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Make Your Dream Real</name>
+			<text>Enchant creature
+Enchanted creature has flying.
+Whenever enchanted creature deals combat damage to a player, draw a card.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/1.png" num="6">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Star of Predation</name>
+			<text>Destroy target land. Create a 20/20 green Horror Elemental creature token with vigilance and ward {20}. (Whenever that permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {20}.)</text>
+			<set rarity="mythic" picurl="https://jallaba.github.io/sets/ACPD-files/img/2.png" num="16">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Endless Seas</name>
+			<text>This land enters tapped.
+{T}: Add {U}
+Channel— {1}{U}{U}, Discard this card: Search your library for up to two basic Island cards, reveal them, put them into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/3.png" num="31">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Chirat, Chronomancer</name>
+			<text>Flying
+Baroque— Whenever you cast a spell, if at least five {U} was spent to cast it, take an extra turn after this one. This ability only trigger once each turn, and only during your turn.
+You can&apos;t cast spells during extra turns.</text>
+			<set rarity="mythic" picurl="https://jallaba.github.io/sets/ACPD-files/img/4.png" num="5">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sudden Redirection</name>
+			<text>Gain control of target triggered or activated ability. You may choose new target for it.
+Refrain 2 — {3}{R}{R} (If you cast this spell for {3}{R}{R}, copy it two times. You may choose new target for the copy.)</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/5.png" num="12">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Penitent Sinner</name>
+			<text>Menace
+Whenever a player cast a spell that&apos;s one or more colors, they lose 1 life for each of that&apos;s spell&apos;s color.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/6.png" num="9">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heartless Betrayal</name>
+			<text>Gain control of target creature with mana value X or less.
+Baroque— If at least five {U} was spent to cast this spell, create a token copy of that creature. If at least five {B} was spent to cast this spell, destroy up to one other target creature.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/7.png" num="32">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XU/B</manacost>
+				<cmc>1</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mourning Combattant</name>
+			<text>Menace
+When this creature attacks, it gains +X/+0 until end of turn, where X is the amount of life you&apos;ve lost this turn.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/8.png" num="8">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glorious Slayer</name>
+			<text>Trample, reach
+Heroic — Whenever you cast a spell that target this creature, you may change this creature&apos;s base power to 1 plus the greatest toughness among creature your opponent control, and its base toughness to 1 plus the greatest power among creature your opponent control both until end of turn.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/9.png" num="24">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/GR/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Strategic Surrender</name>
+			<text>Enchant creature
+You control enchanted creature.
+Enchanted creature loses all abilities, and can&apos;t attack or block.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/10.png" num="28">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W/UW/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bane of the Azure Seas</name>
+			<text>Ward—Tap a permanent you control and put eight stun counter on it.
+Baroque — Whenever you cast a spell, if at least five {U} was spent to cast it, choose up to eight. You may choose the same mode more than once.
+• Tap target nonland permanent you don&apos;t control
+• Put a stun counter on target nonland permanent.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/11.png" num="4">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Octopus</type>
+				<maintype>Creature</maintype>
+				<manacost>6UU</manacost>
+				<cmc>8</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ayed, Weary Traveler</name>
+			<text>Vigilance
+Heroic — Whenever you cast a spell targeting this creature, put a +1/+1 counter on this creature for each differently named lands you control.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/12.png" num="13">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magic Circle: Drei</name>
+			<text>No two mana spent to cast this spell may be the same color. For each color of mana spent this way:
+• {W}: You gain 3 life.
+• {U}: Scry 3, then draw a card.
+• {B}: Each opponent loses 3 life.
+• {R}: Create three 1/1 red Elemental creature tokens.
+• {G}: Put a +1/+1 counter on up to three creatures you control.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/13.png" num="1">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strategic Council</name>
+			<text>Exile the top X cards of your library. You may play one of those cards until the end of your next turn.
+Baroque — If at least five {R} was spent to cast this spell, spell cast this way may be cast without paying its mana cost. If at least five {U} was spent to cast this spell, put up to two cards exiled by this spell into your hand.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/14.png" num="27">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU/RU/R</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dawngrove Unicorn</name>
+			<text>Lifelink
+Baroque — Whenever you cast a spell, if at least {W}{U}{B}{R}{G} was spent to cast it, this creature gets +4/+4 and gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/15.png" num="2">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Unicorn</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ethelred, the Dealmaker</name>
+			<text>Ward—Discard six cards.
+At the beginning of your upkeep, each player draws seven cards. If they do, they must discard seven cards at the beginning of the next end step.
+Whenever a creature you control attacks, it gets +X/+X, where X is the amount of cards in the defending player&apos;s hand.</text>
+			<set rarity="mythic" picurl="https://jallaba.github.io/sets/ACPD-files/img/16.png" num="22">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/BU/BU/BU/B</manacost>
+				<cmc>7</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Secret Blackmarket</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter)
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card and lose 1 life.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed.
+---
+(Back): Pay the Devil&apos;s Due</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/17_front.png" num="17a">ACPD</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UB</manacost>
+				<cmc>5</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Pay the Devil&apos;s Due</related>
+		</card>
+		<card>
+			<name>Pay the Devil&apos;s Due</name>
+			<text>This land enters tapped unless you control a Pirate or Rogue creature.
+{T}: Add {U} or {B}.
+{UB}{UB}{UB}, {T}: Exile this land, then return it on the battlefield (front face up). Activate only as a sorcery.
+---
+(Front): Secret Blackmarket</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/17_back.png" num="17b">ACPD</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<related attach="transform">Secret Blackmarket</related>
+		</card>
+		<card>
+			<name>Boundless Roads</name>
+			<text>{T}: Add {C}
+Channel — {X}{X}, Discard this card: Search your library for up to X basic lands that share a land type, reveal them, put them into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/18.png" num="30">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ice Princess</name>
+			<text>Vigilance
+Heroic — Whenever you cast a spell targeting this creature, choose target creature an opponent controls. If it is tapped, put a stun counter on it. Otherwise, tap it.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/19.png" num="25">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/UW/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steel Sentinel</name>
+			<text>Vigilance, reach
+Baroque — Whenever you spend at least five mana of the same color or {W}{U}{B}{R}{G} to cast a spell, put two +1/+1 counters on this creature.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/20.png" num="29">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreams of Peace</name>
+			<text>Creatures can&apos;t attack you unless their controller pays {2} for each creature they control that&apos;s attacking you.
+Whenever a player is dealt damage, sacrifice this enchantment.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/21.png" num="20">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W/UW/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dusk on the Battlefield</name>
+			<text>Destroy all non-Army creatures. Amass Soldiers X, where X is the amount of creatures destroyed this way.
+Each opponent amasses Soldier 2. (Put two +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/22.png" num="21">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W/BW/BW/BW/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Horizon Wanderer</name>
+			<text>This creature gets +2/+2 and has vigilance as long as you control eight or more lands.
+Baroque — Whenever you cast a spell, if at least five {G} was spent to cast it, search your library for a land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/23.png" num="14">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evergreen Canopy</name>
+			<text>This land enters tapped.
+{T}: Add {G}
+Channel— {1}{G}{G}, Discard this card: Search your library for up to two basic Forest cards, reveal them, put them into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/24.png" num="34">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Obnoxious Bard</name>
+			<text>Heroic — Whenever you cast a spell targeting this creature, you may discard a card. If you do, draw a card.
+Baroque — Whenever you cast a spell, if at least five {R} was spent to cast it, you may have this creature&apos;s power and toughness become equal to the number of noncreature, nonland cards in your graveyard until end of turn.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/25.png" num="11">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dream of Freedom</name>
+			<text>Spell you cast can&apos;t be countered.
+At the beginning of your end step, if you haven&apos;t cast a spell this turn, sacrifice this enchantment and draw a card.</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/26.png" num="19">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R/GR/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Song of the Forest</name>
+			<text>Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} (If you cast this spell for {3}{G}{G}, copy it two times. You may choose new target for the copy.)</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/27.png" num="15">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fated Vanguard</name>
+			<text>Heroic — Whenever you cast a spell targeting this creature, put a +1/+1 counter on it.
+The first time this creature attacks each turn, if it has two or more +1/+1 counters, it gains first strike until end of turn. If it has four or more +1/+1 counters, prevent all combat damage that would be dealt to it this turn. If it has six or more +1/+1 counters, untap all creatures you control. After this phase, there is an additional combat phase</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/28.png" num="23">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Angelic Pity</name>
+			<text>Return target creature from your graveyard to the battlefield under your control.
+Baroque — If at least five {W} was spent to cast this spell, it gains indestructible until your next turn. If at least five {B} was spent to cast this spell, you gain life equal to that creature&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/29.png" num="18">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3W/BW/B</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bathin, Demon Mentor</name>
+			<text>Flying, trample, menace
+Baroque — Whenever you cast a spell, if at least five {B} was spent to cast it, you may search your library for a card and put it into your hand, then shuffle.</text>
+			<set rarity="mythic" picurl="https://jallaba.github.io/sets/ACPD-files/img/30.png" num="7">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bottomless Chasm</name>
+			<text>This land enters tapped.
+{T}: Add {B}
+Channel— {1}{B}{B}, Discard this card: Search your library for up to two basic Forest cards, reveal them, put them into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://jallaba.github.io/sets/ACPD-files/img/31.png" num="33">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Chromatic Storm</name>
+			<text>This spell deals 5 damage to target creature.
+Baroque — If at least five {R} or {W}{U}{B}{R}{G} was spent to cast this spell, add {W}{U}{B}{R}{G}.</text>
+			<set rarity="common" picurl="https://jallaba.github.io/sets/ACPD-files/img/32.png" num="10">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Misplaced Girl</name>
+			<text>Sacrifice this creature: Target creature you control gains indestructible until end of turn. Put a guilt counter on each creatures you control.
+Baroque — Whenever you cast a spell, if at least five {W} was spent to cast it while this creature is in your graveyard and you control a creature with a guilt counter, amass Soldier 3. (Put three +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)</text>
+			<set rarity="rare" picurl="https://jallaba.github.io/sets/ACPD-files/img/33.png" num="3">ACPD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
