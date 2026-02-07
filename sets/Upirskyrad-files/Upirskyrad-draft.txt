@@ -1,0 +1,4105 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Back from the Tomb",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/0.png"
+			}
+		},
+		{
+			"name": "Skeleton Golem",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Construct Skeleton",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/1.png"
+			}
+		},
+		{
+			"name": "Ghostly Youth",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/2.png"
+			}
+		},
+		{
+			"name": "Revenant Hoplite",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit Soldier",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/3.png"
+			}
+		},
+		{
+			"name": "Moth Víla",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/4.png"
+			}
+		},
+		{
+			"name": "Bonehound Master",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Skeleton Ranger",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/5.png"
+			}
+		},
+		{
+			"name": "Tower Wanderer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/6.png"
+			}
+		},
+		{
+			"name": "Centaur Blademaster",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Centaur",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/7.png"
+			}
+		},
+		{
+			"name": "Wolfman Veteran",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Werewolf Warrior",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/8.png"
+			}
+		},
+		{
+			"name": "Gatekeeper Armors",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/9.png"
+			}
+		},
+		{
+			"name": "Uplifting Maestro",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Spirit Bard",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/10.png"
+			}
+		},
+		{
+			"name": "Guardian Gargoyle",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Gargoyle",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/11.png"
+			}
+		},
+		{
+			"name": "Falling Chandelier",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/12.png"
+			}
+		},
+		{
+			"name": "Chained to the Past",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/13.png"
+			}
+		},
+		{
+			"name": "Titan's Fall",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/14.png"
+			}
+		},
+		{
+			"name": "Spectral Plunge",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/15.png"
+			}
+		},
+		{
+			"name": "Chain Whip",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/16.png"
+			}
+		},
+		{
+			"name": "Don't Let Them Pass !",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/17.png"
+			}
+		},
+		{
+			"name": "Torch Down",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/18.png"
+			}
+		},
+		{
+			"name": "Clockwork Cucco",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Bird",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/19.png"
+			}
+		},
+		{
+			"name": "Wretched Throng",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Zombie Horror",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/20.png"
+			}
+		},
+		{
+			"name": "Stealthy Vodnik",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/21.png"
+			}
+		},
+		{
+			"name": "Waterfall Ectoplasm",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elemental Spirit",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/22.png"
+			}
+		},
+		{
+			"name": "Mimicbound Armor",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/23.png"
+			}
+		},
+		{
+			"name": "Maddening Abomination",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Horror",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/24.png"
+			}
+		},
+		{
+			"name": "Writing Apparition",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Spirit Advisor",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/25.png"
+			}
+		},
+		{
+			"name": "Seductive Rusalka",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/26.png"
+			}
+		},
+		{
+			"name": "Moatbound Leviathan",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Leviathan",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/27.png"
+			}
+		},
+		{
+			"name": "Captivating Story",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/28.png"
+			}
+		},
+		{
+			"name": "Deny Existence",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/29.png"
+			}
+		},
+		{
+			"name": "Contain",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/30.png"
+			}
+		},
+		{
+			"name": "Bind with Tentacle",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/31.png"
+			}
+		},
+		{
+			"name": "Ask the Ancients",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/32.png"
+			}
+		},
+		{
+			"name": "Knowledge from Beyond",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/33.png"
+			}
+		},
+		{
+			"name": "Terrific Scream",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/34.png"
+			}
+		},
+		{
+			"name": "Haunting Trial",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/35.png"
+			}
+		},
+		{
+			"name": "Boreal Wind",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/36.png"
+			}
+		},
+		{
+			"name": "Sanctified Water",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/37.png"
+			}
+		},
+		{
+			"name": "Foul Skeleton",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Skeleton",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/38.png"
+			}
+		},
+		{
+			"name": "Rusting Drake",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Artifact Creature — Construct Dragon",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/39.png"
+			}
+		},
+		{
+			"name": "Victims of the Night",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/40.png"
+			}
+		},
+		{
+			"name": "Shambling Soldier",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Soldier",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/41.png"
+			}
+		},
+		{
+			"name": "Collector of Souls",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/42.png"
+			}
+		},
+		{
+			"name": "Addled Psychopomp",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Wraith Incarnation",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/43.png"
+			}
+		},
+		{
+			"name": "Skullbike Reaper",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Skeleton Pilot",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/44.png"
+			}
+		},
+		{
+			"name": "Misfortune Bringer",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Skeleton Knight",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/45.png"
+			}
+		},
+		{
+			"name": "Boneguard Champion",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Skeleton Knight",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/46.png"
+			}
+		},
+		{
+			"name": "Vampire Bats",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bat",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/47.png"
+			}
+		},
+		{
+			"name": "Madness Ritual",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/48.png"
+			}
+		},
+		{
+			"name": "Slay the Monster",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/49.png"
+			}
+		},
+		{
+			"name": "Crushing Defeat",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/50.png"
+			}
+		},
+		{
+			"name": "Deadly Ambush",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/51.png"
+			}
+		},
+		{
+			"name": "Somber Ceremony",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/52.png"
+			}
+		},
+		{
+			"name": "Rise Again",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/53.png"
+			}
+		},
+		{
+			"name": "Miserable Pile of Secret",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/54.png"
+			}
+		},
+		{
+			"name": "Not Today",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/55.png"
+			}
+		},
+		{
+			"name": "Butcher Cleaver",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/56.png"
+			}
+		},
+		{
+			"name": "Undead Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wolf Zombie",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/57.png"
+			}
+		},
+		{
+			"name": "Growing Flame",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/58.png"
+			}
+		},
+		{
+			"name": "Chaos Harbinger",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Demon",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/59.png"
+			}
+		},
+		{
+			"name": "Fireskull Lancer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Skeleton Warrior",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/60.png"
+			}
+		},
+		{
+			"name": "Hellbeast Tormentor",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Demon Beast",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/61.png"
+			}
+		},
+		{
+			"name": "Firebreath Trumpeteer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Devil Bard",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/62.png"
+			}
+		},
+		{
+			"name": "Magma Bellower",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/63.png"
+			}
+		},
+		{
+			"name": "Explosive Spirit",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/64.png"
+			}
+		},
+		{
+			"name": "Forge Overseer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Construct Artificer",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/65.png"
+			}
+		},
+		{
+			"name": "Dragoon Commander",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/66.png"
+			}
+		},
+		{
+			"name": "Legion Frontliner",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Construct Warrior",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/67.png"
+			}
+		},
+		{
+			"name": "Lash Out",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/68.png"
+			}
+		},
+		{
+			"name": "Kill it with Fire",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/69.png"
+			}
+		},
+		{
+			"name": "Heating Point",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/70.png"
+			}
+		},
+		{
+			"name": "Promise of Fortune",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/71.png"
+			}
+		},
+		{
+			"name": "Feathered Dagger",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/72.png"
+			}
+		},
+		{
+			"name": "Channeled Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/73.png"
+			}
+		},
+		{
+			"name": "Crush",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/74.png"
+			}
+		},
+		{
+			"name": "Frightening Presence",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/75.png"
+			}
+		},
+		{
+			"name": "Engulf in Flame",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/76.png"
+			}
+		},
+		{
+			"name": "Raging Emberling",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/77.png"
+			}
+		},
+		{
+			"name": "Bonecrusher Recluse",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spider",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/78.png"
+			}
+		},
+		{
+			"name": "Forest Dweller",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant Druid",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/79.png"
+			}
+		},
+		{
+			"name": "Sneaky Spinerette",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/80.png"
+			}
+		},
+		{
+			"name": "Darkdepth Dweller",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Zombie",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/81.png"
+			}
+		},
+		{
+			"name": "Subterran Wurm",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Wurm",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/82.png"
+			}
+		},
+		{
+			"name": "Bagou Drake",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Lizard Drake",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/83.png"
+			}
+		},
+		{
+			"name": "Vileroot Treant",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Treefolk Spirit",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/84.png"
+			}
+		},
+		{
+			"name": "Beastrider Armor",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Artifact Creature — Construct Knight",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/85.png"
+			}
+		},
+		{
+			"name": "Giant Crocodile",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Crocodile",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/86.png"
+			}
+		},
+		{
+			"name": "Vel'kýstrom Warden",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/87.png"
+			}
+		},
+		{
+			"name": "Titanic Brawl",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/88.png"
+			}
+		},
+		{
+			"name": "Overwelming Charge",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/89.png"
+			}
+		},
+		{
+			"name": "Protect the Young",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/90.png"
+			}
+		},
+		{
+			"name": "Serene Rest",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/91.png"
+			}
+		},
+		{
+			"name": "Guardian Axe",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/92.png"
+			}
+		},
+		{
+			"name": "Gobble Down",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/93.png"
+			}
+		},
+		{
+			"name": "Quiet Oak",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/94.png"
+			}
+		},
+		{
+			"name": "Witch's Brew",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/95.png"
+			}
+		},
+		{
+			"name": "Warg Riders",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Goblin Knight",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/96.png"
+			}
+		},
+		{
+			"name": "Aimless Remnant",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Construct Warrior",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/97.png"
+			}
+		},
+		{
+			"name": "Alienated Soul",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/98.png"
+			}
+		},
+		{
+			"name": "Foreign Servant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Zombie Assassin",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/99.png"
+			}
+		},
+		{
+			"name": "Forgotten Noble",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/100.png"
+			}
+		},
+		{
+			"name": "Steelbound General",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/101.png"
+			}
+		},
+		{
+			"name": "Vel'a Vtákov, Flock as One",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Legendary Creature — Bird",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/102.png"
+			}
+		},
+		{
+			"name": "Vila Spiritcaller",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Faerie Warlock",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/103.png"
+			}
+		},
+		{
+			"name": "One-Eyed Blacksmith",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Cyclops Artificer",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/104.png"
+			}
+		},
+		{
+			"name": "Do or Die",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/105.png"
+			}
+		},
+		{
+			"name": "Horn of the Innocent",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/106.png"
+			}
+		},
+		{
+			"name": "Holy Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/107.png"
+			}
+		},
+		{
+			"name": "Sealed Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/108.png"
+			}
+		},
+		{
+			"name": "Eternal Vigil",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/109.png"
+			}
+		},
+		{
+			"name": "Fleeting Memory",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Spirit Noble",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/110.png"
+			}
+		},
+		{
+			"name": "Lightning Howler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Drake Elemental",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/111.png"
+			}
+		},
+		{
+			"name": "Juvenile Poltergeist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/112.png"
+			}
+		},
+		{
+			"name": "Passed Matriarch",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Spirit",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/113.png"
+			}
+		},
+		{
+			"name": "Carodejník, Exiled Heretic",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/114.png"
+			}
+		},
+		{
+			"name": "Keeper of Records",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Zombie Advisor",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/115.png"
+			}
+		},
+		{
+			"name": "United Souls",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/116.png"
+			}
+		},
+		{
+			"name": "Extract Insight",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/117.png"
+			}
+		},
+		{
+			"name": "Book of Forgetfulness",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/118.png"
+			}
+		},
+		{
+			"name": "Witch's Tools",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/119.png"
+			}
+		},
+		{
+			"name": "Cryogenic Sphere",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/120.png"
+			}
+		},
+		{
+			"name": "Soul Expulsion",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/121.png"
+			}
+		},
+		{
+			"name": "Behind the Mirror",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/122.png"
+			}
+		},
+		{
+			"name": "Crazed Torturer",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/123.png"
+			}
+		},
+		{
+			"name": "Knight-Errant Shade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact Creature — Wraith Knight",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/124.png"
+			}
+		},
+		{
+			"name": "Kostlivec, Skeleon General",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Skeleton Noble",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/125.png"
+			}
+		},
+		{
+			"name": "Bone Lurker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Serpent",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/126.png"
+			}
+		},
+		{
+			"name": "Indistinct Shadow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wraith",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/127.png"
+			}
+		},
+		{
+			"name": "Leader of Lost Souls",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Demon Warrior",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/128.png"
+			}
+		},
+		{
+			"name": "Die, Monster !",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/129.png"
+			}
+		},
+		{
+			"name": "Evil Never Dies",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{B}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/130.png"
+			}
+		},
+		{
+			"name": "Necrotic Explosion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/131.png"
+			}
+		},
+		{
+			"name": "Fleeting Mind",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/132.png"
+			}
+		},
+		{
+			"name": "Mindless Assault",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/133.png"
+			}
+		},
+		{
+			"name": "Mask of the Returned",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/134.png"
+			}
+		},
+		{
+			"name": "Tempered General",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Wolf Warrior",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/135.png"
+			}
+		},
+		{
+			"name": "Wallbreaker Ogre",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Ogre Berserker",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/136.png"
+			}
+		},
+		{
+			"name": "Odpadovy, Scrap Burner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Demon",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/137.png"
+			}
+		},
+		{
+			"name": "Blazing Drakemech",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Dragon",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/138.png"
+			}
+		},
+		{
+			"name": "Factory Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/139.png"
+			}
+		},
+		{
+			"name": "Short-Fused Pyrodemon",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Demon Skeleton",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/140.png"
+			}
+		},
+		{
+			"name": "Dual Flames",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/141.png"
+			}
+		},
+		{
+			"name": "Rolling Boulder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/142.png"
+			}
+		},
+		{
+			"name": "Glass of Fine Wine",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact — Blood",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/143.png"
+			}
+		},
+		{
+			"name": "Incessant Assault",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/144.png"
+			}
+		},
+		{
+			"name": "Forbidden Reading",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/145.png"
+			}
+		},
+		{
+			"name": "Flameforge Ruby",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/146.png"
+			}
+		},
+		{
+			"name": "Juvenile Anchiceratops",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/147.png"
+			}
+		},
+		{
+			"name": "Leyline Reviver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Spirit Druid",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/148.png"
+			}
+		},
+		{
+			"name": "Watcher in the Mist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Serpent",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/149.png"
+			}
+		},
+		{
+			"name": "Graveyard Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Ooze",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/150.png"
+			}
+		},
+		{
+			"name": "Vileroot Plantcaller",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Dryad Druid",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/151.png"
+			}
+		},
+		{
+			"name": "Wicked Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/152.png"
+			}
+		},
+		{
+			"name": "Hydra Cub",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/153.png"
+			}
+		},
+		{
+			"name": "Grow from the Bones",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/154.png"
+			}
+		},
+		{
+			"name": "Savage Assault",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/155.png"
+			}
+		},
+		{
+			"name": "Unfinished Map",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/156.png"
+			}
+		},
+		{
+			"name": "Crystal Warhammer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/157.png"
+			}
+		},
+		{
+			"name": "Alchemist's Cauldron",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/158.png"
+			}
+		},
+		{
+			"name": "Faraway Observer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/159.png"
+			}
+		},
+		{
+			"name": "Crazed Lich",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Skeleton Warlock",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/160.png"
+			}
+		},
+		{
+			"name": "Infernal Legions",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/161.png"
+			}
+		},
+		{
+			"name": "Bloodmoon Berserker",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Werewolf Berserker",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/162.png"
+			}
+		},
+		{
+			"name": "Nacechraný, Guarding Hound",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Dog Soldier",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/163.png"
+			}
+		},
+		{
+			"name": "Steelbound Boneguard",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Skeleton Soldier",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/164.png"
+			}
+		},
+		{
+			"name": "Floating Literature",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/165.png"
+			}
+		},
+		{
+			"name": "Evergrowing Slime",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Ooze",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/166.png"
+			}
+		},
+		{
+			"name": "Jasterica Blacksmith",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Lizard Artificer",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/167.png"
+			}
+		},
+		{
+			"name": "Moonlight Pendant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Artifact",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/168.png"
+			}
+		},
+		{
+			"name": "Lonely Furnace",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/169.png"
+			}
+		},
+		{
+			"name": "Porcelain Doll",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/170.png"
+			}
+		},
+		{
+			"name": "Marble Colossus",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/171.png"
+			}
+		},
+		{
+			"name": "Magic Broom",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/172.png"
+			}
+		},
+		{
+			"name": "Isolated Chest",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Treasure",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/173.png"
+			}
+		},
+		{
+			"name": "Invitation to Adventure",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/174.png"
+			}
+		},
+		{
+			"name": "Spiritbound Armor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/175.png"
+			}
+		},
+		{
+			"name": "Stained Glass Golem",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct Skeleton",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/176.png"
+			}
+		},
+		{
+			"name": "Stonechain Protector",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Octopus Construct",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/177.png"
+			}
+		},
+		{
+			"name": "Surging Wand",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact — Equipment",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/178.png"
+			}
+		},
+		{
+			"name": "Tainted Mirror",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/179.png"
+			}
+		},
+		{
+			"name": "Monarch's Crown",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/180.png"
+			}
+		},
+		{
+			"name": "Banners of War",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Artifact",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/181.png"
+			}
+		},
+		{
+			"name": "Tormented Savior",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/182.png"
+			}
+		},
+		{
+			"name": "Right History",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/183.png"
+			}
+		},
+		{
+			"name": "Fall of the Castle",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/184.png"
+			}
+		},
+		{
+			"name": "Gemsteel Sentinel",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct Skeleton",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/185.png"
+			}
+		},
+		{
+			"name": "Razparac, Bringer of Soul",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Minotaur Demon",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/186.png"
+			}
+		},
+		{
+			"name": "Deathless Champion",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Skeleton Knight",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/187.png"
+			}
+		},
+		{
+			"name": "Whirlwind Staff",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Artifact",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/188.png"
+			}
+		},
+		{
+			"name": "Gold Spewer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Beast",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/189.png"
+			}
+		},
+		{
+			"name": "Midnight Clock",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/190.png"
+			}
+		},
+		{
+			"name": "Break the Pact",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/191.png"
+			}
+		},
+		{
+			"name": "Frostsoul Stormcaster",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Spirit Warlock",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/192.png"
+			}
+		},
+		{
+			"name": "Ball of Insight",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/193.png"
+			}
+		},
+		{
+			"name": "Itinerant Eyemass",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/194.png"
+			}
+		},
+		{
+			"name": "Restless Coffin",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/195.png"
+			}
+		},
+		{
+			"name": "Sinister Kikimora",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Hag",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/196.png"
+			}
+		},
+		{
+			"name": "Reaper's Contract",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/197.png"
+			}
+		},
+		{
+			"name": "Free the Soul",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/198.png"
+			}
+		},
+		{
+			"name": "Demonic Halberd",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/199.png"
+			}
+		},
+		{
+			"name": "Cracked Skeleton",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Skeleton",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/200.png"
+			}
+		},
+		{
+			"name": "Commune with the Dead",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/201.png"
+			}
+		},
+		{
+			"name": "Enticing Harpist",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/202.png"
+			}
+		},
+		{
+			"name": "Bizarre Manipulator",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Horror",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/203.png"
+			}
+		},
+		{
+			"name": "Cursed Mirror",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/204.png"
+			}
+		},
+		{
+			"name": "Black-Ash Phoenix",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Phoenix",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/205.png"
+			}
+		},
+		{
+			"name": "Forgebelly Blacksmith",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Ogre Warrior",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/206.png"
+			}
+		},
+		{
+			"name": "Factory Commodore",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Skeleton Robot Soldier",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/207.png"
+			}
+		},
+		{
+			"name": "Distorted Hound",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dog",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/208.png"
+			}
+		},
+		{
+			"name": "Deepwood Shrine",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/209.png"
+			}
+		},
+		{
+			"name": "Gigantic Broodspider",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Spider",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/210.png"
+			}
+		},
+		{
+			"name": "Slimy Acid",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/211.png"
+			}
+		},
+		{
+			"name": "Hardened Scale",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/212.png"
+			}
+		},
+		{
+			"name": "Gemsprout Beast",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/213.png"
+			}
+		},
+		{
+			"name": "Brightbloom Terrarium",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/214.png"
+			}
+		},
+		{
+			"name": "Vegetal Abomination",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/215.png"
+			}
+		},
+		{
+			"name": "Exiled Executioner",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/216.png"
+			}
+		},
+		{
+			"name": "Eternal Assault",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/217.png"
+			}
+		},
+		{
+			"name": "Sphinx of Flowing Sands",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/218.png"
+			}
+		},
+		{
+			"name": "The Librarian",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Planeswalker — Knowledge",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/219.png"
+			}
+		},
+		{
+			"name": "Damned Cursebringer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon Warlock",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/220.png"
+			}
+		},
+		{
+			"name": "The Reaper",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Planeswalker — 13th",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/221.png"
+			}
+		},
+		{
+			"name": "Ascendant Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/222.png"
+			}
+		},
+		{
+			"name": "Lightning Reflector",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/223.png"
+			}
+		},
+		{
+			"name": "Vel'a Hláv, Outskirt Menace",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Creature — Hydra",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/224.png"
+			}
+		},
+		{
+			"name": "Stonewing Behemoth",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Elder Beast",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/225.png"
+			}
+		},
+		{
+			"name": "01 Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/226.png"
+			}
+		},
+		{
+			"name": "01 Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/227.png"
+			}
+		},
+		{
+			"name": "01 Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/228.png"
+			}
+		},
+		{
+			"name": "02 Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/229.png"
+			}
+		},
+		{
+			"name": "01 Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/230.png"
+			}
+		},
+		{
+			"name": "02 Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/231.png"
+			}
+		},
+		{
+			"name": "02 Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/232.png"
+			}
+		},
+		{
+			"name": "02 Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/233.png"
+			}
+		},
+		{
+			"name": "01 Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/234.png"
+			}
+		},
+		{
+			"name": "02 Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/235.png"
+			}
+		},
+		{
+			"name": "Labyrinth Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/236.png"
+			}
+		},
+		{
+			"name": "Market Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/237.png"
+			}
+		},
+		{
+			"name": "Garden Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/238.png"
+			}
+		},
+		{
+			"name": "Prisonner's Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/239.png"
+			}
+		},
+		{
+			"name": "Dimensionnal Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/240.png"
+			}
+		},
+		{
+			"name": "Graveyard Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/241.png"
+			}
+		},
+		{
+			"name": "Arena Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/242.png"
+			}
+		},
+		{
+			"name": "Dream Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/243.png"
+			}
+		},
+		{
+			"name": "Library Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/244.png"
+			}
+		},
+		{
+			"name": "Hell Gate",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/245.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/246.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/247.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/248.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/249.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "0",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/250.png"
+			}
+		},
+		{
+			"name": "Trdnjava, Errant Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Legendary Creature — Beast Horror",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/251.png"
+			}
+		},
+		{
+			"name": "Heaven Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/252.png"
+			}
+		},
+		{
+			"name": "Clocktower Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/253.png"
+			}
+		},
+		{
+			"name": "Underworld Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/254.png"
+			}
+		},
+		{
+			"name": "Casino Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/255.png"
+			}
+		},
+		{
+			"name": "Main Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/256.png"
+			}
+		},
+		{
+			"name": "Martyr's Crypt",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Artifact",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/257.png"
+			}
+		},
+		{
+			"name": "Gaetano, Vampire Killer",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/258.png"
+			}
+		},
+		{
+			"name": "Old Man of the Outskirt",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Human Druid",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/259.png"
+			}
+		},
+		{
+			"name": "Kralj, Forgotten King",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Legendary Creature — Spirit Noble",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/260.png"
+			}
+		},
+		{
+			"name": "Alojzia, Elementalist",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/261.png"
+			}
+		},
+		{
+			"name": "Voksen, the Last-Grown",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Elf Warrior",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/262.png"
+			}
+		},
+		{
+			"name": "Isjerats, Forgotten Daughter",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Vampire",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/263.png"
+			}
+		},
+		{
+			"name": "Okostje, Banished Lich",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Skeleton Warlock",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/264.png"
+			}
+		},
+		{
+			"name": "Hudic, Restless Assaulter",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Devil Warrior",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/265.png"
+			}
+		},
+		{
+			"name": "Cudno, Diphormed Beast",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Wolf Horror",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/266.png"
+			}
+		},
+		{
+			"name": "Outskirt Troll-Guard",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Troll Soldier",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/267.png"
+			}
+		},
+		{
+			"name": "Starejsi, Implacable",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Vampire",
+			"collector_number": "122",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://jallaba.github.io/sets/UPI-files/img/268_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/268_front.png"
+			}
+		},
+		{
+			"name": "Cudez, Masterpiece",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}{B}{R}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/269.png"
+			}
+		},
+		{
+			"name": "Haunting Necronomicon",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Artifact",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/270.png"
+			}
+		},
+		{
+			"name": "Deepwood Monument",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Artifact",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/271.png"
+			}
+		},
+		{
+			"name": "Dispatch Array",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Artifact",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/272.png"
+			}
+		},
+		{
+			"name": "Bloodfilled Urn",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Artifact",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/273.png"
+			}
+		},
+		{
+			"name": "Distracting Marbles",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Artifact",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/274.png"
+			}
+		},
+		{
+			"name": "Gate to Home",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/275.png"
+			}
+		},
+		{
+			"name": "Tick-Tock Bomb",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/276.png"
+			}
+		},
+		{
+			"name": "Lord's Throne",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/277.png"
+			}
+		},
+		{
+			"name": "Mutation Chambers",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/278.png"
+			}
+		},
+		{
+			"name": "Void Scuttler",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/279.png"
+			}
+		},
+		{
+			"name": "Void Gate",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Gate",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/280.png"
+			}
+		},
+		{
+			"name": "Knjiznica, Book-Keeper",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}{U}",
+			"type": "Legendary Creature — Horror Warlock",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/281.png"
+			}
+		},
+		{
+			"name": "Grob, Twisted Gravekeeper",
+			"rarity": "mythic",
+			"mana_cost": "{W}{B}{G}",
+			"type": "Legendary Creature — Treefolk Horror",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/282.png"
+			}
+		},
+		{
+			"name": "Izum, Self-Inventor",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}{W}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/283.png"
+			}
+		},
+		{
+			"name": "Vulkan, Lavablood Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/284.png"
+			}
+		},
+		{
+			"name": "Poveljnik, Dread General",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}{B}",
+			"type": "Legendary Creature — Skeleton Knight",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/285.png"
+			}
+		},
+		{
+			"name": "Genius, Mind of the Castle",
+			"rarity": "special",
+			"mana_cost": "{4}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/286.png"
+			}
+		},
+		{
+			"name": "Semerkhet, Displaced Pharaoh",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Zombie Noble",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/287.png"
+			}
+		},
+		{
+			"name": "Ogromno, Slumbering End",
+			"rarity": "special",
+			"mana_cost": "{4}{U}{U}{U}{U}",
+			"type": "Legendary Creature — Leviathan",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/288.png"
+			}
+		},
+		{
+			"name": "Netopir, Giant Bat",
+			"rarity": "special",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Bat",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/289.png"
+			}
+		},
+		{
+			"name": "Mati, Dagon Broodmother",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Dragon",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/290.png"
+			}
+		},
+		{
+			"name": "Sluz, All-Devouring",
+			"rarity": "special",
+			"mana_cost": "{2}{G}{G}{G}",
+			"type": "Legendary Creature — Ooze",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/291.png"
+			}
+		},
+		{
+			"name": "Ogledalo, Master of Mirrors",
+			"rarity": "special",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Horror",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/292.png"
+			}
+		},
+		{
+			"name": "Neviden, Total Unknown",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Shapeshifter Rogue",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/293.png"
+			}
+		},
+		{
+			"name": "Krvi, Immortal Murderer",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Wraith Assassin",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/294.png"
+			}
+		},
+		{
+			"name": "Gospod, Respected Gentleman",
+			"rarity": "special",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Human Citizen",
+			"collector_number": "10",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://jallaba.github.io/sets/UPI-files/img/295_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/295_front.png"
+			}
+		},
+		{
+			"name": "Bogomolka, Insect Queen",
+			"rarity": "special",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Insect Noble",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/296.png"
+			}
+		},
+		{
+			"name": "Strasiti, Willingly Possessed",
+			"rarity": "special",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Elf Spirit Cleric",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/297.png"
+			}
+		},
+		{
+			"name": "The Monster, Artificial Wonder",
+			"rarity": "special",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Artifact Creature — Zombie",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/298.png"
+			}
+		},
+		{
+			"name": "Strupen, Gorgon Queen",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Gorgon Archer",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/299.png"
+			}
+		},
+		{
+			"name": "The Macabre Dancers",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Spirit Zombie Bard",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/300.png"
+			}
+		},
+		{
+			"name": "Leteti, Elusive Hunter",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Insect Assassin",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/301.png"
+			}
+		},
+		{
+			"name": "Glavo, Headless Horseman",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{U}{B}",
+			"type": "Legendary Creature — Zombie Knight",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/302.png"
+			}
+		},
+		{
+			"name": "Ucenjak, Mad Demonist",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{B}{R}",
+			"type": "Legendary Creature — Demon Artificer",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/303.png"
+			}
+		},
+		{
+			"name": "Volkodlak, Twisted Wolf",
+			"rarity": "special",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/304.png"
+			}
+		},
+		{
+			"name": "Jakub, Pumpkin Knight",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{G}{W}",
+			"type": "Legendary Creature — Plant Knight",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/305.png"
+			}
+		},
+		{
+			"name": "Jeklo, Foreign Golem",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{W}{U}",
+			"type": "Legendary Artifact Creature — Alien Robot",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/306.png"
+			}
+		},
+		{
+			"name": "Starejsi, Tired of Fighting",
+			"rarity": "special",
+			"mana_cost": "{3}{W}{B}{G}",
+			"type": "Legendary Creature — Vampire Noble",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/307.png"
+			}
+		},
+		{
+			"name": "Norcek, Joke's Punchline",
+			"rarity": "special",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Legendary Creature — Horror Clown",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/308.png"
+			}
+		},
+		{
+			"name": "Stvar, Lurking Creature",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{G}{U}",
+			"type": "Legendary Creature — Lizard Beast",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/309.png"
+			}
+		},
+		{
+			"name": "Tujek, Unbeatable Undead",
+			"rarity": "special",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Skeleton Samurai",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/310.png"
+			}
+		},
+		{
+			"name": "Carovnica, Outskirt Hag",
+			"rarity": "special",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Legendary Creature — Hag Warlock",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/311.png"
+			}
+		},
+		{
+			"name": "Locci, Castle's Heart",
+			"rarity": "special",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Incarnation",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/UPI-files/img/312.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Banners of War
+	2 Tormented Savior
+	2 Right History
+	2 Fall of the Castle
+	2 Gemsteel Sentinel
+	2 Razparac, Bringer of Soul
+	2 Deathless Champion
+	2 Whirlwind Staff
+	2 Gold Spewer
+	2 Midnight Clock
+	2 Break the Pact
+	2 Frostsoul Stormcaster
+	2 Ball of Insight
+	2 Itinerant Eyemass
+	2 Restless Coffin
+	2 Sinister Kikimora
+	2 Reaper's Contract
+	2 Free the Soul
+	2 Demonic Halberd
+	2 Cracked Skeleton
+	2 Commune with the Dead
+	2 Enticing Harpist
+	2 Bizarre Manipulator
+	2 Cursed Mirror
+	2 Black-Ash Phoenix
+	2 Forgebelly Blacksmith
+	2 Factory Commodore
+	2 Distorted Hound
+	2 Deepwood Shrine
+	2 Gigantic Broodspider
+	2 Slimy Acid
+	2 Hardened Scale
+	2 Gemsprout Beast
+	2 Brightbloom Terrarium
+	2 Vegetal Abomination
+	1 Exiled Executioner
+	1 Eternal Assault
+	1 Sphinx of Flowing Sands
+	1 The Librarian
+	1 Damned Cursebringer
+	1 The Reaper
+	1 Ascendant Dragon
+	1 Lightning Reflector
+	1 Vel'a Hláv, Outskirt Menace
+	1 Stonewing Behemoth
+	2 Heaven Gate
+	2 Clocktower Gate
+	2 Underworld Gate
+	2 Casino Gate
+	2 Main Gate
+	1 Martyr's Crypt
+	2 Gaetano, Vampire Killer
+	2 Old Man of the Outskirt
+	2 Kralj, Forgotten King
+	2 Alojzia, Elementalist
+	2 Voksen, the Last-Grown
+	2 Isjerats, Forgotten Daughter
+	2 Okostje, Banished Lich
+	2 Hudic, Restless Assaulter
+	2 Cudno, Diphormed Beast
+	2 Outskirt Troll-Guard
+	1 Starejsi, Implacable
+	1 Cudez, Masterpiece
+	2 Haunting Necronomicon
+	2 Deepwood Monument
+	2 Dispatch Array
+	2 Bloodfilled Urn
+	2 Distracting Marbles
+	2 Tick-Tock Bomb
+	2 Lord's Throne
+	2 Mutation Chambers
+	2 Void Scuttler
+	1 Knjiznica, Book-Keeper
+	1 Grob, Twisted Gravekeeper
+	1 Izum, Self-Inventor
+	1 Vulkan, Lavablood Dragon
+	1 Poveljnik, Dread General
+[uncommon(3)]
+	4 Undead Hunter
+	4 Raging Emberling
+	4 Sneaky Spinerette
+	4 Aimless Remnant
+	4 Alienated Soul
+	4 Foreign Servant
+	4 Forgotten Noble
+	4 Steelbound General
+	4 Vel'a Vtákov, Flock as One
+	4 Vila Spiritcaller
+	4 One-Eyed Blacksmith
+	4 Do or Die
+	4 Horn of the Innocent
+	4 Holy Relic
+	4 Sealed Relic
+	4 Eternal Vigil
+	4 Fleeting Memory
+	4 Lightning Howler
+	4 Juvenile Poltergeist
+	4 Passed Matriarch
+	4 Carodejník, Exiled Heretic
+	4 Keeper of Records
+	4 United Souls
+	4 Extract Insight
+	4 Book of Forgetfulness
+	4 Witch's Tools
+	4 Cryogenic Sphere
+	4 Soul Expulsion
+	4 Behind the Mirror
+	4 Crazed Torturer
+	4 Knight-Errant Shade
+	4 Kostlivec, Skeleon General
+	4 Bone Lurker
+	4 Indistinct Shadow
+	4 Leader of Lost Souls
+	4 Die, Monster !
+	4 Evil Never Dies
+	4 Necrotic Explosion
+	4 Fleeting Mind
+	4 Mindless Assault
+	4 Mask of the Returned
+	4 Tempered General
+	4 Wallbreaker Ogre
+	4 Odpadovy, Scrap Burner
+	4 Blazing Drakemech
+	4 Factory Crawler
+	4 Short-Fused Pyrodemon
+	4 Dual Flames
+	4 Rolling Boulder
+	4 Glass of Fine Wine
+	4 Incessant Assault
+	4 Forbidden Reading
+	4 Flameforge Ruby
+	4 Leyline Reviver
+	4 Watcher in the Mist
+	4 Graveyard Crawler
+	4 Vileroot Plantcaller
+	4 Wicked Summoner
+	4 Hydra Cub
+	4 Grow from the Bones
+	4 Savage Assault
+	4 Unfinished Map
+	4 Crystal Warhammer
+	4 Alchemist's Cauldron
+	4 Faraway Observer
+	4 Crazed Lich
+	4 Infernal Legions
+	4 Bloodmoon Berserker
+	4 Nacechraný, Guarding Hound
+	4 Steelbound Boneguard
+	4 Floating Literature
+	4 Evergrowing Slime
+	4 Jasterica Blacksmith
+	4 Moonlight Pendant
+	4 Spiritbound Armor
+	4 Stained Glass Golem
+	4 Stonechain Protector
+	4 Surging Wand
+	4 Tainted Mirror
+	4 Monarch's Crown
+	4 Trdnjava, Errant Fortress
+	4 Gate to Home
+	4 Void Gate
+[common(6)]
+	8 Back from the Tomb
+	8 Skeleton Golem
+	8 Ghostly Youth
+	8 Revenant Hoplite
+	8 Moth Víla
+	8 Bonehound Master
+	8 Tower Wanderer
+	8 Centaur Blademaster
+	8 Wolfman Veteran
+	8 Gatekeeper Armors
+	8 Uplifting Maestro
+	8 Guardian Gargoyle
+	8 Falling Chandelier
+	8 Chained to the Past
+	8 Titan's Fall
+	8 Spectral Plunge
+	8 Chain Whip
+	8 Don't Let Them Pass !
+	8 Torch Down
+	8 Clockwork Cucco
+	8 Wretched Throng
+	8 Stealthy Vodnik
+	8 Waterfall Ectoplasm
+	8 Mimicbound Armor
+	8 Maddening Abomination
+	8 Writing Apparition
+	8 Seductive Rusalka
+	8 Moatbound Leviathan
+	8 Captivating Story
+	8 Deny Existence
+	8 Contain
+	8 Bind with Tentacle
+	8 Ask the Ancients
+	8 Knowledge from Beyond
+	8 Terrific Scream
+	8 Haunting Trial
+	8 Boreal Wind
+	8 Sanctified Water
+	8 Foul Skeleton
+	8 Rusting Drake
+	8 Victims of the Night
+	8 Shambling Soldier
+	8 Collector of Souls
+	8 Addled Psychopomp
+	8 Skullbike Reaper
+	8 Misfortune Bringer
+	8 Boneguard Champion
+	8 Vampire Bats
+	8 Madness Ritual
+	8 Slay the Monster
+	8 Crushing Defeat
+	8 Deadly Ambush
+	8 Somber Ceremony
+	8 Rise Again
+	8 Miserable Pile of Secret
+	8 Not Today
+	8 Butcher Cleaver
+	8 Growing Flame
+	8 Chaos Harbinger
+	8 Fireskull Lancer
+	8 Hellbeast Tormentor
+	8 Firebreath Trumpeteer
+	8 Magma Bellower
+	8 Explosive Spirit
+	8 Forge Overseer
+	8 Dragoon Commander
+	8 Legion Frontliner
+	8 Lash Out
+	8 Kill it with Fire
+	8 Heating Point
+	8 Promise of Fortune
+	8 Feathered Dagger
+	8 Channeled Strike
+	8 Crush
+	8 Frightening Presence
+	8 Engulf in Flame
+	8 Bonecrusher Recluse
+	8 Forest Dweller
+	8 Darkdepth Dweller
+	8 Subterran Wurm
+	8 Bagou Drake
+	8 Vileroot Treant
+	8 Beastrider Armor
+	8 Giant Crocodile
+	8 Vel'kýstrom Warden
+	8 Titanic Brawl
+	8 Overwelming Charge
+	8 Protect the Young
+	8 Serene Rest
+	8 Guardian Axe
+	8 Gobble Down
+	8 Quiet Oak
+	8 Witch's Brew
+	8 Warg Riders
+	8 Juvenile Anchiceratops
+	8 Lonely Furnace
+	8 Porcelain Doll
+	8 Marble Colossus
+	8 Magic Broom
+	8 Isolated Chest
+	8 Invitation to Adventure
+	8 Labyrinth Gate
+	8 Market Gate
+	8 Garden Gate
+	8 Prisonner's Gate
+	8 Dimensionnal Gate
+	8 Graveyard Gate
+	8 Arena Gate
+	8 Dream Gate
+	8 Library Gate
+	8 Hell Gate
+[common | masterpiece(1)]
+	8 Back from the Tomb
+	8 Skeleton Golem
+	8 Ghostly Youth
+	8 Revenant Hoplite
+	8 Moth Víla
+	8 Bonehound Master
+	8 Tower Wanderer
+	8 Centaur Blademaster
+	8 Wolfman Veteran
+	8 Gatekeeper Armors
+	8 Uplifting Maestro
+	8 Guardian Gargoyle
+	8 Falling Chandelier
+	8 Chained to the Past
+	8 Titan's Fall
+	8 Spectral Plunge
+	8 Chain Whip
+	8 Don't Let Them Pass !
+	8 Torch Down
+	8 Clockwork Cucco
+	8 Wretched Throng
+	8 Stealthy Vodnik
+	8 Waterfall Ectoplasm
+	8 Mimicbound Armor
+	8 Maddening Abomination
+	8 Writing Apparition
+	8 Seductive Rusalka
+	8 Moatbound Leviathan
+	8 Captivating Story
+	8 Deny Existence
+	8 Contain
+	8 Bind with Tentacle
+	8 Ask the Ancients
+	8 Knowledge from Beyond
+	8 Terrific Scream
+	8 Haunting Trial
+	8 Boreal Wind
+	8 Sanctified Water
+	8 Foul Skeleton
+	8 Rusting Drake
+	8 Victims of the Night
+	8 Shambling Soldier
+	8 Collector of Souls
+	8 Addled Psychopomp
+	8 Skullbike Reaper
+	8 Misfortune Bringer
+	8 Boneguard Champion
+	8 Vampire Bats
+	8 Madness Ritual
+	8 Slay the Monster
+	8 Crushing Defeat
+	8 Deadly Ambush
+	8 Somber Ceremony
+	8 Rise Again
+	8 Miserable Pile of Secret
+	8 Not Today
+	8 Butcher Cleaver
+	8 Growing Flame
+	8 Chaos Harbinger
+	8 Fireskull Lancer
+	8 Hellbeast Tormentor
+	8 Firebreath Trumpeteer
+	8 Magma Bellower
+	8 Explosive Spirit
+	8 Forge Overseer
+	8 Dragoon Commander
+	8 Legion Frontliner
+	8 Lash Out
+	8 Kill it with Fire
+	8 Heating Point
+	8 Promise of Fortune
+	8 Feathered Dagger
+	8 Channeled Strike
+	8 Crush
+	8 Frightening Presence
+	8 Engulf in Flame
+	8 Bonecrusher Recluse
+	8 Forest Dweller
+	8 Darkdepth Dweller
+	8 Subterran Wurm
+	8 Bagou Drake
+	8 Vileroot Treant
+	8 Beastrider Armor
+	8 Giant Crocodile
+	8 Vel'kýstrom Warden
+	8 Titanic Brawl
+	8 Overwelming Charge
+	8 Protect the Young
+	8 Serene Rest
+	8 Guardian Axe
+	8 Gobble Down
+	8 Quiet Oak
+	8 Witch's Brew
+	8 Warg Riders
+	8 Juvenile Anchiceratops
+	8 Lonely Furnace
+	8 Porcelain Doll
+	8 Marble Colossus
+	8 Magic Broom
+	8 Isolated Chest
+	8 Invitation to Adventure
+	8 Labyrinth Gate
+	8 Market Gate
+	8 Garden Gate
+	8 Prisonner's Gate
+	8 Dimensionnal Gate
+	8 Graveyard Gate
+	8 Arena Gate
+	8 Dream Gate
+	8 Library Gate
+	8 Hell Gate
+	3 Genius, Mind of the Castle
+	3 Semerkhet, Displaced Pharaoh
+	3 Ogromno, Slumbering End
+	3 Netopir, Giant Bat
+	3 Mati, Dagon Broodmother
+	3 Sluz, All-Devouring
+	3 Ogledalo, Master of Mirrors
+	3 Neviden, Total Unknown
+	3 Krvi, Immortal Murderer
+	3 Gospod, Respected Gentleman
+	3 Bogomolka, Insect Queen
+	3 Strasiti, Willingly Possessed
+	3 The Monster, Artificial Wonder
+	3 Strupen, Gorgon Queen
+	3 The Macabre Dancers
+	3 Leteti, Elusive Hunter
+	3 Glavo, Headless Horseman
+	3 Ucenjak, Mad Demonist
+	3 Volkodlak, Twisted Wolf
+	3 Jakub, Pumpkin Knight
+	3 Jeklo, Foreign Golem
+	3 Starejsi, Tired of Fighting
+	3 Norcek, Joke's Punchline
+	3 Stvar, Lurking Creature
+	3 Tujek, Unbeatable Undead
+	3 Carovnica, Outskirt Hag
+	3 Locci, Castle's Heart
+[foil(1)]
+	12 Back from the Tomb
+	12 Skeleton Golem
+	12 Ghostly Youth
+	12 Revenant Hoplite
+	12 Moth Víla
+	12 Bonehound Master
+	12 Tower Wanderer
+	12 Centaur Blademaster
+	12 Wolfman Veteran
+	12 Gatekeeper Armors
+	12 Uplifting Maestro
+	12 Guardian Gargoyle
+	12 Falling Chandelier
+	12 Chained to the Past
+	12 Titan's Fall
+	12 Spectral Plunge
+	12 Chain Whip
+	12 Don't Let Them Pass !
+	12 Torch Down
+	12 Clockwork Cucco
+	12 Wretched Throng
+	12 Stealthy Vodnik
+	12 Waterfall Ectoplasm
+	12 Mimicbound Armor
+	12 Maddening Abomination
+	12 Writing Apparition
+	12 Seductive Rusalka
+	12 Moatbound Leviathan
+	12 Captivating Story
+	12 Deny Existence
+	12 Contain
+	12 Bind with Tentacle
+	12 Ask the Ancients
+	12 Knowledge from Beyond
+	12 Terrific Scream
+	12 Haunting Trial
+	12 Boreal Wind
+	12 Sanctified Water
+	12 Foul Skeleton
+	12 Rusting Drake
+	12 Victims of the Night
+	12 Shambling Soldier
+	12 Collector of Souls
+	12 Addled Psychopomp
+	12 Skullbike Reaper
+	12 Misfortune Bringer
+	12 Boneguard Champion
+	12 Vampire Bats
+	12 Madness Ritual
+	12 Slay the Monster
+	12 Crushing Defeat
+	12 Deadly Ambush
+	12 Somber Ceremony
+	12 Rise Again
+	12 Miserable Pile of Secret
+	12 Not Today
+	12 Butcher Cleaver
+	6 Undead Hunter
+	12 Growing Flame
+	12 Chaos Harbinger
+	12 Fireskull Lancer
+	12 Hellbeast Tormentor
+	12 Firebreath Trumpeteer
+	12 Magma Bellower
+	12 Explosive Spirit
+	12 Forge Overseer
+	12 Dragoon Commander
+	12 Legion Frontliner
+	12 Lash Out
+	12 Kill it with Fire
+	12 Heating Point
+	12 Promise of Fortune
+	12 Feathered Dagger
+	12 Channeled Strike
+	12 Crush
+	12 Frightening Presence
+	12 Engulf in Flame
+	6 Raging Emberling
+	12 Bonecrusher Recluse
+	12 Forest Dweller
+	6 Sneaky Spinerette
+	12 Darkdepth Dweller
+	12 Subterran Wurm
+	12 Bagou Drake
+	12 Vileroot Treant
+	12 Beastrider Armor
+	12 Giant Crocodile
+	12 Vel'kýstrom Warden
+	12 Titanic Brawl
+	12 Overwelming Charge
+	12 Protect the Young
+	12 Serene Rest
+	12 Guardian Axe
+	12 Gobble Down
+	12 Quiet Oak
+	12 Witch's Brew
+	12 Warg Riders
+	6 Aimless Remnant
+	6 Alienated Soul
+	6 Foreign Servant
+	6 Forgotten Noble
+	6 Steelbound General
+	6 Vel'a Vtákov, Flock as One
+	6 Vila Spiritcaller
+	6 One-Eyed Blacksmith
+	6 Do or Die
+	6 Horn of the Innocent
+	6 Holy Relic
+	6 Sealed Relic
+	6 Eternal Vigil
+	6 Fleeting Memory
+	6 Lightning Howler
+	6 Juvenile Poltergeist
+	6 Passed Matriarch
+	6 Carodejník, Exiled Heretic
+	6 Keeper of Records
+	6 United Souls
+	6 Extract Insight
+	6 Book of Forgetfulness
+	6 Witch's Tools
+	6 Cryogenic Sphere
+	6 Soul Expulsion
+	6 Behind the Mirror
+	6 Crazed Torturer
+	6 Knight-Errant Shade
+	6 Kostlivec, Skeleon General
+	6 Bone Lurker
+	6 Indistinct Shadow
+	6 Leader of Lost Souls
+	6 Die, Monster !
+	6 Evil Never Dies
+	6 Necrotic Explosion
+	6 Fleeting Mind
+	6 Mindless Assault
+	6 Mask of the Returned
+	6 Tempered General
+	6 Wallbreaker Ogre
+	6 Odpadovy, Scrap Burner
+	6 Blazing Drakemech
+	6 Factory Crawler
+	6 Short-Fused Pyrodemon
+	6 Dual Flames
+	6 Rolling Boulder
+	6 Glass of Fine Wine
+	6 Incessant Assault
+	6 Forbidden Reading
+	6 Flameforge Ruby
+	12 Juvenile Anchiceratops
+	6 Leyline Reviver
+	6 Watcher in the Mist
+	6 Graveyard Crawler
+	6 Vileroot Plantcaller
+	6 Wicked Summoner
+	6 Hydra Cub
+	6 Grow from the Bones
+	6 Savage Assault
+	6 Unfinished Map
+	6 Crystal Warhammer
+	6 Alchemist's Cauldron
+	6 Faraway Observer
+	6 Crazed Lich
+	6 Infernal Legions
+	6 Bloodmoon Berserker
+	6 Nacechraný, Guarding Hound
+	6 Steelbound Boneguard
+	6 Floating Literature
+	6 Evergrowing Slime
+	6 Jasterica Blacksmith
+	6 Moonlight Pendant
+	12 Lonely Furnace
+	12 Porcelain Doll
+	12 Marble Colossus
+	12 Magic Broom
+	12 Isolated Chest
+	12 Invitation to Adventure
+	6 Spiritbound Armor
+	6 Stained Glass Golem
+	6 Stonechain Protector
+	6 Surging Wand
+	6 Tainted Mirror
+	6 Monarch's Crown
+	2 Banners of War
+	2 Tormented Savior
+	2 Right History
+	2 Fall of the Castle
+	2 Gemsteel Sentinel
+	2 Razparac, Bringer of Soul
+	2 Deathless Champion
+	2 Whirlwind Staff
+	2 Gold Spewer
+	2 Midnight Clock
+	2 Break the Pact
+	2 Frostsoul Stormcaster
+	2 Ball of Insight
+	2 Itinerant Eyemass
+	2 Restless Coffin
+	2 Sinister Kikimora
+	2 Reaper's Contract
+	2 Free the Soul
+	2 Demonic Halberd
+	2 Cracked Skeleton
+	2 Commune with the Dead
+	2 Enticing Harpist
+	2 Bizarre Manipulator
+	2 Cursed Mirror
+	2 Black-Ash Phoenix
+	2 Forgebelly Blacksmith
+	2 Factory Commodore
+	2 Distorted Hound
+	2 Deepwood Shrine
+	2 Gigantic Broodspider
+	2 Slimy Acid
+	2 Hardened Scale
+	2 Gemsprout Beast
+	2 Brightbloom Terrarium
+	2 Vegetal Abomination
+	1 Exiled Executioner
+	1 Eternal Assault
+	1 Sphinx of Flowing Sands
+	1 The Librarian
+	1 Damned Cursebringer
+	1 The Reaper
+	1 Ascendant Dragon
+	1 Lightning Reflector
+	1 Vel'a Hláv, Outskirt Menace
+	1 Stonewing Behemoth
+	12 Labyrinth Gate
+	12 Market Gate
+	12 Garden Gate
+	12 Prisonner's Gate
+	12 Dimensionnal Gate
+	12 Graveyard Gate
+	12 Arena Gate
+	12 Dream Gate
+	12 Library Gate
+	12 Hell Gate
+	6 Trdnjava, Errant Fortress
+	2 Heaven Gate
+	2 Clocktower Gate
+	2 Underworld Gate
+	2 Casino Gate
+	2 Main Gate
+	1 Martyr's Crypt
+	2 Gaetano, Vampire Killer
+	2 Old Man of the Outskirt
+	2 Kralj, Forgotten King
+	2 Alojzia, Elementalist
+	2 Voksen, the Last-Grown
+	2 Isjerats, Forgotten Daughter
+	2 Okostje, Banished Lich
+	2 Hudic, Restless Assaulter
+	2 Cudno, Diphormed Beast
+	2 Outskirt Troll-Guard
+	1 Starejsi, Implacable
+	1 Cudez, Masterpiece
+	2 Haunting Necronomicon
+	2 Deepwood Monument
+	2 Dispatch Array
+	2 Bloodfilled Urn
+	2 Distracting Marbles
+	6 Gate to Home
+	2 Tick-Tock Bomb
+	2 Lord's Throne
+	2 Mutation Chambers
+	2 Void Scuttler
+	6 Void Gate
+	1 Knjiznica, Book-Keeper
+	1 Grob, Twisted Gravekeeper
+	1 Izum, Self-Inventor
+	1 Vulkan, Lavablood Dragon
+	1 Poveljnik, Dread General
+[wildcard(1)]
+	6 Back from the Tomb
+	6 Skeleton Golem
+	6 Ghostly Youth
+	6 Revenant Hoplite
+	6 Moth Víla
+	6 Bonehound Master
+	6 Tower Wanderer
+	6 Centaur Blademaster
+	6 Wolfman Veteran
+	6 Gatekeeper Armors
+	6 Uplifting Maestro
+	6 Guardian Gargoyle
+	6 Falling Chandelier
+	6 Chained to the Past
+	6 Titan's Fall
+	6 Spectral Plunge
+	6 Chain Whip
+	6 Don't Let Them Pass !
+	6 Torch Down
+	6 Clockwork Cucco
+	6 Wretched Throng
+	6 Stealthy Vodnik
+	6 Waterfall Ectoplasm
+	6 Mimicbound Armor
+	6 Maddening Abomination
+	6 Writing Apparition
+	6 Seductive Rusalka
+	6 Moatbound Leviathan
+	6 Captivating Story
+	6 Deny Existence
+	6 Contain
+	6 Bind with Tentacle
+	6 Ask the Ancients
+	6 Knowledge from Beyond
+	6 Terrific Scream
+	6 Haunting Trial
+	6 Boreal Wind
+	6 Sanctified Water
+	6 Foul Skeleton
+	6 Rusting Drake
+	6 Victims of the Night
+	6 Shambling Soldier
+	6 Collector of Souls
+	6 Addled Psychopomp
+	6 Skullbike Reaper
+	6 Misfortune Bringer
+	6 Boneguard Champion
+	6 Vampire Bats
+	6 Madness Ritual
+	6 Slay the Monster
+	6 Crushing Defeat
+	6 Deadly Ambush
+	6 Somber Ceremony
+	6 Rise Again
+	6 Miserable Pile of Secret
+	6 Not Today
+	6 Butcher Cleaver
+	15 Undead Hunter
+	6 Growing Flame
+	6 Chaos Harbinger
+	6 Fireskull Lancer
+	6 Hellbeast Tormentor
+	6 Firebreath Trumpeteer
+	6 Magma Bellower
+	6 Explosive Spirit
+	6 Forge Overseer
+	6 Dragoon Commander
+	6 Legion Frontliner
+	6 Lash Out
+	6 Kill it with Fire
+	6 Heating Point
+	6 Promise of Fortune
+	6 Feathered Dagger
+	6 Channeled Strike
+	6 Crush
+	6 Frightening Presence
+	6 Engulf in Flame
+	15 Raging Emberling
+	6 Bonecrusher Recluse
+	6 Forest Dweller
+	15 Sneaky Spinerette
+	6 Darkdepth Dweller
+	6 Subterran Wurm
+	6 Bagou Drake
+	6 Vileroot Treant
+	6 Beastrider Armor
+	6 Giant Crocodile
+	6 Vel'kýstrom Warden
+	6 Titanic Brawl
+	6 Overwelming Charge
+	6 Protect the Young
+	6 Serene Rest
+	6 Guardian Axe
+	6 Gobble Down
+	6 Quiet Oak
+	6 Witch's Brew
+	6 Warg Riders
+	15 Aimless Remnant
+	15 Alienated Soul
+	15 Foreign Servant
+	15 Forgotten Noble
+	15 Steelbound General
+	15 Vel'a Vtákov, Flock as One
+	15 Vila Spiritcaller
+	15 One-Eyed Blacksmith
+	15 Do or Die
+	15 Horn of the Innocent
+	15 Holy Relic
+	15 Sealed Relic
+	15 Eternal Vigil
+	15 Fleeting Memory
+	15 Lightning Howler
+	15 Juvenile Poltergeist
+	15 Passed Matriarch
+	15 Carodejník, Exiled Heretic
+	15 Keeper of Records
+	15 United Souls
+	15 Extract Insight
+	15 Book of Forgetfulness
+	15 Witch's Tools
+	15 Cryogenic Sphere
+	15 Soul Expulsion
+	15 Behind the Mirror
+	15 Crazed Torturer
+	15 Knight-Errant Shade
+	15 Kostlivec, Skeleon General
+	15 Bone Lurker
+	15 Indistinct Shadow
+	15 Leader of Lost Souls
+	15 Die, Monster !
+	15 Evil Never Dies
+	15 Necrotic Explosion
+	15 Fleeting Mind
+	15 Mindless Assault
+	15 Mask of the Returned
+	15 Tempered General
+	15 Wallbreaker Ogre
+	15 Odpadovy, Scrap Burner
+	15 Blazing Drakemech
+	15 Factory Crawler
+	15 Short-Fused Pyrodemon
+	15 Dual Flames
+	15 Rolling Boulder
+	15 Glass of Fine Wine
+	15 Incessant Assault
+	15 Forbidden Reading
+	15 Flameforge Ruby
+	6 Juvenile Anchiceratops
+	15 Leyline Reviver
+	15 Watcher in the Mist
+	15 Graveyard Crawler
+	15 Vileroot Plantcaller
+	15 Wicked Summoner
+	15 Hydra Cub
+	15 Grow from the Bones
+	15 Savage Assault
+	15 Unfinished Map
+	15 Crystal Warhammer
+	15 Alchemist's Cauldron
+	15 Faraway Observer
+	15 Crazed Lich
+	15 Infernal Legions
+	15 Bloodmoon Berserker
+	15 Nacechraný, Guarding Hound
+	15 Steelbound Boneguard
+	15 Floating Literature
+	15 Evergrowing Slime
+	15 Jasterica Blacksmith
+	15 Moonlight Pendant
+	6 Lonely Furnace
+	6 Porcelain Doll
+	6 Marble Colossus
+	6 Magic Broom
+	6 Isolated Chest
+	6 Invitation to Adventure
+	15 Spiritbound Armor
+	15 Stained Glass Golem
+	15 Stonechain Protector
+	15 Surging Wand
+	15 Tainted Mirror
+	15 Monarch's Crown
+	7 Banners of War
+	7 Tormented Savior
+	7 Right History
+	7 Fall of the Castle
+	7 Gemsteel Sentinel
+	7 Razparac, Bringer of Soul
+	7 Deathless Champion
+	7 Whirlwind Staff
+	7 Gold Spewer
+	7 Midnight Clock
+	7 Break the Pact
+	7 Frostsoul Stormcaster
+	7 Ball of Insight
+	7 Itinerant Eyemass
+	7 Restless Coffin
+	7 Sinister Kikimora
+	7 Reaper's Contract
+	7 Free the Soul
+	7 Demonic Halberd
+	7 Cracked Skeleton
+	7 Commune with the Dead
+	7 Enticing Harpist
+	7 Bizarre Manipulator
+	7 Cursed Mirror
+	7 Black-Ash Phoenix
+	7 Forgebelly Blacksmith
+	7 Factory Commodore
+	7 Distorted Hound
+	7 Deepwood Shrine
+	7 Gigantic Broodspider
+	7 Slimy Acid
+	7 Hardened Scale
+	7 Gemsprout Beast
+	7 Brightbloom Terrarium
+	7 Vegetal Abomination
+	4 Exiled Executioner
+	4 Eternal Assault
+	4 Sphinx of Flowing Sands
+	4 The Librarian
+	4 Damned Cursebringer
+	4 The Reaper
+	4 Ascendant Dragon
+	4 Lightning Reflector
+	4 Vel'a Hláv, Outskirt Menace
+	4 Stonewing Behemoth
+	6 Labyrinth Gate
+	6 Market Gate
+	6 Garden Gate
+	6 Prisonner's Gate
+	6 Dimensionnal Gate
+	6 Graveyard Gate
+	6 Arena Gate
+	6 Dream Gate
+	6 Library Gate
+	6 Hell Gate
+	15 Trdnjava, Errant Fortress
+	7 Heaven Gate
+	7 Clocktower Gate
+	7 Underworld Gate
+	7 Casino Gate
+	7 Main Gate
+	4 Martyr's Crypt
+	7 Gaetano, Vampire Killer
+	7 Old Man of the Outskirt
+	7 Kralj, Forgotten King
+	7 Alojzia, Elementalist
+	7 Voksen, the Last-Grown
+	7 Isjerats, Forgotten Daughter
+	7 Okostje, Banished Lich
+	7 Hudic, Restless Assaulter
+	7 Cudno, Diphormed Beast
+	7 Outskirt Troll-Guard
+	4 Starejsi, Implacable
+	4 Cudez, Masterpiece
+	7 Haunting Necronomicon
+	7 Deepwood Monument
+	7 Dispatch Array
+	7 Bloodfilled Urn
+	7 Distracting Marbles
+	15 Gate to Home
+	7 Tick-Tock Bomb
+	7 Lord's Throne
+	7 Mutation Chambers
+	7 Void Scuttler
+	15 Void Gate
+	4 Knjiznica, Book-Keeper
+	4 Grob, Twisted Gravekeeper
+	4 Izum, Self-Inventor
+	4 Vulkan, Lavablood Dragon
+	4 Poveljnik, Dread General

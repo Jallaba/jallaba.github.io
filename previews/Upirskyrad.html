@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/Upirskyrad-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>Upirskyrad visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/Upirskyrad-files/logo.png" />
+	<img class="preload-hidden" src="../sets/A card per Day-files/icon.png" />
+		<img class="preload-hidden" src="../sets/Upirskyrad-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/Upirskyrad"><img src="../sets/Upirskyrad-files/icon.png">Upirskyrad </a>
+	
+		<a class="set-bar inactive" href="../previews/A card per Day"><img src="../sets/A card per Day-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/Upirskyrad-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\217.png" id="Upirskyrad_217" data-flag="@X" onclick="openSidebar('Upirskyrad_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\219.png" id="Upirskyrad_219" data-flag="@X" onclick="openSidebar('Upirskyrad_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\220.png" id="Upirskyrad_220" data-flag="@X" onclick="openSidebar('Upirskyrad_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\222.png" id="Upirskyrad_222" data-flag="@X" onclick="openSidebar('Upirskyrad_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\225.png" id="Upirskyrad_225" data-flag="@X" onclick="openSidebar('Upirskyrad_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\216.png" id="Upirskyrad_216" data-flag="@X" onclick="openSidebar('Upirskyrad_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\218.png" id="Upirskyrad_218" data-flag="@X" onclick="openSidebar('Upirskyrad_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\221.png" id="Upirskyrad_221" data-flag="@X" onclick="openSidebar('Upirskyrad_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\223.png" id="Upirskyrad_223" data-flag="@X" onclick="openSidebar('Upirskyrad_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\224.png" id="Upirskyrad_224" data-flag="@X" onclick="openSidebar('Upirskyrad_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\257.png" id="Upirskyrad_257" data-flag="@X" onclick="openSidebar('Upirskyrad_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\193.png" id="Upirskyrad_193" data-flag="@X" onclick="openSidebar('Upirskyrad_193',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\Upirskyrad-files\img\268_back.png" alt="sets\Upirskyrad-files\img\268_front.png" id="Upirskyrad_268" data-flag="@XD" onclick="openSidebar('Upirskyrad_268',false)"><button class="flip-btn" onclick="imgFlip('Upirskyrad_268')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\203.png" id="Upirskyrad_203" data-flag="@X" onclick="openSidebar('Upirskyrad_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\214.png" id="Upirskyrad_214" data-flag="@X" onclick="openSidebar('Upirskyrad_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\181.png" id="Upirskyrad_181" data-flag="@X" onclick="openSidebar('Upirskyrad_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\191.png" id="Upirskyrad_191" data-flag="@X" onclick="openSidebar('Upirskyrad_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\201.png" id="Upirskyrad_201" data-flag="@X" onclick="openSidebar('Upirskyrad_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\205.png" id="Upirskyrad_205" data-flag="@X" onclick="openSidebar('Upirskyrad_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\209.png" id="Upirskyrad_209" data-flag="@X" onclick="openSidebar('Upirskyrad_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\187.png" id="Upirskyrad_187" data-flag="@X" onclick="openSidebar('Upirskyrad_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\192.png" id="Upirskyrad_192" data-flag="@X" onclick="openSidebar('Upirskyrad_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\200.png" id="Upirskyrad_200" data-flag="@X" onclick="openSidebar('Upirskyrad_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\204.png" id="Upirskyrad_204" data-flag="@X" onclick="openSidebar('Upirskyrad_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\213.png" id="Upirskyrad_213" data-flag="@X" onclick="openSidebar('Upirskyrad_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\184.png" id="Upirskyrad_184" data-flag="@X" onclick="openSidebar('Upirskyrad_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\189.png" id="Upirskyrad_189" data-flag="@X" onclick="openSidebar('Upirskyrad_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\199.png" id="Upirskyrad_199" data-flag="@X" onclick="openSidebar('Upirskyrad_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\208.png" id="Upirskyrad_208" data-flag="@X" onclick="openSidebar('Upirskyrad_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\210.png" id="Upirskyrad_210" data-flag="@X" onclick="openSidebar('Upirskyrad_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\185.png" id="Upirskyrad_185" data-flag="@X" onclick="openSidebar('Upirskyrad_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\194.png" id="Upirskyrad_194" data-flag="@X" onclick="openSidebar('Upirskyrad_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\198.png" id="Upirskyrad_198" data-flag="@X" onclick="openSidebar('Upirskyrad_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\202.png" id="Upirskyrad_202" data-flag="@X" onclick="openSidebar('Upirskyrad_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\212.png" id="Upirskyrad_212" data-flag="@X" onclick="openSidebar('Upirskyrad_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\186.png" id="Upirskyrad_186" data-flag="@X" onclick="openSidebar('Upirskyrad_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\190.png" id="Upirskyrad_190" data-flag="@X" onclick="openSidebar('Upirskyrad_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\197.png" id="Upirskyrad_197" data-flag="@X" onclick="openSidebar('Upirskyrad_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\207.png" id="Upirskyrad_207" data-flag="@X" onclick="openSidebar('Upirskyrad_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\211.png" id="Upirskyrad_211" data-flag="@X" onclick="openSidebar('Upirskyrad_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\183.png" id="Upirskyrad_183" data-flag="@X" onclick="openSidebar('Upirskyrad_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\188.png" id="Upirskyrad_188" data-flag="@X" onclick="openSidebar('Upirskyrad_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\195.png" id="Upirskyrad_195" data-flag="@X" onclick="openSidebar('Upirskyrad_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\206.png" id="Upirskyrad_206" data-flag="@X" onclick="openSidebar('Upirskyrad_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\215.png" id="Upirskyrad_215" data-flag="@X" onclick="openSidebar('Upirskyrad_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\182.png" id="Upirskyrad_182" data-flag="@X" onclick="openSidebar('Upirskyrad_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\122.png" id="Upirskyrad_122" data-flag="@X" onclick="openSidebar('Upirskyrad_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\196.png" id="Upirskyrad_196" data-flag="@X" onclick="openSidebar('Upirskyrad_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\138.png" id="Upirskyrad_138" data-flag="@X" onclick="openSidebar('Upirskyrad_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\158.png" id="Upirskyrad_158" data-flag="@X" onclick="openSidebar('Upirskyrad_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\97.png" id="Upirskyrad_97" data-flag="@X" onclick="openSidebar('Upirskyrad_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\118.png" id="Upirskyrad_118" data-flag="@X" onclick="openSidebar('Upirskyrad_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\126.png" id="Upirskyrad_126" data-flag="@X" onclick="openSidebar('Upirskyrad_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\141.png" id="Upirskyrad_141" data-flag="@X" onclick="openSidebar('Upirskyrad_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\157.png" id="Upirskyrad_157" data-flag="@X" onclick="openSidebar('Upirskyrad_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\98.png" id="Upirskyrad_98" data-flag="@X" onclick="openSidebar('Upirskyrad_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\114.png" id="Upirskyrad_114" data-flag="@X" onclick="openSidebar('Upirskyrad_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\123.png" id="Upirskyrad_123" data-flag="@X" onclick="openSidebar('Upirskyrad_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\139.png" id="Upirskyrad_139" data-flag="@X" onclick="openSidebar('Upirskyrad_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\150.png" id="Upirskyrad_150" data-flag="@X" onclick="openSidebar('Upirskyrad_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\105.png" id="Upirskyrad_105" data-flag="@X" onclick="openSidebar('Upirskyrad_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\120.png" id="Upirskyrad_120" data-flag="@X" onclick="openSidebar('Upirskyrad_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\129.png" id="Upirskyrad_129" data-flag="@X" onclick="openSidebar('Upirskyrad_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\146.png" id="Upirskyrad_146" data-flag="@X" onclick="openSidebar('Upirskyrad_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\154.png" id="Upirskyrad_154" data-flag="@X" onclick="openSidebar('Upirskyrad_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\109.png" id="Upirskyrad_109" data-flag="@X" onclick="openSidebar('Upirskyrad_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\117.png" id="Upirskyrad_117" data-flag="@X" onclick="openSidebar('Upirskyrad_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\130.png" id="Upirskyrad_130" data-flag="@X" onclick="openSidebar('Upirskyrad_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\145.png" id="Upirskyrad_145" data-flag="@X" onclick="openSidebar('Upirskyrad_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\153.png" id="Upirskyrad_153" data-flag="@X" onclick="openSidebar('Upirskyrad_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\99.png" id="Upirskyrad_99" data-flag="@X" onclick="openSidebar('Upirskyrad_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\110.png" id="Upirskyrad_110" data-flag="@X" onclick="openSidebar('Upirskyrad_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\132.png" id="Upirskyrad_132" data-flag="@X" onclick="openSidebar('Upirskyrad_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\143.png" id="Upirskyrad_143" data-flag="@X" onclick="openSidebar('Upirskyrad_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\148.png" id="Upirskyrad_148" data-flag="@X" onclick="openSidebar('Upirskyrad_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\100.png" id="Upirskyrad_100" data-flag="@X" onclick="openSidebar('Upirskyrad_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\112.png" id="Upirskyrad_112" data-flag="@X" onclick="openSidebar('Upirskyrad_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\127.png" id="Upirskyrad_127" data-flag="@X" onclick="openSidebar('Upirskyrad_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\144.png" id="Upirskyrad_144" data-flag="@X" onclick="openSidebar('Upirskyrad_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\155.png" id="Upirskyrad_155" data-flag="@X" onclick="openSidebar('Upirskyrad_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\107.png" id="Upirskyrad_107" data-flag="@X" onclick="openSidebar('Upirskyrad_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\115.png" id="Upirskyrad_115" data-flag="@X" onclick="openSidebar('Upirskyrad_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\124.png" id="Upirskyrad_124" data-flag="@X" onclick="openSidebar('Upirskyrad_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\137.png" id="Upirskyrad_137" data-flag="@X" onclick="openSidebar('Upirskyrad_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\80.png" id="Upirskyrad_80" data-flag="@X" onclick="openSidebar('Upirskyrad_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\106.png" id="Upirskyrad_106" data-flag="@X" onclick="openSidebar('Upirskyrad_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\111.png" id="Upirskyrad_111" data-flag="@X" onclick="openSidebar('Upirskyrad_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\125.png" id="Upirskyrad_125" data-flag="@X" onclick="openSidebar('Upirskyrad_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\77.png" id="Upirskyrad_77" data-flag="@X" onclick="openSidebar('Upirskyrad_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\251.png" id="Upirskyrad_251" data-flag="@X" onclick="openSidebar('Upirskyrad_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\104.png" id="Upirskyrad_104" data-flag="@X" onclick="openSidebar('Upirskyrad_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\113.png" id="Upirskyrad_113" data-flag="@X" onclick="openSidebar('Upirskyrad_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\128.png" id="Upirskyrad_128" data-flag="@X" onclick="openSidebar('Upirskyrad_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\142.png" id="Upirskyrad_142" data-flag="@X" onclick="openSidebar('Upirskyrad_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\156.png" id="Upirskyrad_156" data-flag="@X" onclick="openSidebar('Upirskyrad_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\108.png" id="Upirskyrad_108" data-flag="@X" onclick="openSidebar('Upirskyrad_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\121.png" id="Upirskyrad_121" data-flag="@X" onclick="openSidebar('Upirskyrad_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\134.png" id="Upirskyrad_134" data-flag="@X" onclick="openSidebar('Upirskyrad_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\140.png" id="Upirskyrad_140" data-flag="@X" onclick="openSidebar('Upirskyrad_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\151.png" id="Upirskyrad_151" data-flag="@X" onclick="openSidebar('Upirskyrad_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\101.png" id="Upirskyrad_101" data-flag="@X" onclick="openSidebar('Upirskyrad_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\116.png" id="Upirskyrad_116" data-flag="@X" onclick="openSidebar('Upirskyrad_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\133.png" id="Upirskyrad_133" data-flag="@X" onclick="openSidebar('Upirskyrad_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\135.png" id="Upirskyrad_135" data-flag="@X" onclick="openSidebar('Upirskyrad_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\149.png" id="Upirskyrad_149" data-flag="@X" onclick="openSidebar('Upirskyrad_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\102.png" id="Upirskyrad_102" data-flag="@X" onclick="openSidebar('Upirskyrad_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\119.png" id="Upirskyrad_119" data-flag="@X" onclick="openSidebar('Upirskyrad_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\131.png" id="Upirskyrad_131" data-flag="@X" onclick="openSidebar('Upirskyrad_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\136.png" id="Upirskyrad_136" data-flag="@X" onclick="openSidebar('Upirskyrad_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\152.png" id="Upirskyrad_152" data-flag="@X" onclick="openSidebar('Upirskyrad_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\103.png" id="Upirskyrad_103" data-flag="@X" onclick="openSidebar('Upirskyrad_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\32.png" id="Upirskyrad_32" data-flag="@X" onclick="openSidebar('Upirskyrad_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\57.png" id="Upirskyrad_57" data-flag="@X" onclick="openSidebar('Upirskyrad_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\73.png" id="Upirskyrad_73" data-flag="@X" onclick="openSidebar('Upirskyrad_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\83.png" id="Upirskyrad_83" data-flag="@X" onclick="openSidebar('Upirskyrad_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\0.png" id="Upirskyrad_0" data-flag="@X" onclick="openSidebar('Upirskyrad_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\31.png" id="Upirskyrad_31" data-flag="@X" onclick="openSidebar('Upirskyrad_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\43.png" id="Upirskyrad_43" data-flag="@X" onclick="openSidebar('Upirskyrad_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\59.png" id="Upirskyrad_59" data-flag="@X" onclick="openSidebar('Upirskyrad_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\85.png" id="Upirskyrad_85" data-flag="@X" onclick="openSidebar('Upirskyrad_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\5.png" id="Upirskyrad_5" data-flag="@X" onclick="openSidebar('Upirskyrad_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\36.png" id="Upirskyrad_36" data-flag="@X" onclick="openSidebar('Upirskyrad_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\46.png" id="Upirskyrad_46" data-flag="@X" onclick="openSidebar('Upirskyrad_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\74.png" id="Upirskyrad_74" data-flag="@X" onclick="openSidebar('Upirskyrad_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\78.png" id="Upirskyrad_78" data-flag="@X" onclick="openSidebar('Upirskyrad_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\7.png" id="Upirskyrad_7" data-flag="@X" onclick="openSidebar('Upirskyrad_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\28.png" id="Upirskyrad_28" data-flag="@X" onclick="openSidebar('Upirskyrad_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\56.png" id="Upirskyrad_56" data-flag="@X" onclick="openSidebar('Upirskyrad_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\66.png" id="Upirskyrad_66" data-flag="@X" onclick="openSidebar('Upirskyrad_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\81.png" id="Upirskyrad_81" data-flag="@X" onclick="openSidebar('Upirskyrad_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\16.png" id="Upirskyrad_16" data-flag="@X" onclick="openSidebar('Upirskyrad_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\19.png" id="Upirskyrad_19" data-flag="@X" onclick="openSidebar('Upirskyrad_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\42.png" id="Upirskyrad_42" data-flag="@X" onclick="openSidebar('Upirskyrad_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\76.png" id="Upirskyrad_76" data-flag="@X" onclick="openSidebar('Upirskyrad_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\79.png" id="Upirskyrad_79" data-flag="@X" onclick="openSidebar('Upirskyrad_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\13.png" id="Upirskyrad_13" data-flag="@X" onclick="openSidebar('Upirskyrad_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\30.png" id="Upirskyrad_30" data-flag="@X" onclick="openSidebar('Upirskyrad_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\50.png" id="Upirskyrad_50" data-flag="@X" onclick="openSidebar('Upirskyrad_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\64.png" id="Upirskyrad_64" data-flag="@X" onclick="openSidebar('Upirskyrad_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\86.png" id="Upirskyrad_86" data-flag="@X" onclick="openSidebar('Upirskyrad_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\17.png" id="Upirskyrad_17" data-flag="@X" onclick="openSidebar('Upirskyrad_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\29.png" id="Upirskyrad_29" data-flag="@X" onclick="openSidebar('Upirskyrad_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\51.png" id="Upirskyrad_51" data-flag="@X" onclick="openSidebar('Upirskyrad_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\72.png" id="Upirskyrad_72" data-flag="@X" onclick="openSidebar('Upirskyrad_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\93.png" id="Upirskyrad_93" data-flag="@X" onclick="openSidebar('Upirskyrad_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\12.png" id="Upirskyrad_12" data-flag="@X" onclick="openSidebar('Upirskyrad_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\35.png" id="Upirskyrad_35" data-flag="@X" onclick="openSidebar('Upirskyrad_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\38.png" id="Upirskyrad_38" data-flag="@X" onclick="openSidebar('Upirskyrad_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\62.png" id="Upirskyrad_62" data-flag="@X" onclick="openSidebar('Upirskyrad_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\92.png" id="Upirskyrad_92" data-flag="@X" onclick="openSidebar('Upirskyrad_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\9.png" id="Upirskyrad_9" data-flag="@X" onclick="openSidebar('Upirskyrad_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\33.png" id="Upirskyrad_33" data-flag="@X" onclick="openSidebar('Upirskyrad_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\48.png" id="Upirskyrad_48" data-flag="@X" onclick="openSidebar('Upirskyrad_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\60.png" id="Upirskyrad_60" data-flag="@X" onclick="openSidebar('Upirskyrad_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\147.png" id="Upirskyrad_147" data-flag="@X" onclick="openSidebar('Upirskyrad_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\2.png" id="Upirskyrad_2" data-flag="@X" onclick="openSidebar('Upirskyrad_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\24.png" id="Upirskyrad_24" data-flag="@X" onclick="openSidebar('Upirskyrad_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\54.png" id="Upirskyrad_54" data-flag="@X" onclick="openSidebar('Upirskyrad_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\65.png" id="Upirskyrad_65" data-flag="@X" onclick="openSidebar('Upirskyrad_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\89.png" id="Upirskyrad_89" data-flag="@X" onclick="openSidebar('Upirskyrad_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\11.png" id="Upirskyrad_11" data-flag="@X" onclick="openSidebar('Upirskyrad_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\23.png" id="Upirskyrad_23" data-flag="@X" onclick="openSidebar('Upirskyrad_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\45.png" id="Upirskyrad_45" data-flag="@X" onclick="openSidebar('Upirskyrad_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\75.png" id="Upirskyrad_75" data-flag="@X" onclick="openSidebar('Upirskyrad_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\90.png" id="Upirskyrad_90" data-flag="@X" onclick="openSidebar('Upirskyrad_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\4.png" id="Upirskyrad_4" data-flag="@X" onclick="openSidebar('Upirskyrad_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\27.png" id="Upirskyrad_27" data-flag="@X" onclick="openSidebar('Upirskyrad_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\55.png" id="Upirskyrad_55" data-flag="@X" onclick="openSidebar('Upirskyrad_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\58.png" id="Upirskyrad_58" data-flag="@X" onclick="openSidebar('Upirskyrad_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\94.png" id="Upirskyrad_94" data-flag="@X" onclick="openSidebar('Upirskyrad_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\3.png" id="Upirskyrad_3" data-flag="@X" onclick="openSidebar('Upirskyrad_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\37.png" id="Upirskyrad_37" data-flag="@X" onclick="openSidebar('Upirskyrad_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\53.png" id="Upirskyrad_53" data-flag="@X" onclick="openSidebar('Upirskyrad_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\70.png" id="Upirskyrad_70" data-flag="@X" onclick="openSidebar('Upirskyrad_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\91.png" id="Upirskyrad_91" data-flag="@X" onclick="openSidebar('Upirskyrad_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\1.png" id="Upirskyrad_1" data-flag="@X" onclick="openSidebar('Upirskyrad_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\26.png" id="Upirskyrad_26" data-flag="@X" onclick="openSidebar('Upirskyrad_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\39.png" id="Upirskyrad_39" data-flag="@X" onclick="openSidebar('Upirskyrad_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\61.png" id="Upirskyrad_61" data-flag="@X" onclick="openSidebar('Upirskyrad_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\82.png" id="Upirskyrad_82" data-flag="@X" onclick="openSidebar('Upirskyrad_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\15.png" id="Upirskyrad_15" data-flag="@X" onclick="openSidebar('Upirskyrad_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\21.png" id="Upirskyrad_21" data-flag="@X" onclick="openSidebar('Upirskyrad_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\41.png" id="Upirskyrad_41" data-flag="@X" onclick="openSidebar('Upirskyrad_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\69.png" id="Upirskyrad_69" data-flag="@X" onclick="openSidebar('Upirskyrad_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\88.png" id="Upirskyrad_88" data-flag="@X" onclick="openSidebar('Upirskyrad_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\14.png" id="Upirskyrad_14" data-flag="@X" onclick="openSidebar('Upirskyrad_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\34.png" id="Upirskyrad_34" data-flag="@X" onclick="openSidebar('Upirskyrad_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\44.png" id="Upirskyrad_44" data-flag="@X" onclick="openSidebar('Upirskyrad_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\68.png" id="Upirskyrad_68" data-flag="@X" onclick="openSidebar('Upirskyrad_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\87.png" id="Upirskyrad_87" data-flag="@X" onclick="openSidebar('Upirskyrad_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\18.png" id="Upirskyrad_18" data-flag="@X" onclick="openSidebar('Upirskyrad_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\22.png" id="Upirskyrad_22" data-flag="@X" onclick="openSidebar('Upirskyrad_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\49.png" id="Upirskyrad_49" data-flag="@X" onclick="openSidebar('Upirskyrad_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\67.png" id="Upirskyrad_67" data-flag="@X" onclick="openSidebar('Upirskyrad_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\84.png" id="Upirskyrad_84" data-flag="@X" onclick="openSidebar('Upirskyrad_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\6.png" id="Upirskyrad_6" data-flag="@X" onclick="openSidebar('Upirskyrad_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\20.png" id="Upirskyrad_20" data-flag="@X" onclick="openSidebar('Upirskyrad_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\52.png" id="Upirskyrad_52" data-flag="@X" onclick="openSidebar('Upirskyrad_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\63.png" id="Upirskyrad_63" data-flag="@X" onclick="openSidebar('Upirskyrad_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\96.png" id="Upirskyrad_96" data-flag="@X" onclick="openSidebar('Upirskyrad_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\10.png" id="Upirskyrad_10" data-flag="@X" onclick="openSidebar('Upirskyrad_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\25.png" id="Upirskyrad_25" data-flag="@X" onclick="openSidebar('Upirskyrad_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\47.png" id="Upirskyrad_47" data-flag="@X" onclick="openSidebar('Upirskyrad_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\71.png" id="Upirskyrad_71" data-flag="@X" onclick="openSidebar('Upirskyrad_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\95.png" id="Upirskyrad_95" data-flag="@X" onclick="openSidebar('Upirskyrad_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\8.png" id="Upirskyrad_8" data-flag="@X" onclick="openSidebar('Upirskyrad_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\40.png" id="Upirskyrad_40" data-flag="@X" onclick="openSidebar('Upirskyrad_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\272.png" id="Upirskyrad_272" data-flag="@X" onclick="openSidebar('Upirskyrad_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\270.png" id="Upirskyrad_270" data-flag="@X" onclick="openSidebar('Upirskyrad_270',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\273.png" id="Upirskyrad_273" data-flag="@X" onclick="openSidebar('Upirskyrad_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\266.png" id="Upirskyrad_266" data-flag="@X" onclick="openSidebar('Upirskyrad_266',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\271.png" id="Upirskyrad_271" data-flag="@X" onclick="openSidebar('Upirskyrad_271',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\260.png" id="Upirskyrad_260" data-flag="@X" onclick="openSidebar('Upirskyrad_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\264.png" id="Upirskyrad_264" data-flag="@X" onclick="openSidebar('Upirskyrad_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\265.png" id="Upirskyrad_265" data-flag="@X" onclick="openSidebar('Upirskyrad_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\274.png" id="Upirskyrad_274" data-flag="@X" onclick="openSidebar('Upirskyrad_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\267.png" id="Upirskyrad_267" data-flag="@X" onclick="openSidebar('Upirskyrad_267',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\159.png" id="Upirskyrad_159" data-flag="@X" onclick="openSidebar('Upirskyrad_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\160.png" id="Upirskyrad_160" data-flag="@X" onclick="openSidebar('Upirskyrad_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\161.png" id="Upirskyrad_161" data-flag="@X" onclick="openSidebar('Upirskyrad_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\162.png" id="Upirskyrad_162" data-flag="@X" onclick="openSidebar('Upirskyrad_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\163.png" id="Upirskyrad_163" data-flag="@X" onclick="openSidebar('Upirskyrad_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\263.png" id="Upirskyrad_263" data-flag="@X" onclick="openSidebar('Upirskyrad_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\261.png" id="Upirskyrad_261" data-flag="@X" onclick="openSidebar('Upirskyrad_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\262.png" id="Upirskyrad_262" data-flag="@X" onclick="openSidebar('Upirskyrad_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\258.png" id="Upirskyrad_258" data-flag="@X" onclick="openSidebar('Upirskyrad_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\259.png" id="Upirskyrad_259" data-flag="@X" onclick="openSidebar('Upirskyrad_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\164.png" id="Upirskyrad_164" data-flag="@X" onclick="openSidebar('Upirskyrad_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\165.png" id="Upirskyrad_165" data-flag="@X" onclick="openSidebar('Upirskyrad_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\166.png" id="Upirskyrad_166" data-flag="@X" onclick="openSidebar('Upirskyrad_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\167.png" id="Upirskyrad_167" data-flag="@X" onclick="openSidebar('Upirskyrad_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\168.png" id="Upirskyrad_168" data-flag="@X" onclick="openSidebar('Upirskyrad_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\282.png" id="Upirskyrad_282" data-flag="@X" onclick="openSidebar('Upirskyrad_282',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\283.png" id="Upirskyrad_283" data-flag="@X" onclick="openSidebar('Upirskyrad_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\281.png" id="Upirskyrad_281" data-flag="@X" onclick="openSidebar('Upirskyrad_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\285.png" id="Upirskyrad_285" data-flag="@X" onclick="openSidebar('Upirskyrad_285',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\284.png" id="Upirskyrad_284" data-flag="@X" onclick="openSidebar('Upirskyrad_284',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\269.png" id="Upirskyrad_269" data-flag="@X" onclick="openSidebar('Upirskyrad_269',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\277.png" id="Upirskyrad_277" data-flag="@X" onclick="openSidebar('Upirskyrad_277',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\278.png" id="Upirskyrad_278" data-flag="@X" onclick="openSidebar('Upirskyrad_278',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\276.png" id="Upirskyrad_276" data-flag="@X" onclick="openSidebar('Upirskyrad_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\279.png" id="Upirskyrad_279" data-flag="@X" onclick="openSidebar('Upirskyrad_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\180.png" id="Upirskyrad_180" data-flag="@X" onclick="openSidebar('Upirskyrad_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\175.png" id="Upirskyrad_175" data-flag="@X" onclick="openSidebar('Upirskyrad_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\176.png" id="Upirskyrad_176" data-flag="@X" onclick="openSidebar('Upirskyrad_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\177.png" id="Upirskyrad_177" data-flag="@X" onclick="openSidebar('Upirskyrad_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\178.png" id="Upirskyrad_178" data-flag="@X" onclick="openSidebar('Upirskyrad_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\179.png" id="Upirskyrad_179" data-flag="@X" onclick="openSidebar('Upirskyrad_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\174.png" id="Upirskyrad_174" data-flag="@X" onclick="openSidebar('Upirskyrad_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\173.png" id="Upirskyrad_173" data-flag="@X" onclick="openSidebar('Upirskyrad_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\169.png" id="Upirskyrad_169" data-flag="@X" onclick="openSidebar('Upirskyrad_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\172.png" id="Upirskyrad_172" data-flag="@X" onclick="openSidebar('Upirskyrad_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\171.png" id="Upirskyrad_171" data-flag="@X" onclick="openSidebar('Upirskyrad_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\170.png" id="Upirskyrad_170" data-flag="@X" onclick="openSidebar('Upirskyrad_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\252.png" id="Upirskyrad_252" data-flag="@X" onclick="openSidebar('Upirskyrad_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\253.png" id="Upirskyrad_253" data-flag="@X" onclick="openSidebar('Upirskyrad_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\254.png" id="Upirskyrad_254" data-flag="@X" onclick="openSidebar('Upirskyrad_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\255.png" id="Upirskyrad_255" data-flag="@X" onclick="openSidebar('Upirskyrad_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\256.png" id="Upirskyrad_256" data-flag="@X" onclick="openSidebar('Upirskyrad_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\244.png" id="Upirskyrad_244" data-flag="@X" onclick="openSidebar('Upirskyrad_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\236.png" id="Upirskyrad_236" data-flag="@X" onclick="openSidebar('Upirskyrad_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\245.png" id="Upirskyrad_245" data-flag="@X" onclick="openSidebar('Upirskyrad_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\237.png" id="Upirskyrad_237" data-flag="@X" onclick="openSidebar('Upirskyrad_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\238.png" id="Upirskyrad_238" data-flag="@X" onclick="openSidebar('Upirskyrad_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\239.png" id="Upirskyrad_239" data-flag="@X" onclick="openSidebar('Upirskyrad_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\240.png" id="Upirskyrad_240" data-flag="@X" onclick="openSidebar('Upirskyrad_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\241.png" id="Upirskyrad_241" data-flag="@X" onclick="openSidebar('Upirskyrad_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\242.png" id="Upirskyrad_242" data-flag="@X" onclick="openSidebar('Upirskyrad_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\243.png" id="Upirskyrad_243" data-flag="@X" onclick="openSidebar('Upirskyrad_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\275.png" id="Upirskyrad_275" data-flag="@X" onclick="openSidebar('Upirskyrad_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\280.png" id="Upirskyrad_280" data-flag="@X" onclick="openSidebar('Upirskyrad_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\226.png" id="Upirskyrad_226" data-flag="@X" onclick="openSidebar('Upirskyrad_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\227.png" id="Upirskyrad_227" data-flag="@X" onclick="openSidebar('Upirskyrad_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\228.png" id="Upirskyrad_228" data-flag="@X" onclick="openSidebar('Upirskyrad_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\229.png" id="Upirskyrad_229" data-flag="@X" onclick="openSidebar('Upirskyrad_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\230.png" id="Upirskyrad_230" data-flag="@X" onclick="openSidebar('Upirskyrad_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\231.png" id="Upirskyrad_231" data-flag="@X" onclick="openSidebar('Upirskyrad_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\232.png" id="Upirskyrad_232" data-flag="@X" onclick="openSidebar('Upirskyrad_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\233.png" id="Upirskyrad_233" data-flag="@X" onclick="openSidebar('Upirskyrad_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\234.png" id="Upirskyrad_234" data-flag="@X" onclick="openSidebar('Upirskyrad_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\235.png" id="Upirskyrad_235" data-flag="@X" onclick="openSidebar('Upirskyrad_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\246.png" id="Upirskyrad_246" data-flag="@X" onclick="openSidebar('Upirskyrad_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\247.png" id="Upirskyrad_247" data-flag="@X" onclick="openSidebar('Upirskyrad_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\248.png" id="Upirskyrad_248" data-flag="@X" onclick="openSidebar('Upirskyrad_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\249.png" id="Upirskyrad_249" data-flag="@X" onclick="openSidebar('Upirskyrad_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\250.png" id="Upirskyrad_250" data-flag="@X" onclick="openSidebar('Upirskyrad_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div id="masterpiece" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\286.png" id="Upirskyrad_286" data-flag="@X" onclick="openSidebar('Upirskyrad_286',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\287.png" id="Upirskyrad_287" data-flag="@X" onclick="openSidebar('Upirskyrad_287',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\288.png" id="Upirskyrad_288" data-flag="@X" onclick="openSidebar('Upirskyrad_288',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\289.png" id="Upirskyrad_289" data-flag="@X" onclick="openSidebar('Upirskyrad_289',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\290.png" id="Upirskyrad_290" data-flag="@X" onclick="openSidebar('Upirskyrad_290',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\291.png" id="Upirskyrad_291" data-flag="@X" onclick="openSidebar('Upirskyrad_291',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\296.png" id="Upirskyrad_296" data-flag="@X" onclick="openSidebar('Upirskyrad_296',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\Upirskyrad-files\img\295_back.png" alt="sets\Upirskyrad-files\img\295_front.png" id="Upirskyrad_295" data-flag="@XD" onclick="openSidebar('Upirskyrad_295',false)"><button class="flip-btn" onclick="imgFlip('Upirskyrad_295')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\294.png" id="Upirskyrad_294" data-flag="@X" onclick="openSidebar('Upirskyrad_294',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\301.png" id="Upirskyrad_301" data-flag="@X" onclick="openSidebar('Upirskyrad_301',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\300.png" id="Upirskyrad_300" data-flag="@X" onclick="openSidebar('Upirskyrad_300',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\298.png" id="Upirskyrad_298" data-flag="@X" onclick="openSidebar('Upirskyrad_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\293.png" id="Upirskyrad_293" data-flag="@X" onclick="openSidebar('Upirskyrad_293',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\292.png" id="Upirskyrad_292" data-flag="@X" onclick="openSidebar('Upirskyrad_292',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\297.png" id="Upirskyrad_297" data-flag="@X" onclick="openSidebar('Upirskyrad_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\299.png" id="Upirskyrad_299" data-flag="@X" onclick="openSidebar('Upirskyrad_299',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\311.png" id="Upirskyrad_311" data-flag="@X" onclick="openSidebar('Upirskyrad_311',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\302.png" id="Upirskyrad_302" data-flag="@X" onclick="openSidebar('Upirskyrad_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\305.png" id="Upirskyrad_305" data-flag="@X" onclick="openSidebar('Upirskyrad_305',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\306.png" id="Upirskyrad_306" data-flag="@X" onclick="openSidebar('Upirskyrad_306',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\308.png" id="Upirskyrad_308" data-flag="@X" onclick="openSidebar('Upirskyrad_308',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\307.png" id="Upirskyrad_307" data-flag="@X" onclick="openSidebar('Upirskyrad_307',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\309.png" id="Upirskyrad_309" data-flag="@X" onclick="openSidebar('Upirskyrad_309',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\310.png" id="Upirskyrad_310" data-flag="@X" onclick="openSidebar('Upirskyrad_310',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\303.png" id="Upirskyrad_303" data-flag="@X" onclick="openSidebar('Upirskyrad_303',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\304.png" id="Upirskyrad_304" data-flag="@X" onclick="openSidebar('Upirskyrad_304',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\Upirskyrad-files\img\312.png" id="Upirskyrad_312" data-flag="@X" onclick="openSidebar('Upirskyrad_312',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="Upirskyrad_e" data-flag="@E" onclick="openSidebar('Upirskyrad_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="Upirskyrad_er" data-flag="@E" onclick="openSidebar('Upirskyrad_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

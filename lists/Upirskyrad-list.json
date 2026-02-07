@@ -1,0 +1,2714 @@
+﻿[
+    {
+        "card_name": "Eternal Assault",
+        "number": 12,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "The Librarian",
+        "number": 65,
+        "shape": "planeswalker",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "Damned Cursebringer",
+        "number": 93,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Ascendant Dragon",
+        "number": 126,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "Stonewing Behemoth",
+        "number": 194,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Exiled Executioner",
+        "number": 14,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Sphinx of Flowing Sands",
+        "number": 75,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "The Reaper",
+        "number": 112,
+        "shape": "planeswalker",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "Lightning Reflector",
+        "number": 158,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "Vel'a Hl\u00e1v, Outskirt Menace",
+        "number": 200,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Martyr's Crypt",
+        "number": 25,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Ball of Insight",
+        "number": 44,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "Starejsi, Implacable",
+        "number": 122,
+        "shape": "transform double faced",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "268"
+    },
+    {
+        "card_name": "Bizarre Manipulator",
+        "number": 127,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Brightbloom Terrarium",
+        "number": 171,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "Banners of War",
+        "number": 4,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "Break the Pact",
+        "number": 49,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "Commune with the Dead",
+        "number": 89,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "Black-Ash Phoenix",
+        "number": 128,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Deepwood Shrine",
+        "number": 174,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "Deathless Champion",
+        "number": 9,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Frostsoul Stormcaster",
+        "number": 58,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Cracked Skeleton",
+        "number": 90,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "Cursed Mirror",
+        "number": 133,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Gemsprout Beast",
+        "number": 176,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "Fall of the Castle",
+        "number": 15,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "Gold Spewer",
+        "number": 59,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Demonic Halberd",
+        "number": 95,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "Distorted Hound",
+        "number": 134,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "Gigantic Broodspider",
+        "number": 178,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "Gemsteel Sentinel",
+        "number": 20,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Itinerant Eyemass",
+        "number": 61,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Free the Soul",
+        "number": 100,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "Enticing Harpist",
+        "number": 138,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "Hardened Scale",
+        "number": 183,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Razparac, Bringer of Soul",
+        "number": 28,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Midnight Clock",
+        "number": 68,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Reaper's Contract",
+        "number": 113,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Factory Commodore",
+        "number": 140,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "Slimy Acid",
+        "number": 192,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Right History",
+        "number": 30,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "Whirlwind Staff",
+        "number": 80,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Restless Coffin",
+        "number": 114,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "Forgebelly Blacksmith",
+        "number": 148,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "Vegetal Abomination",
+        "number": 199,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "Tormented Savior",
+        "number": 37,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Behind the Mirror",
+        "number": 45,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Sinister Kikimora",
+        "number": 118,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Blazing Drakemech",
+        "number": 129,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "Alchemist's Cauldron",
+        "number": 167,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "Aimless Remnant",
+        "number": 1,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Book of Forgetfulness",
+        "number": 47,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Bone Lurker",
+        "number": 85,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Dual Flames",
+        "number": 136,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Crystal Warhammer",
+        "number": 172,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Alienated Soul",
+        "number": 2,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "Carodejn\u00edk, Exiled Heretic",
+        "number": 51,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "Crazed Torturer",
+        "number": 91,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Factory Crawler",
+        "number": 141,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Graveyard Crawler",
+        "number": 180,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Do or Die",
+        "number": 10,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Cryogenic Sphere",
+        "number": 54,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Die, Monster !",
+        "number": 96,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Flameforge Ruby",
+        "number": 145,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "Grow from the Bones",
+        "number": 181,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Eternal Vigil",
+        "number": 13,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Extract Insight",
+        "number": 56,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "Evil Never Dies",
+        "number": 97,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Forbidden Reading",
+        "number": 146,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "Hydra Cub",
+        "number": 184,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Foreign Servant",
+        "number": 17,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Fleeting Memory",
+        "number": 57,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Fleeting Mind",
+        "number": 98,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Glass of Fine Wine",
+        "number": 150,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Leyline Reviver",
+        "number": 186,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Forgotten Noble",
+        "number": 18,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Juvenile Poltergeist",
+        "number": 62,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Indistinct Shadow",
+        "number": 101,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Incessant Assault",
+        "number": 154,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Savage Assault",
+        "number": 190,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "Holy Relic",
+        "number": 23,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Keeper of Records",
+        "number": 63,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "Knight-Errant Shade",
+        "number": 102,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Odpadovy, Scrap Burner",
+        "number": 160,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Sneaky Spinerette",
+        "number": 193,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Horn of the Innocent",
+        "number": 24,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "Lightning Howler",
+        "number": 66,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Kostlivec, Skeleon General",
+        "number": 103,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Raging Emberling",
+        "number": 162,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Trdnjava, Errant Fortress",
+        "number": 197,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "One-Eyed Blacksmith",
+        "number": 27,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Passed Matriarch",
+        "number": 71,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Leader of Lost Souls",
+        "number": 104,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Rolling Boulder",
+        "number": 163,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Unfinished Map",
+        "number": 198,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Sealed Relic",
+        "number": 31,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Soul Expulsion",
+        "number": 74,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "Mask of the Returned",
+        "number": 106,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Short-Fused Pyrodemon",
+        "number": 164,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Vileroot Plantcaller",
+        "number": 202,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Steelbound General",
+        "number": 34,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "United Souls",
+        "number": 78,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Mindless Assault",
+        "number": 107,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Tempered General",
+        "number": 165,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Watcher in the Mist",
+        "number": 205,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "Vel'a Vt\u00e1kov, Flock as One",
+        "number": 40,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Witch's Tools",
+        "number": 81,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Necrotic Explosion",
+        "number": 110,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Wallbreaker Ogre",
+        "number": 166,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Wicked Summoner",
+        "number": 206,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "Vila Spiritcaller",
+        "number": 41,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Ask the Ancients",
+        "number": 43,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Undead Hunter",
+        "number": 123,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Channeled Strike",
+        "number": 130,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Bagou Drake",
+        "number": 168,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Back from the Tomb",
+        "number": 3,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Bind with Tentacle",
+        "number": 46,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Addled Psychopomp",
+        "number": 84,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Chaos Harbinger",
+        "number": 131,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Beastrider Armor",
+        "number": 169,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "Bonehound Master",
+        "number": 5,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Boreal Wind",
+        "number": 48,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Boneguard Champion",
+        "number": 86,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Crush",
+        "number": 132,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "Bonecrusher Recluse",
+        "number": 170,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Centaur Blademaster",
+        "number": 6,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Captivating Story",
+        "number": 50,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Butcher Cleaver",
+        "number": 87,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Dragoon Commander",
+        "number": 135,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Darkdepth Dweller",
+        "number": 173,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Chain Whip",
+        "number": 7,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Clockwork Cucco",
+        "number": 52,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Collector of Souls",
+        "number": 88,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Engulf in Flame",
+        "number": 137,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Forest Dweller",
+        "number": 175,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Chained to the Past",
+        "number": 8,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Contain",
+        "number": 53,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Crushing Defeat",
+        "number": 92,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "Explosive Spirit",
+        "number": 139,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Giant Crocodile",
+        "number": 177,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "Don't Let Them Pass !",
+        "number": 11,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Deny Existence",
+        "number": 55,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Deadly Ambush",
+        "number": 94,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Feathered Dagger",
+        "number": 142,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Gobble Down",
+        "number": 179,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Falling Chandelier",
+        "number": 16,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Haunting Trial",
+        "number": 60,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Foul Skeleton",
+        "number": 99,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Firebreath Trumpeteer",
+        "number": 143,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Guardian Axe",
+        "number": 182,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Gatekeeper Armors",
+        "number": 19,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Knowledge from Beyond",
+        "number": 64,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Madness Ritual",
+        "number": 105,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Fireskull Lancer",
+        "number": 144,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Juvenile Anchiceratops",
+        "number": 185,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Ghostly Youth",
+        "number": 21,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Maddening Abomination",
+        "number": 67,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Miserable Pile of Secret",
+        "number": 108,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Forge Overseer",
+        "number": 147,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Overwelming Charge",
+        "number": 187,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Guardian Gargoyle",
+        "number": 22,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Mimicbound Armor",
+        "number": 69,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Misfortune Bringer",
+        "number": 109,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Frightening Presence",
+        "number": 149,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Protect the Young",
+        "number": 188,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Moth V\u00edla",
+        "number": 26,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Moatbound Leviathan",
+        "number": 70,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Not Today",
+        "number": 111,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Growing Flame",
+        "number": 151,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Quiet Oak",
+        "number": 189,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "Revenant Hoplite",
+        "number": 29,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Sanctified Water",
+        "number": 72,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Rise Again",
+        "number": 115,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Heating Point",
+        "number": 152,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Serene Rest",
+        "number": 191,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Skeleton Golem",
+        "number": 32,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Seductive Rusalka",
+        "number": 73,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Rusting Drake",
+        "number": 116,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Hellbeast Tormentor",
+        "number": 153,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Subterran Wurm",
+        "number": 195,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Spectral Plunge",
+        "number": 33,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "Stealthy Vodnik",
+        "number": 76,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Shambling Soldier",
+        "number": 117,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Kill it with Fire",
+        "number": 155,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Titanic Brawl",
+        "number": 196,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Titan's Fall",
+        "number": 35,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Terrific Scream",
+        "number": 77,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Skullbike Reaper",
+        "number": 119,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Lash Out",
+        "number": 156,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Vel'k\u00fdstrom Warden",
+        "number": 201,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Torch Down",
+        "number": 36,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Waterfall Ectoplasm",
+        "number": 79,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Slay the Monster",
+        "number": 120,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Legion Frontliner",
+        "number": 157,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Vileroot Treant",
+        "number": 203,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Tower Wanderer",
+        "number": 38,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Wretched Throng",
+        "number": 82,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Somber Ceremony",
+        "number": 121,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "Magma Bellower",
+        "number": 159,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Warg Riders",
+        "number": 204,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Uplifting Maestro",
+        "number": 39,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Writing Apparition",
+        "number": 83,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Vampire Bats",
+        "number": 124,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Promise of Fortune",
+        "number": 161,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Witch's Brew",
+        "number": 207,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Wolfman Veteran",
+        "number": 42,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Victims of the Night",
+        "number": 125,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Dispatch Array",
+        "number": 215,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "272"
+    },
+    {
+        "card_name": "Haunting Necronomicon",
+        "number": 222,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "270"
+    },
+    {
+        "card_name": "Bloodfilled Urn",
+        "number": 209,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "273"
+    },
+    {
+        "card_name": "Cudno, Diphormed Beast",
+        "number": 213,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "266"
+    },
+    {
+        "card_name": "Deepwood Monument",
+        "number": 214,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "271"
+    },
+    {
+        "card_name": "Kralj, Forgotten King",
+        "number": 229,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "260"
+    },
+    {
+        "card_name": "Okostje, Banished Lich",
+        "number": 232,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "264"
+    },
+    {
+        "card_name": "Hudic, Restless Assaulter",
+        "number": 223,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "265"
+    },
+    {
+        "card_name": "Distracting Marbles",
+        "number": 216,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "274"
+    },
+    {
+        "card_name": "Outskirt Troll-Guard",
+        "number": 234,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "267"
+    },
+    {
+        "card_name": "Faraway Observer",
+        "number": 218,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "Crazed Lich",
+        "number": 211,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Infernal Legions",
+        "number": 224,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Bloodmoon Berserker",
+        "number": 210,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "Nacechran\u00fd, Guarding Hound",
+        "number": 231,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Isjerats, Forgotten Daughter",
+        "number": 225,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "263"
+    },
+    {
+        "card_name": "Alojzia, Elementalist",
+        "number": 208,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "261"
+    },
+    {
+        "card_name": "Voksen, the Last-Grown",
+        "number": 237,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "262"
+    },
+    {
+        "card_name": "Gaetano, Vampire Killer",
+        "number": 220,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "Old Man of the Outskirt",
+        "number": 233,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "259"
+    },
+    {
+        "card_name": "Steelbound Boneguard",
+        "number": 236,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Floating Literature",
+        "number": 219,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "Evergrowing Slime",
+        "number": 217,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "Jasterica Blacksmith",
+        "number": 227,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Moonlight Pendant",
+        "number": 230,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Grob, Twisted Gravekeeper",
+        "number": 221,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "282"
+    },
+    {
+        "card_name": "Izum, Self-Inventor",
+        "number": 226,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "283"
+    },
+    {
+        "card_name": "Knjiznica, Book-Keeper",
+        "number": 228,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "281"
+    },
+    {
+        "card_name": "Poveljnik, Dread General",
+        "number": 235,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "285"
+    },
+    {
+        "card_name": "Vulkan, Lavablood Dragon",
+        "number": 238,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "284"
+    },
+    {
+        "card_name": "Cudez, Masterpiece",
+        "number": 212,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "269"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Lord's Throne",
+        "number": 242,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "277"
+    },
+    {
+        "card_name": "Mutation Chambers",
+        "number": 246,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "278"
+    },
+    {
+        "card_name": "Tick-Tock Bomb",
+        "number": 253,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "276"
+    },
+    {
+        "card_name": "Void Scuttler",
+        "number": 254,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "279"
+    },
+    {
+        "card_name": "Monarch's Crown",
+        "number": 245,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Spiritbound Armor",
+        "number": 248,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Stained Glass Golem",
+        "number": 249,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Stonechain Protector",
+        "number": 250,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "Surging Wand",
+        "number": 251,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Tainted Mirror",
+        "number": 252,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Invitation to Adventure",
+        "number": 239,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Isolated Chest",
+        "number": 240,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "Lonely Furnace",
+        "number": 241,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Magic Broom",
+        "number": 243,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Marble Colossus",
+        "number": 244,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Porcelain Doll",
+        "number": 247,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Heaven Gate",
+        "number": 263,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Clocktower Gate",
+        "number": 257,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "Underworld Gate",
+        "number": 270,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "Casino Gate",
+        "number": 256,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "Main Gate",
+        "number": 267,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Library Gate",
+        "number": 266,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "Labyrinth Gate",
+        "number": 265,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Hell Gate",
+        "number": 264,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "Market Gate",
+        "number": 268,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Garden Gate",
+        "number": 260,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Prisonner's Gate",
+        "number": 269,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "Dimensionnal Gate",
+        "number": 258,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "Graveyard Gate",
+        "number": 262,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "Arena Gate",
+        "number": 255,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "Dream Gate",
+        "number": 259,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Gate to Home",
+        "number": 261,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "275"
+    },
+    {
+        "card_name": "Void Gate",
+        "number": 271,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "280"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "01 Plains",
+        "number": 272,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "01 Island",
+        "number": 274,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "01 Swamp",
+        "number": 276,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "02 Mountain",
+        "number": 279,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "01 Forest",
+        "number": 280,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "02 Plains",
+        "number": 273,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "02 Island",
+        "number": 275,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "02 Swamp",
+        "number": 277,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "01 Mountain",
+        "number": 278,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "02 Forest",
+        "number": 281,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "Plains",
+        "number": 0,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Island",
+        "number": 0,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 0,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 0,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "Forest",
+        "number": 0,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->masterpiece",
+    {
+        "card_name": "Genius, Mind of the Castle",
+        "number": 1,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "286"
+    },
+    {
+        "card_name": "Semerkhet, Displaced Pharaoh",
+        "number": 2,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "287"
+    },
+    {
+        "card_name": "Ogromno, Slumbering End",
+        "number": 3,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "288"
+    },
+    {
+        "card_name": "Netopir, Giant Bat",
+        "number": 4,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "289"
+    },
+    {
+        "card_name": "Mati, Dagon Broodmother",
+        "number": 5,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "290"
+    },
+    {
+        "card_name": "Sluz, All-Devouring",
+        "number": 6,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "291"
+    },
+    {
+        "card_name": "Bogomolka, Insect Queen",
+        "number": 7,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "296"
+    },
+    {
+        "card_name": "Gospod, Respected Gentleman",
+        "number": 10,
+        "shape": "transform double faced",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "295"
+    },
+    {
+        "card_name": "Krvi, Immortal Murderer",
+        "number": 13,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "294"
+    },
+    {
+        "card_name": "Leteti, Elusive Hunter",
+        "number": 14,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "301"
+    },
+    {
+        "card_name": "The Macabre Dancers",
+        "number": 16,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "300"
+    },
+    {
+        "card_name": "The Monster, Artificial Wonder",
+        "number": 17,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "298"
+    },
+    {
+        "card_name": "Neviden, Total Unknown",
+        "number": 18,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "293"
+    },
+    {
+        "card_name": "Ogledalo, Master of Mirrors",
+        "number": 20,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "292"
+    },
+    {
+        "card_name": "Strasiti, Willingly Possessed",
+        "number": 22,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "297"
+    },
+    {
+        "card_name": "Strupen, Gorgon Queen",
+        "number": 23,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "299"
+    },
+    {
+        "card_name": "Carovnica, Outskirt Hag",
+        "number": 8,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "311"
+    },
+    {
+        "card_name": "Glavo, Headless Horseman",
+        "number": 9,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "302"
+    },
+    {
+        "card_name": "Jakub, Pumpkin Knight",
+        "number": 11,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "305"
+    },
+    {
+        "card_name": "Jeklo, Foreign Golem",
+        "number": 12,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "306"
+    },
+    {
+        "card_name": "Norcek, Joke's Punchline",
+        "number": 19,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "308"
+    },
+    {
+        "card_name": "Starejsi, Tired of Fighting",
+        "number": 21,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "307"
+    },
+    {
+        "card_name": "Stvar, Lurking Creature",
+        "number": 24,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "309"
+    },
+    {
+        "card_name": "Tujek, Unbeatable Undead",
+        "number": 25,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "310"
+    },
+    {
+        "card_name": "Ucenjak, Mad Demonist",
+        "number": 26,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "303"
+    },
+    {
+        "card_name": "Volkodlak, Twisted Wolf",
+        "number": 27,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "304"
+    },
+    {
+        "card_name": "Locci, Castle's Heart",
+        "number": 15,
+        "shape": "normal",
+        "set": "Upirskyrad",
+        "rotated": false,
+        "position": "312"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
