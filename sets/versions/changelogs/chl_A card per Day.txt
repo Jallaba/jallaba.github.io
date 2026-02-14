@@ -1,4 +1,51 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Pay the Devil's Due added.
+Good Night's Rest added.
+Traumatized Soldier added.
+Above the Clouds added.
+The Bird's Flight added.
+Into Uneasy Paths added.
+Army of the Verdant Woods added.
+Special Move added.
+Dormant Monument added.
+Final Breath added.
+Frontline Summoner added.
+Battlefield Standard added.
+Xenophobia added.
+Veteran Swordmaster added.
+Stories of the Realm added.
+
+Secret Blackmarket removed.
+
+No Coming Back
+rules_text: Whenever this enchantment enters, put a finality counter on each creature. [i](If a creature with a finality counter on it would die, exile it instead.)[/i]
+Each creature enters with an additional finality counter. => When this enchantment enters, put a finality counter on each creature. [i](If a creature with a finality counter on it would die, exile it instead.)[/i]
+Each creature enters with an additional finality counter.
+
+Sudden Redirection
+rules_text: Gain control of target triggered or activated ability. You may choose new target for it.
+Refrain 2 — {3}{R}{R} [i](If you cast this spell for {3}{R}{R}, copy it two times. You may choose new target for the copy.)[/i] => Gain control of target triggered or activated ability. You may choose new target for it.
+Refrain 2 — {3}{R}{R} [i](If you cast this spell for {3}{R}{R}, copy it two times. You may choose new target for the copies.)[/i]
+
+Mourning Combattant
+rules_text: Menace
+When this creature attacks, it gains +X/+0 until end of turn, where X is the amount of life you've lost this turn. => Menace
+Whenever this creature attacks, it gains +X/+0 until end of turn, where X is the amount of life you've lost this turn.
+
+Song of the Forest
+rules_text: Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} [i](If you cast this spell for {3}{G}{G}, copy it two times. You may choose new target for the copy.)[/i] => Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} [i](If you cast this spell for {3}{G}{G}, copy it two times. You may choose new target for the copies.)[/i]
+
+Misplaced Girl
+rules_text: Sacrifice this creature: Target creature you control gains indestructible until end of turn. Put a guilt counter on each creatures you control.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {W} was spent to cast it while this creature is in your graveyard and you control a creature with a guilt counter, amass Soldier 3. [i](Put three +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i] => Sacrifice this creature: Creatures you control gains indestructible until end of turn.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {W} was spent to cast it while this creature is in your graveyard, amass Soldiers 3. [i](Put three +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

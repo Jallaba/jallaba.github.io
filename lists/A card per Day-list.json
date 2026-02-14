@@ -24,16 +24,16 @@
         "position": "30"
     },
     {
-        "card_name": "Obnoxious Bard",
-        "number": 11,
+        "card_name": "Frontline Summoner",
+        "number": 13,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
-        "position": "25"
+        "position": "43"
     },
     {
         "card_name": "Star of Predation",
-        "number": 16,
+        "number": 20,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -57,27 +57,27 @@
     },
     {
         "card_name": "Penitent Sinner",
-        "number": 9,
+        "number": 10,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
         "position": "6"
     },
     {
-        "card_name": "Sudden Redirection",
-        "number": 12,
+        "card_name": "Obnoxious Bard",
+        "number": 14,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
-        "position": "5"
+        "position": "25"
     },
     {
-        "card_name": "Ayed, Weary Traveler",
-        "number": 13,
+        "card_name": "Army of the Verdant Woods",
+        "number": 16,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
-        "position": "12"
+        "position": "39"
     },
     {
         "card_name": "e"
@@ -91,16 +91,46 @@
         "position": "1"
     },
     {
-        "card_name": "Mourning Combattant",
+        "card_name": "Xenophobia",
+        "number": 11,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Sudden Redirection",
+        "number": 15,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Ayed, Weary Traveler",
+        "number": 17,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Final Breath",
         "number": 8,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
-        "position": "8"
+        "position": "42"
     },
     {
         "card_name": "Chromatic Storm",
-        "number": 10,
+        "number": 12,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -108,7 +138,7 @@
     },
     {
         "card_name": "Horizon Wanderer",
-        "number": 14,
+        "number": 18,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -121,14 +151,19 @@
         "card_name": "e"
     },
     {
-        "card_name": "e"
+        "card_name": "Mourning Combattant",
+        "number": 9,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "8"
     },
     {
         "card_name": "e"
     },
     {
         "card_name": "Song of the Forest",
-        "number": 15,
+        "number": 19,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -148,46 +183,56 @@
     },
     "a->gold",
     {
-        "card_name": "Dreams of Peace",
-        "number": 20,
-        "shape": "normal",
+        "card_name": "The Bird's Flight",
+        "number": 22,
+        "shape": "modal double faced",
         "set": "A card per Day",
         "rotated": false,
-        "position": "21"
+        "position": "37"
     },
     {
         "card_name": "Ethelred, the Dealmaker",
-        "number": 22,
+        "number": 29,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
         "position": "16"
     },
     {
-        "card_name": "e"
+        "card_name": "Traumatized Soldier",
+        "number": 39,
+        "shape": "modal double faced",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "35"
     },
     {
         "card_name": "Dream of Freedom",
-        "number": 19,
+        "number": 26,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
         "position": "26"
     },
     {
-        "card_name": "e"
-    },
-    {
-        "card_name": "Ice Princess",
-        "number": 25,
+        "card_name": "Good Night's Rest",
+        "number": 32,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
-        "position": "19"
+        "position": "34"
     },
     {
-        "card_name": "Secret Blackmarket",
-        "number": 17,
+        "card_name": "Dreams of Peace",
+        "number": 27,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Pay the Devil's Due",
+        "number": 21,
         "shape": "modal double faced",
         "set": "A card per Day",
         "rotated": false,
@@ -198,7 +243,7 @@
     },
     {
         "card_name": "Glorious Slayer",
-        "number": 24,
+        "number": 31,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -208,20 +253,65 @@
         "card_name": "e"
     },
     {
+        "card_name": "Above the Clouds",
+        "number": 23,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Heartless Betrayal",
+        "number": 46,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Special Move",
+        "number": 36,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ice Princess",
+        "number": 33,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
         "card_name": "Strategic Surrender",
-        "number": 28,
+        "number": 38,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
         "position": "10"
     },
     {
-        "card_name": "Heartless Betrayal",
-        "number": 32,
-        "shape": "normal",
-        "set": "A card per Day",
-        "rotated": false,
-        "position": "7"
+        "card_name": "e"
     },
     {
         "card_name": "e"
@@ -249,7 +339,7 @@
     },
     {
         "card_name": "Dusk on the Battlefield",
-        "number": 21,
+        "number": 28,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -257,7 +347,7 @@
     },
     {
         "card_name": "Strategic Council",
-        "number": 27,
+        "number": 37,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -268,18 +358,23 @@
     },
     {
         "card_name": "Fated Vanguard",
-        "number": 23,
+        "number": 30,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
         "position": "28"
     },
     {
-        "card_name": "e"
+        "card_name": "Dormant Monument",
+        "number": 25,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "41"
     },
     {
         "card_name": "No Coming Back",
-        "number": 26,
+        "number": 35,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -292,14 +387,19 @@
         "card_name": "e"
     },
     {
-        "card_name": "e"
+        "card_name": "Veteran Swordmaster",
+        "number": 40,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "46"
     },
     {
         "card_name": "e"
     },
     {
         "card_name": "Angelic Pity",
-        "number": 18,
+        "number": 24,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -312,7 +412,12 @@
         "card_name": "e"
     },
     {
-        "card_name": "e"
+        "card_name": "Into Uneasy Paths",
+        "number": 34,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "38"
     },
     {
         "card_name": "e"
@@ -366,18 +471,28 @@
     },
     "a->colorless",
     {
+        "card_name": "Stories of the Realm",
+        "number": 43,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Battlefield Standard",
+        "number": 41,
+        "shape": "normal",
+        "set": "A card per Day",
+        "rotated": false,
+        "position": "44"
+    },
+    {
         "card_name": "Steel Sentinel",
-        "number": 29,
+        "number": 42,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
         "position": "20"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"
@@ -403,7 +518,7 @@
     },
     {
         "card_name": "Endless Seas",
-        "number": 31,
+        "number": 45,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -411,7 +526,7 @@
     },
     {
         "card_name": "Bottomless Chasm",
-        "number": 33,
+        "number": 47,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -422,7 +537,7 @@
     },
     {
         "card_name": "Evergreen Canopy",
-        "number": 34,
+        "number": 48,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,
@@ -445,7 +560,7 @@
     },
     {
         "card_name": "Boundless Roads",
-        "number": 30,
+        "number": 44,
         "shape": "normal",
         "set": "A card per Day",
         "rotated": false,

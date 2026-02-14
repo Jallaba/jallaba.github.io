@@ -5,7 +5,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}",
 			"type": "Enchantment",
-			"collector_number": "26",
+			"collector_number": "35",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/0.png"
 			}
@@ -25,7 +25,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "16",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/2.png"
 			}
@@ -35,7 +35,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "31",
+			"collector_number": "45",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/3.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "12",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/5.png"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Zombie Cleric",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/6.png"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/B}",
 			"type": "Sorcery",
-			"collector_number": "32",
+			"collector_number": "46",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/7.png"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/8.png"
 			}
@@ -95,7 +95,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R/G}{R/G}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "24",
+			"collector_number": "31",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/9.png"
 			}
@@ -105,7 +105,7 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "28",
+			"collector_number": "38",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/10.png"
 			}
@@ -125,7 +125,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Human Knight",
-			"collector_number": "13",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/12.png"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/R}{U/R}",
 			"type": "Instant",
-			"collector_number": "27",
+			"collector_number": "37",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/14.png"
 			}
@@ -165,17 +165,17 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U/B}{U/B}{U/B}{U/B}",
 			"type": "Legendary Creature — Noble",
-			"collector_number": "22",
+			"collector_number": "29",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/16.png"
 			}
 		},
 		{
-			"name": "Secret Blackmarket",
+			"name": "Pay the Devil's Due",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "17",
+			"collector_number": "21",
 			"back": {
 				"name": "",
 				"type": "",
@@ -192,7 +192,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "30",
+			"collector_number": "44",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/18.png"
 			}
@@ -202,7 +202,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}{W/U}",
 			"type": "Creature — Human Wizard Noble",
-			"collector_number": "25",
+			"collector_number": "33",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/19.png"
 			}
@@ -212,7 +212,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Golem",
-			"collector_number": "29",
+			"collector_number": "42",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/20.png"
 			}
@@ -222,7 +222,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "20",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/21.png"
 			}
@@ -232,7 +232,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}{W/B}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "21",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/22.png"
 			}
@@ -242,7 +242,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Scout",
-			"collector_number": "14",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/23.png"
 			}
@@ -252,7 +252,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "34",
+			"collector_number": "48",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/24.png"
 			}
@@ -262,7 +262,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Bard",
-			"collector_number": "11",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/25.png"
 			}
@@ -272,7 +272,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R/G}{R/G}",
 			"type": "Enchantment",
-			"collector_number": "19",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/26.png"
 			}
@@ -282,7 +282,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "15",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/27.png"
 			}
@@ -292,7 +292,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "23",
+			"collector_number": "30",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/28.png"
 			}
@@ -302,7 +302,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "18",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/29.png"
 			}
@@ -322,7 +322,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "33",
+			"collector_number": "47",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/31.png"
 			}
@@ -332,7 +332,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "10",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/32.png"
 			}
@@ -345,6 +345,160 @@
 			"collector_number": "3",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/33.png"
+			}
+		},
+		{
+			"name": "Good Night's Rest",
+			"rarity": "rare",
+			"mana_cost": "{G/W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/34.png"
+			}
+		},
+		{
+			"name": "Traumatized Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "39",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://jallaba.github.io/sets/ACPD-files/img/35_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/35_front.png"
+			}
+		},
+		{
+			"name": "Above the Clouds",
+			"rarity": "uncommon",
+			"mana_cost": "{W/U}{W/U}",
+			"type": "Enchantment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/36.png"
+			}
+		},
+		{
+			"name": "The Bird's Flight",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "22",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://jallaba.github.io/sets/ACPD-files/img/37_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/37_front.png"
+			}
+		},
+		{
+			"name": "Into Uneasy Paths",
+			"rarity": "common",
+			"mana_cost": "{R/W}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/38.png"
+			}
+		},
+		{
+			"name": "Army of the Verdant Woods",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/39.png"
+			}
+		},
+		{
+			"name": "Special Move",
+			"rarity": "uncommon",
+			"mana_cost": "{R/G}{R/G}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/40.png"
+			}
+		},
+		{
+			"name": "Dormant Monument",
+			"rarity": "common",
+			"mana_cost": "{2}{G/U}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/41.png"
+			}
+		},
+		{
+			"name": "Final Breath",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/42.png"
+			}
+		},
+		{
+			"name": "Frontline Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Soldier Sorcerer",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/43.png"
+			}
+		},
+		{
+			"name": "Battlefield Standard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/44.png"
+			}
+		},
+		{
+			"name": "Xenophobia",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/45.png"
+			}
+		},
+		{
+			"name": "Veteran Swordmaster",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/W}{R/W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/46.png"
+			}
+		},
+		{
+			"name": "Stories of the Realm",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/47.png"
 			}
 		}
 	]
@@ -359,13 +513,18 @@
 	2 Magic Circle: Drei
 	2 Strategic Council
 	1 Ethelred, the Dealmaker
-	2 Secret Blackmarket
+	2 Pay the Devil's Due
 	2 Dreams of Peace
 	2 Dusk on the Battlefield
 	2 Dream of Freedom
 	2 Fated Vanguard
 	1 Bathin, Demon Mentor
 	2 Misplaced Girl
+	2 Good Night's Rest
+	2 The Bird's Flight
+	2 Xenophobia
+	2 Veteran Swordmaster
+	2 Stories of the Realm
 [uncommon(3)]
 	4 Make Your Dream Real
 	4 Endless Seas
@@ -377,6 +536,13 @@
 	4 Obnoxious Bard
 	4 Angelic Pity
 	4 Bottomless Chasm
+	4 Traumatized Soldier
+	4 Above the Clouds
+	4 Army of the Verdant Woods
+	4 Special Move
+	4 Final Breath
+	4 Frontline Summoner
+	4 Battlefield Standard
 [common(6)]
 	8 Mourning Combattant
 	8 Strategic Surrender
@@ -386,6 +552,8 @@
 	8 Horizon Wanderer
 	8 Song of the Forest
 	8 Chromatic Storm
+	8 Into Uneasy Paths
+	8 Dormant Monument
 [common | masterpiece(1)]
 	8 Mourning Combattant
 	8 Strategic Surrender
@@ -395,6 +563,8 @@
 	8 Horizon Wanderer
 	8 Song of the Forest
 	8 Chromatic Storm
+	8 Into Uneasy Paths
+	8 Dormant Monument
 [foil(1)]
 	2 No Coming Back
 	6 Make Your Dream Real
@@ -413,7 +583,7 @@
 	2 Strategic Council
 	12 Dawngrove Unicorn
 	1 Ethelred, the Dealmaker
-	2 Secret Blackmarket
+	2 Pay the Devil's Due
 	6 Boundless Roads
 	12 Ice Princess
 	12 Steel Sentinel
@@ -430,6 +600,20 @@
 	6 Bottomless Chasm
 	12 Chromatic Storm
 	2 Misplaced Girl
+	2 Good Night's Rest
+	6 Traumatized Soldier
+	6 Above the Clouds
+	2 The Bird's Flight
+	12 Into Uneasy Paths
+	6 Army of the Verdant Woods
+	6 Special Move
+	12 Dormant Monument
+	6 Final Breath
+	6 Frontline Summoner
+	6 Battlefield Standard
+	2 Xenophobia
+	2 Veteran Swordmaster
+	2 Stories of the Realm
 [wildcard(1)]
 	7 No Coming Back
 	15 Make Your Dream Real
@@ -448,7 +632,7 @@
 	7 Strategic Council
 	6 Dawngrove Unicorn
 	4 Ethelred, the Dealmaker
-	7 Secret Blackmarket
+	7 Pay the Devil's Due
 	15 Boundless Roads
 	6 Ice Princess
 	6 Steel Sentinel
@@ -465,3 +649,17 @@
 	15 Bottomless Chasm
 	6 Chromatic Storm
 	7 Misplaced Girl
+	7 Good Night's Rest
+	15 Traumatized Soldier
+	15 Above the Clouds
+	7 The Bird's Flight
+	6 Into Uneasy Paths
+	15 Army of the Verdant Woods
+	15 Special Move
+	6 Dormant Monument
+	15 Final Breath
+	15 Frontline Summoner
+	15 Battlefield Standard
+	7 Xenophobia
+	7 Veteran Swordmaster
+	7 Stories of the Realm
