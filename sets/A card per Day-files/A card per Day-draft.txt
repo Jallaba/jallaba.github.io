@@ -5,7 +5,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}",
 			"type": "Enchantment",
-			"collector_number": "35",
+			"collector_number": "42",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/0.png"
 			}
@@ -15,7 +15,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "6",
+			"collector_number": "8",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/1.png"
 			}
@@ -25,7 +25,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "20",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/2.png"
 			}
@@ -35,17 +35,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "45",
+			"collector_number": "52",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/3.png"
 			}
 		},
 		{
-			"name": "Chirat, Chronomancer",
+			"name": "Chirat, King of the Azure Seas",
 			"rarity": "mythic",
-			"mana_cost": "{3}{U}{U}",
+			"mana_cost": "{2}{U}{U}{U}",
 			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/4.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "15",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/5.png"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Zombie Cleric",
-			"collector_number": "10",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/6.png"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/B}",
 			"type": "Sorcery",
-			"collector_number": "46",
+			"collector_number": "53",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/7.png"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "9",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/8.png"
 			}
@@ -95,7 +95,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R/G}{R/G}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "31",
+			"collector_number": "38",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/9.png"
 			}
@@ -105,7 +105,7 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "38",
+			"collector_number": "45",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/10.png"
 			}
@@ -115,7 +115,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{U}{U}",
 			"type": "Legendary Creature — Octopus",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/11.png"
 			}
@@ -125,7 +125,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Human Knight",
-			"collector_number": "17",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/12.png"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/R}{U/R}",
 			"type": "Instant",
-			"collector_number": "37",
+			"collector_number": "44",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/14.png"
 			}
@@ -165,7 +165,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U/B}{U/B}{U/B}{U/B}",
 			"type": "Legendary Creature — Noble",
-			"collector_number": "29",
+			"collector_number": "35",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/16.png"
 			}
@@ -175,7 +175,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "21",
+			"collector_number": "24",
 			"back": {
 				"name": "",
 				"type": "",
@@ -192,7 +192,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "44",
+			"collector_number": "51",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/18.png"
 			}
@@ -202,7 +202,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}{W/U}",
 			"type": "Creature — Human Wizard Noble",
-			"collector_number": "33",
+			"collector_number": "40",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/19.png"
 			}
@@ -212,7 +212,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Golem",
-			"collector_number": "42",
+			"collector_number": "49",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/20.png"
 			}
@@ -222,7 +222,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "27",
+			"collector_number": "32",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/21.png"
 			}
@@ -232,7 +232,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}{W/B}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "28",
+			"collector_number": "33",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/22.png"
 			}
@@ -242,7 +242,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Scout",
-			"collector_number": "18",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/23.png"
 			}
@@ -252,7 +252,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "48",
+			"collector_number": "55",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/24.png"
 			}
@@ -262,7 +262,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Bard",
-			"collector_number": "14",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/25.png"
 			}
@@ -272,7 +272,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R/G}{R/G}",
 			"type": "Enchantment",
-			"collector_number": "26",
+			"collector_number": "31",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/26.png"
 			}
@@ -282,7 +282,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "19",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/27.png"
 			}
@@ -292,7 +292,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "30",
+			"collector_number": "36",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/28.png"
 			}
@@ -302,17 +302,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "24",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/29.png"
 			}
 		},
 		{
 			"name": "Bathin, Demon Mentor",
-			"rarity": "mythic",
+			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Legendary Creature — Demon Knight",
-			"collector_number": "7",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/30.png"
 			}
@@ -322,7 +322,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "47",
+			"collector_number": "54",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/31.png"
 			}
@@ -332,7 +332,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "12",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/32.png"
 			}
@@ -352,7 +352,7 @@
 			"rarity": "rare",
 			"mana_cost": "{G/W}",
 			"type": "Instant",
-			"collector_number": "32",
+			"collector_number": "39",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/34.png"
 			}
@@ -362,7 +362,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B/R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "39",
+			"collector_number": "46",
 			"back": {
 				"name": "",
 				"type": "",
@@ -379,7 +379,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "23",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/36.png"
 			}
@@ -389,7 +389,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "22",
+			"collector_number": "25",
 			"back": {
 				"name": "",
 				"type": "",
@@ -406,7 +406,7 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Sorcery",
-			"collector_number": "34",
+			"collector_number": "41",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/38.png"
 			}
@@ -416,17 +416,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "16",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/39.png"
 			}
 		},
 		{
-			"name": "Special Move",
+			"name": "Special Attack",
 			"rarity": "uncommon",
 			"mana_cost": "{R/G}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "36",
+			"collector_number": "43",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/40.png"
 			}
@@ -436,7 +436,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}",
 			"type": "Artifact Creature — Robot",
-			"collector_number": "25",
+			"collector_number": "29",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/41.png"
 			}
@@ -446,7 +446,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "8",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/42.png"
 			}
@@ -456,7 +456,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Soldier Sorcerer",
-			"collector_number": "13",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/43.png"
 			}
@@ -466,7 +466,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "41",
+			"collector_number": "48",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/44.png"
 			}
@@ -476,7 +476,7 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "11",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/45.png"
 			}
@@ -486,7 +486,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R/W}{R/W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "40",
+			"collector_number": "47",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/46.png"
 			}
@@ -496,9 +496,86 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "43",
+			"collector_number": "50",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/47.png"
+			}
+		},
+		{
+			"name": "The Romance of Gules",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "26",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://jallaba.github.io/sets/ACPD-files/img/48_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/48_front.png"
+			}
+		},
+		{
+			"name": "Gear Up",
+			"rarity": "uncommon",
+			"mana_cost": "{R/W}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/49.png"
+			}
+		},
+		{
+			"name": "Fated Duel",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/50.png"
+			}
+		},
+		{
+			"name": "Keep Quiet",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/51.png"
+			}
+		},
+		{
+			"name": "Erratic Prophet",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}{U/R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/52.png"
+			}
+		},
+		{
+			"name": "Nithael, King of the Argent Field",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Legendary Creature — Angel Noble Knight",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/53.png"
+			}
+		},
+		{
+			"name": "Dream of Companionship",
+			"rarity": "rare",
+			"mana_cost": "{G/W}{G/W}",
+			"type": "Enchantment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/54.png"
 			}
 		}
 	]
@@ -506,7 +583,7 @@
 [rare(1)]
 	2 No Coming Back
 	1 Star of Predation
-	1 Chirat, Chronomancer
+	1 Chirat, King of the Azure Seas
 	2 Penitent Sinner
 	2 Heartless Betrayal
 	2 Glorious Slayer
@@ -518,13 +595,16 @@
 	2 Dusk on the Battlefield
 	2 Dream of Freedom
 	2 Fated Vanguard
-	1 Bathin, Demon Mentor
+	2 Bathin, Demon Mentor
 	2 Misplaced Girl
 	2 Good Night's Rest
 	2 The Bird's Flight
 	2 Xenophobia
 	2 Veteran Swordmaster
 	2 Stories of the Realm
+	2 The Romance of Gules
+	1 Nithael, King of the Argent Field
+	2 Dream of Companionship
 [uncommon(3)]
 	4 Make Your Dream Real
 	4 Endless Seas
@@ -539,10 +619,12 @@
 	4 Traumatized Soldier
 	4 Above the Clouds
 	4 Army of the Verdant Woods
-	4 Special Move
+	4 Special Attack
 	4 Final Breath
 	4 Frontline Summoner
 	4 Battlefield Standard
+	4 Gear Up
+	4 Keep Quiet
 [common(6)]
 	8 Mourning Combattant
 	8 Strategic Surrender
@@ -554,6 +636,8 @@
 	8 Chromatic Storm
 	8 Into Uneasy Paths
 	8 Dormant Monument
+	8 Fated Duel
+	8 Erratic Prophet
 [common | masterpiece(1)]
 	8 Mourning Combattant
 	8 Strategic Surrender
@@ -565,12 +649,14 @@
 	8 Chromatic Storm
 	8 Into Uneasy Paths
 	8 Dormant Monument
+	8 Fated Duel
+	8 Erratic Prophet
 [foil(1)]
 	2 No Coming Back
 	6 Make Your Dream Real
 	1 Star of Predation
 	6 Endless Seas
-	1 Chirat, Chronomancer
+	1 Chirat, King of the Azure Seas
 	6 Sudden Redirection
 	2 Penitent Sinner
 	2 Heartless Betrayal
@@ -596,7 +682,7 @@
 	12 Song of the Forest
 	2 Fated Vanguard
 	6 Angelic Pity
-	1 Bathin, Demon Mentor
+	2 Bathin, Demon Mentor
 	6 Bottomless Chasm
 	12 Chromatic Storm
 	2 Misplaced Girl
@@ -606,7 +692,7 @@
 	2 The Bird's Flight
 	12 Into Uneasy Paths
 	6 Army of the Verdant Woods
-	6 Special Move
+	6 Special Attack
 	12 Dormant Monument
 	6 Final Breath
 	6 Frontline Summoner
@@ -614,12 +700,19 @@
 	2 Xenophobia
 	2 Veteran Swordmaster
 	2 Stories of the Realm
+	2 The Romance of Gules
+	6 Gear Up
+	12 Fated Duel
+	6 Keep Quiet
+	12 Erratic Prophet
+	1 Nithael, King of the Argent Field
+	2 Dream of Companionship
 [wildcard(1)]
 	7 No Coming Back
 	15 Make Your Dream Real
 	4 Star of Predation
 	15 Endless Seas
-	4 Chirat, Chronomancer
+	4 Chirat, King of the Azure Seas
 	15 Sudden Redirection
 	7 Penitent Sinner
 	7 Heartless Betrayal
@@ -645,7 +738,7 @@
 	6 Song of the Forest
 	7 Fated Vanguard
 	15 Angelic Pity
-	4 Bathin, Demon Mentor
+	7 Bathin, Demon Mentor
 	15 Bottomless Chasm
 	6 Chromatic Storm
 	7 Misplaced Girl
@@ -655,7 +748,7 @@
 	7 The Bird's Flight
 	6 Into Uneasy Paths
 	15 Army of the Verdant Woods
-	15 Special Move
+	15 Special Attack
 	6 Dormant Monument
 	15 Final Breath
 	15 Frontline Summoner
@@ -663,3 +756,10 @@
 	7 Xenophobia
 	7 Veteran Swordmaster
 	7 Stories of the Realm
+	7 The Romance of Gules
+	15 Gear Up
+	6 Fated Duel
+	15 Keep Quiet
+	6 Erratic Prophet
+	4 Nithael, King of the Argent Field
+	7 Dream of Companionship

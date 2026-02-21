@@ -1,4 +1,89 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Chirat, King of the Azure Seas added.
+Special Attack added.
+The Romance of Gules added.
+Gear Up added.
+Fated Duel added.
+Keep Quiet added.
+Erratic Prophet added.
+Nithael, King of the Argent Field added.
+Dream of Companionship added.
+
+Chirat, Chronomancer removed.
+Special Move removed.
+
+Make Your Dream Real
+
+Sudden Redirection
+rules_text: Gain control of target triggered or activated ability. You may choose new target for it.
+Refrain 2 — {3}{R}{R} [i](If you cast this spell for {3}{R}{R}, copy it two times. You may choose new target for the copies.)[/i] => Gain control of target triggered or activated ability. You may choose new target for it.
+
+Penitent Sinner
+
+Bane of the Azure Seas
+rules_text: Ward—Tap a permanent you control and put eight stun counter on it.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {U} was spent to cast it, choose up to eight. You may choose the same mode more than once.
+• Tap target nonland permanent you don't control
+• Put a stun counter on target nonland permanent. => Ward—Tap a permanent you control and put eight stun counter on it.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {U} was spent to cast it, choose up to eight. You may choose the same mode more than once.
+• Tap target nonland permanent you don't control
+• Put a stun counter on target nonland permanent.
+
+Dawngrove Unicorn
+rules_text: Lifelink
+[i]Baroque[/i] — Whenever you cast a spell, if at least {W}{U}{B}{R}{G} was spent to cast it, this creature gets +4/+4 and gains indestructible until end of turn. => Lifelink [i](Damage dealt by this creature also causes you to gain that much life.)[/i]
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, this creature gets +4/+4 and gains indestructible until end of turn.
+
+Ice Princess
+rules_text: Vigilance
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, choose target creature an opponent controls. If it is tapped, put a stun counter on it. Otherwise, tap it. => Vigilance [i](Attacking doesn't cause this creature to tap.)[/i]
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, choose target creature an opponent controls. If it is tapped, put a stun counter on it. Otherwise, tap it.
+
+Steel Sentinel
+rules_text: Vigilance, reach
+[i]Baroque[/i] — Whenever you spend at least five mana of the same color or {W}{U}{B}{R}{G} to cast a spell, put two +1/+1 counters on this creature. => Vigilance, reach [i](Attacking doesn't cause this creature to tap. This creature can block creatures with flying.)[/i]
+[i]Baroque[/i] — Whenever you cast another spell, if at least five mana of any color or {W}{U}{B}{R}{G} was spent to cast it, put two +1/+1 counters on this creature.
+
+Horizon Wanderer
+rules_text: This creature gets +2/+2 and has vigilance as long as you control eight or more lands.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {G} was spent to cast it, search your library for a land card, put that card onto the battlefield tapped, then shuffle. => This creature gets +2/+2 and has vigilance as long as you control eight or more lands. [i](Attacking doesn't cause this creature to tap.)[/i]
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {G} was spent to cast it, search your library for a land card, put that card onto the battlefield tapped, then shuffle.
+
+Obnoxious Bard
+rules_text: [i]Heroic[/i] — Whenever you cast a spell targeting this creature, you may discard a card. If you do, draw a card.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {R} was spent to cast it, you may have this creature's power and toughness become equal to the number of noncreature, nonland cards in your graveyard until end of turn. => [i]Heroic[/i] — Whenever you cast a spell targeting this creature, you may discard a card. If you do, draw a card.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {R} was spent to cast it, you may have this creature's power and toughness become equal to the number of noncreature, nonland cards in your graveyard until end of turn.
+
+Bathin, Demon Mentor
+rules_text: Flying, trample, menace
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {B} was spent to cast it, you may search your library for a card and put it into your hand, then shuffle. => Flying, trample, menace
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {B} was spent to cast it, you may search your library for a card and put it into your hand, then shuffle.
+
+Chromatic Storm
+
+Misplaced Girl
+rules_text: Sacrifice this creature: Creatures you control gains indestructible until end of turn.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {W} was spent to cast it while this creature is in your graveyard, amass Soldiers 3. [i](Put three +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i] => Sacrifice this creature: Creatures you control gains indestructible until end of turn.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it while this creature is in your graveyard, amass Soldiers 3. [i](Put three +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+
+Dormant Monument
+rules_text: Trample
+This creature enters with a defender counter on it.
+Whenever you cast a spell with mana value 5 or greater, remove a defender counter on this creature. => Trample
+This creature enters with a defender counter on it.
+Whenever you cast a spell with mana value 5 or greater, remove a defender counter from this creature.
+
+Final Breath
+
+Frontline Summoner
+rules_text: Haste
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {R} was spent to cast it, create two 3/1 red Elemental creature token with haste, “this creature can't block” and “at the beginning of your end step, sacrifice this creature”. => Haste
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {R} was spent to cast it, create two 3/1 red Elemental creature token with haste, “this creature can't block” and “at the beginning of your end step, sacrifice this creature”.
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Pay the Devil's Due added.
