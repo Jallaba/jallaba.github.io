@@ -1,4 +1,63 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Bladesinger's Dance added.
+Eternity Wanderer added.
+Crime of Passion added.
+Dream of Curiosity added.
+Skullface Infiltrator added.
+Fall from Heaven added.
+Lea, Wanderer of the Edge added.
+Predict the Future added.
+
+
+Glorious Slayer
+rules_text: Trample, reach
+[i]Heroic[/i] — Whenever you cast a spell that target this creature, you may change this creature's base power to 1 plus the greatest toughness among creature your opponent control, and its base toughness to 1 plus the greatest power among creature your opponent control both until end of turn. => Trample, reach
+[i]Heroic[/i] -- Whenever you cast a spell that targets this creature, you may have its base power and toughness become X/X, where X is 1 plus the greatest toughness among creatures your opponents control.
+
+Dawngrove Unicorn
+rules_text: Lifelink [i](Damage dealt by this creature also causes you to gain that much life.)[/i]
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, this creature gets +4/+4 and gains indestructible until end of turn. => Vigilance
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, put two +1/+1 counter on this creature.
+
+Pay the Devil's Due
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card and lose 1 life.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying.
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card and lose 1 life.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying.
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed.
+
+Fated Vanguard
+rules_text: [i]Heroic[/i] — Whenever you cast a spell targeting this creature, put a +1/+1 counter on it.
+The first time this creature attacks each turn, if it has two or more +1/+1 counters, it gains first strike until end of turn. If it has four or more +1/+1 counters, prevent all combat damage that would be dealt to it this turn. If it has six or more +1/+1 counters, untap all creatures you control. After this phase, there is an additional combat phase => [i]Heroic[/i] — Whenever you cast a spell targeting this creature, put a +1/+1 counter on it.
+The first time this creature attacks each turn, if this creature has 8 power or more, untap all creatures you control. After this phase, there is an additional combat phase
+
+The Bird's Flight
+
+Into Uneasy Paths
+rules_text: Target creature must attack if able during its controller's next turn.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new target for the copies.)[/i] => Target creature can't be blocked by creature with power three or greater.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new target for the copies.)[/i]
+
+The Romance of Gules
+
+Border Patrol
+rules_text: Amass Soldiers X, where X is the number of differently named lands you control. [i](To amass Soldiers X, put X +1/+1 counters on an Army you control. It's also a Soldiers. If you don't control an Army, create a 0/0 black Soldiers Army creature token first.)[/i]
+Refrain 1 — {5}{G}{G} [i](If you cast this spell for {5}{G}{G}, copy it one time. )[/i] => Amass Soldiers X, where X is the number of differently named lands you control. [i](Put X +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Refrain 1 — {5}{G}{G} [i](If you cast this spell for {5}{G}{G}, copy it one time. )[/i]
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Glimpse the True Self added.
