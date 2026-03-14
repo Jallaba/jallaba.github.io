@@ -5,7 +5,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}",
 			"type": "Enchantment",
-			"collector_number": "56",
+			"collector_number": "62",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/0.png"
 			}
@@ -15,7 +15,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "11",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/1.png"
 			}
@@ -25,7 +25,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "30",
+			"collector_number": "33",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/2.png"
 			}
@@ -35,7 +35,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "66",
+			"collector_number": "73",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/3.png"
 			}
@@ -45,7 +45,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{U}{U}",
 			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "8",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/4.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "22",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/5.png"
 			}
@@ -65,7 +65,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Zombie Cleric",
-			"collector_number": "17",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/6.png"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/B}",
 			"type": "Sorcery",
-			"collector_number": "67",
+			"collector_number": "74",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/7.png"
 			}
@@ -85,7 +85,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "16",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/8.png"
 			}
@@ -95,7 +95,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R/G}{R/G}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "50",
+			"collector_number": "55",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/9.png"
 			}
@@ -105,7 +105,7 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "59",
+			"collector_number": "65",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/10.png"
 			}
@@ -115,7 +115,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{U}{U}",
 			"type": "Legendary Creature — Octopus",
-			"collector_number": "7",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/11.png"
 			}
@@ -125,7 +125,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Human Knight",
-			"collector_number": "24",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/12.png"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{U/R}",
 			"type": "Instant",
-			"collector_number": "58",
+			"collector_number": "64",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/14.png"
 			}
@@ -165,7 +165,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U/B}{U/B}{U/B}{U/B}",
 			"type": "Legendary Creature — Noble",
-			"collector_number": "47",
+			"collector_number": "51",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/16.png"
 			}
@@ -175,7 +175,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "32",
+			"collector_number": "35",
 			"back": {
 				"name": "",
 				"type": "",
@@ -192,7 +192,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "65",
+			"collector_number": "72",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/18.png"
 			}
@@ -202,7 +202,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}{W/U}",
 			"type": "Creature — Human Wizard Noble",
-			"collector_number": "52",
+			"collector_number": "58",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/19.png"
 			}
@@ -212,7 +212,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Golem",
-			"collector_number": "63",
+			"collector_number": "70",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/20.png"
 			}
@@ -222,7 +222,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "43",
+			"collector_number": "47",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/21.png"
 			}
@@ -232,7 +232,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W/B}{W/B}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "44",
+			"collector_number": "48",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/22.png"
 			}
@@ -242,7 +242,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Scout",
-			"collector_number": "27",
+			"collector_number": "30",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/23.png"
 			}
@@ -252,7 +252,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "69",
+			"collector_number": "76",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/24.png"
 			}
@@ -262,7 +262,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Bard",
-			"collector_number": "21",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/25.png"
 			}
@@ -272,7 +272,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R/G}{R/G}",
 			"type": "Enchantment",
-			"collector_number": "42",
+			"collector_number": "46",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/26.png"
 			}
@@ -282,7 +282,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "29",
+			"collector_number": "32",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/27.png"
 			}
@@ -292,7 +292,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "48",
+			"collector_number": "52",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/28.png"
 			}
@@ -302,7 +302,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W/B}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "36",
+			"collector_number": "40",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/29.png"
 			}
@@ -312,7 +312,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Legendary Creature — Demon Knight",
-			"collector_number": "14",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/30.png"
 			}
@@ -322,7 +322,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "68",
+			"collector_number": "75",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/31.png"
 			}
@@ -332,7 +332,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "19",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/32.png"
 			}
@@ -342,7 +342,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Human Citizen",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/33.png"
 			}
@@ -352,7 +352,7 @@
 			"rarity": "rare",
 			"mana_cost": "{G/W}",
 			"type": "Instant",
-			"collector_number": "51",
+			"collector_number": "56",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/34.png"
 			}
@@ -362,7 +362,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B/R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "60",
+			"collector_number": "67",
 			"back": {
 				"name": "",
 				"type": "",
@@ -379,7 +379,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "35",
+			"collector_number": "39",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/36.png"
 			}
@@ -389,7 +389,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "33",
+			"collector_number": "36",
 			"back": {
 				"name": "",
 				"type": "",
@@ -406,7 +406,7 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Sorcery",
-			"collector_number": "53",
+			"collector_number": "59",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/38.png"
 			}
@@ -416,7 +416,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "23",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/39.png"
 			}
@@ -426,7 +426,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/G}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "57",
+			"collector_number": "63",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/40.png"
 			}
@@ -436,7 +436,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}",
 			"type": "Artifact Creature — Robot",
-			"collector_number": "39",
+			"collector_number": "43",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/41.png"
 			}
@@ -446,7 +446,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "15",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/42.png"
 			}
@@ -456,7 +456,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Soldier Sorcerer",
-			"collector_number": "20",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/43.png"
 			}
@@ -466,7 +466,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "62",
+			"collector_number": "69",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/44.png"
 			}
@@ -476,7 +476,7 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "18",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/45.png"
 			}
@@ -486,7 +486,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R/W}{R/W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "61",
+			"collector_number": "68",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/46.png"
 			}
@@ -496,7 +496,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "64",
+			"collector_number": "71",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/47.png"
 			}
@@ -506,7 +506,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Enchantment — Saga",
-			"collector_number": "34",
+			"collector_number": "37",
 			"back": {
 				"name": "",
 				"type": "",
@@ -523,7 +523,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/W}",
 			"type": "Instant",
-			"collector_number": "49",
+			"collector_number": "53",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/49.png"
 			}
@@ -533,7 +533,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "26",
+			"collector_number": "29",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/50.png"
 			}
@@ -543,7 +543,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "10",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/51.png"
 			}
@@ -553,7 +553,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U/R}{U/R}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "45",
+			"collector_number": "49",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/52.png"
 			}
@@ -563,7 +563,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{W}{W}",
 			"type": "Legendary Creature — Angel Noble Knight",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/53.png"
 			}
@@ -573,7 +573,7 @@
 			"rarity": "rare",
 			"mana_cost": "{G/W}{G/W}",
 			"type": "Enchantment",
-			"collector_number": "40",
+			"collector_number": "44",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/54.png"
 			}
@@ -583,7 +583,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "9",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/55.png"
 			}
@@ -593,7 +593,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid",
-			"collector_number": "28",
+			"collector_number": "31",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/56.png"
 			}
@@ -603,7 +603,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Instant",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/57.png"
 			}
@@ -613,7 +613,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W/B}{W/B}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "55",
+			"collector_number": "61",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/58.png"
 			}
@@ -623,7 +623,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/59.png"
 			}
@@ -633,7 +633,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "25",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/60.png"
 			}
@@ -643,7 +643,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "37",
+			"collector_number": "41",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/61.png"
 			}
@@ -653,7 +653,7 @@
 			"rarity": "rare",
 			"mana_cost": "{7}{U/B}{U/B}{U/B}",
 			"type": "Creature — Horror",
-			"collector_number": "46",
+			"collector_number": "50",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/62.png"
 			}
@@ -663,7 +663,7 @@
 			"rarity": "common",
 			"mana_cost": "{B/R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "38",
+			"collector_number": "42",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/63.png"
 			}
@@ -673,7 +673,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U/B}{U/B}",
 			"type": "Enchantment",
-			"collector_number": "41",
+			"collector_number": "45",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/64.png"
 			}
@@ -683,7 +683,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Shapeshifter Rogue",
-			"collector_number": "13",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/65.png"
 			}
@@ -693,7 +693,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "31",
+			"collector_number": "34",
 			"back": {
 				"name": "",
 				"type": "",
@@ -710,7 +710,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U/R}{U/R}",
 			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "54",
+			"collector_number": "60",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/67.png"
 			}
@@ -720,9 +720,79 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "12",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://jallaba.github.io/sets/ACPD-files/img/68.png"
+			}
+		},
+		{
+			"name": "Giant Riftguard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R/G}{R/G}",
+			"type": "Creature — Giant Warrior",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/69.png"
+			}
+		},
+		{
+			"name": "Flanking Attack",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/70.png"
+			}
+		},
+		{
+			"name": "Grieving Wanderer",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}{B/G}",
+			"type": "Creature — Human Samurai",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/71.png"
+			}
+		},
+		{
+			"name": "Survivors of Battle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/G}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/72.png"
+			}
+		},
+		{
+			"name": "Outside the Realm of Possible",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/73.png"
+			}
+		},
+		{
+			"name": "Torneach, Wandering Wizard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Elf Wizard",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/74.png"
+			}
+		},
+		{
+			"name": "Sunrise Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://jallaba.github.io/sets/ACPD-files/img/75.png"
 			}
 		}
 	]
@@ -756,6 +826,7 @@
 	2 Dream of Curiosity
 	2 Fall from Heaven
 	2 Lea, Wanderer of the Edge
+	2 Outside the Realm of Possible
 [uncommon(3)]
 	4 Make Your Dream Real
 	4 Endless Seas
@@ -784,6 +855,10 @@
 	4 Bladesinger's Dance
 	4 Skullface Infiltrator
 	4 Predict the Future
+	4 Giant Riftguard
+	4 Survivors of Battle
+	4 Torneach, Wandering Wizard
+	4 Sunrise Commander
 [common(6)]
 	8 Mourning Combattant
 	8 Strategic Surrender
@@ -799,6 +874,8 @@
 	8 Erratic Prophet
 	8 Glimpse the True Self
 	8 Crime of Passion
+	8 Flanking Attack
+	8 Grieving Wanderer
 [common | masterpiece(1)]
 	8 Mourning Combattant
 	8 Strategic Surrender
@@ -814,6 +891,8 @@
 	8 Erratic Prophet
 	8 Glimpse the True Self
 	8 Crime of Passion
+	8 Flanking Attack
+	8 Grieving Wanderer
 [foil(1)]
 	2 No Coming Back
 	6 Make Your Dream Real
@@ -884,6 +963,13 @@
 	2 Fall from Heaven
 	2 Lea, Wanderer of the Edge
 	6 Predict the Future
+	6 Giant Riftguard
+	12 Flanking Attack
+	12 Grieving Wanderer
+	6 Survivors of Battle
+	2 Outside the Realm of Possible
+	6 Torneach, Wandering Wizard
+	6 Sunrise Commander
 [wildcard(1)]
 	7 No Coming Back
 	15 Make Your Dream Real
@@ -954,3 +1040,10 @@
 	7 Fall from Heaven
 	7 Lea, Wanderer of the Edge
 	15 Predict the Future
+	15 Giant Riftguard
+	6 Flanking Attack
+	6 Grieving Wanderer
+	15 Survivors of Battle
+	7 Outside the Realm of Possible
+	15 Torneach, Wandering Wizard
+	15 Sunrise Commander

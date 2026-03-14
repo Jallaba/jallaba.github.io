@@ -1,4 +1,48 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+No changes.
+
+VERSION 6 CHANGELOG
+====================
+
+Giant Riftguard added.
+Flanking Attack added.
+Grieving Wanderer added.
+Survivors of Battle added.
+Outside the Realm of Possible added.
+Torneach, Wandering Wizard added.
+Sunrise Commander added.
+
+
+Fated Duel
+
+Nithael, King of the Argent Field
+rules_text: Flying, double strike, vigilance, lifelink
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {W} was spent to cast it, double your life total. => Flying, double strike, vigilance, lifelink
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, double your life total.
+
+Novice Channeler
+rules_text: This creature enters with a growth counter on it.
+{T}: Add {G} for each growth counter on this creature.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {G} was spent to cast it, put a growth counter on this creature. => This creature enters with a growth counter on it.
+{T}: Add {G} for each growth counter on this creature.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {G} was spent to cast it, put a growth counter on this creature.
+
+Skullface Infiltrator
+rules_text: This creature can't be blocked.
+[i]Baroque[/i] — Whenever you cast a spell, if at least five {U} was spent to cast it, you may have this creature become a copy of target creature, except it can't be blocked and it has this ability => This creature can't be blocked.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {U} was spent to cast it, you may have this creature become a copy of target creature, except it can't be blocked and it has this ability
+
+Predict the Future
+rules_text: Chose a card name.
+Until your next turn, whenever a player cast a spell with the chosen name, copy it. You may choose new target for the copy.
+Refrain 2 — {3}{U}{U}{U} [i](If you cast this spell for {3}{U}{U}{U}, copy it two times. You may choose new target for the copies.)[/i] => Chose a card name.
+Until the end of your next turn, whenever a player cast a spell with the chosen name, copy it. You may choose new target for the copy.
+Refrain 2 — {3}{U}{U}{U} [i](If you cast this spell for {3}{U}{U}{U}, copy it two times. You may choose new target for the copies.)[/i]
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Bladesinger's Dance added.
