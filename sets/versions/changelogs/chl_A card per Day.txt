@@ -1,4 +1,19 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Chosen by the Sword added.
+Lore of the Past added.
+Total Bisection added.
+Elven Clock added.
+Samuel, Wandering Hero added.
+Pocket Dimension added.
+War's Shadow added.
+
+
+Traumatized Soldier
+
+
+VERSION 7 CHANGELOG
 ====================
 
 No changes.
