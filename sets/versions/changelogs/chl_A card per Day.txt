@@ -1,4 +1,19 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Firecharged Catapult added.
+Slumbering Predator added.
+Brychan, Wandering Druid added.
+Ellana, Wandering Hunter added.
+Army of the Argent Fields added.
+Manacharged Crystal added.
+Gules Ruby added.
+
+
+Total Bisection
+
+
+VERSION 8 CHANGELOG
 ====================
 
 Chosen by the Sword added.
