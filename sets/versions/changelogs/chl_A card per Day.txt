@@ -1,4 +1,25 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Azure Sapphire added.
+Verdant Emerald added.
+Diamond Dragon added.
+Argent Pearl added.
+Platinum Golem added.
+Sable Jet added.
+Prison Warden added.
+
+
+Stories of the Realm
+type: Artifact => Artifact — Book
+
+Gules Ruby
+rules_text: {1}, {T}: Add {R}{R}.
+{R}{R}{R}, {T}: This artifact deals 3 damage to each opponent. Transform this artifact. => {T}: Add {R}.
+{R}{R}{R}, {T}: This artifact deals 3 damage to each opponent. Transform this artifact.
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Firecharged Catapult added.
