@@ -1,4 +1,129 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Torneach's Choice added.
+Sudden Invasion added.
+The Beginning of the End added.
+Sanguine Predator added.
+Savior's Blade added.
+Soulcapture Shield added.
+Caller of the Flock added.
+Honor the Fallen added.
+Reinforcment General added.
+Early Risers added.
+Four of a Kindred added.
+
+
+No Coming Back
+
+Chirat, King of the Azure Seas
+
+Heartless Betrayal
+
+Strategic Surrender
+rules_text: Enchant creature
+You control enchanted creature.
+Enchanted creature loses all abilities, and can't attack or block. => Enchant creature
+You control enchanted creature.
+Enchanted creature is a Citizen, loses all abilities, and can't attack or block. [i](It loses all other creature types.)[/i]
+
+Bane of the Azure Seas
+
+Ice Princess
+
+Fated Vanguard
+rules_text: [i]Heroic[/i] — Whenever you cast a spell targeting this creature, put a +1/+1 counter on it.
+The first time this creature attacks each turn, if this creature has 8 power or more, untap all creatures you control. After this phase, there is an additional combat phase => The first time this creature attacks each turn, if this creature has 4 power or more, it gains first strike until end of turn.
+The first time this creature attacks each turn, if this creature has 8 power or more, untap all creatures you control. After this phase, there is an additional combat phase
+pt: 1/1 => 2/1
+
+Angelic Pity
+
+Good Night's Rest
+rules_text: Tap target creature you control and put three stun counters and three +1/+1 counters on it. It has hexproof until it untap.
+Refrain X — {GW}{GW}{X} [i](If you cast this spell for {GW}{GW}{X}, copy it X times. You may choose new target for the copies.)[/i] => Tap target creature you control and put three stun counters and three +1/+1 counters on it. It has hexproof until it untap.
+
+Above the Clouds
+
+Into Uneasy Paths
+rules_text: Target creature can't be blocked by creature with power three or greater.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new target for the copies.)[/i] => Target creature can't be block. If it is an equipped creature you control, it gets +2/+1 until end of turn instead.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new target for the copies.)[/i]
+
+Special Attack
+
+Veteran Swordmaster
+
+Stories of the Realm
+
+The Romance of Gules
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight creature token.
+II — Create two Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”.
+III — Knights and Soldiers creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight creature token.
+II — Create a Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight creature token.
+II — Create two Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”.
+III — Knights and Soldiers creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight creature token.
+II — Create a Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed.
+
+Gear Up
+rules_text: Attach target equipment you control to target creature you control.
+Refrain X — {RW}{RW}{X} [i](If you cast this spell for {RW}{RW}{X}, copy it X times. You may choose new target for the copies.)[/i] => Attach target equipment you control to target creature you control.
+Refrain X — {X}{RW}{RW} [i](If you cast this spell for {X}{RW}{RW}, copy it X times. You may choose new target for the copies.)[/i]
+
+Fated Duel
+
+Keep Quiet
+
+Nithael, King of the Argent Field
+
+Novice Channeler
+rules_text: This creature enters with a growth counter on it.
+{T}: Add {G} for each growth counter on this creature.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {G} was spent to cast it, put a growth counter on this creature. => This creature enters with a growth counter on it.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {G} was spent to cast it, put a growth counter on this creature.
+{T}: Add {G} for each growth counter on this creature.
+
+Partner's Sword
+
+Bladesinger's Dance
+
+Eternity Wanderer
+
+Predict the Future
+
+Giant Riftguard
+rules_text: Reach, trample
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, you may have it fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i] => Reach, trample
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, put a preparation counter on this creature.
+{T}, Remove a preparation counter from this creature: It fight target creature you don't control. Activate only as a sorcery.
+
+Survivors of Battle
+
+Outside the Realm of Possible
+
+Torneach, Wandering Wizard
+
+Chosen by the Sword
+
+Total Bisection
+
+Pocket Dimension
+
+War's Shadow
+
+Slumbering Predator
+
+Gules Ruby
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Azure Sapphire added.
