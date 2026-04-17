@@ -1,4 +1,48 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+Through Patches of Violet added.
+Central, Grand Capital added.
+Solar Dispersal added.
+Mercarny Warlord added.
+Wandering Spring added.
+Robotic Reveal added.
+
+
+Song of the Forest
+rules_text: Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} [i](If you cast this spell for {3}{G}{G}, copy it two times. You may choose new target for the copies.)[/i] => Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} [i](If you cast this spell for {3}{G}{G}, copy it two times. You may choose new targets for the copies.)[/i]
+
+Into Uneasy Paths
+rules_text: Target creature can't be block. If it is an equipped creature you control, it gets +2/+1 until end of turn instead.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new target for the copies.)[/i] => Target creature can't be block. If it is an equipped creature you control, it gets +2/+1 until end of turn instead.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new targets for the copies.)[/i]
+
+Special Attack
+rules_text: Double target creature's power until end of turn.
+Refrain 2 — {6}{RG}{RG} [i](If you cast this spell for {6}{RG}{RG}, copy it two times. You may choose new target for the copies.)[/i] => Double target creature's power until end of turn.
+Refrain 2 — {6}{RG}{RG} [i](If you cast this spell for {6}{RG}{RG}, copy it two times. You may choose new targets for the copies.)[/i]
+
+Gear Up
+rules_text: Attach target equipment you control to target creature you control.
+Refrain X — {X}{RW}{RW} [i](If you cast this spell for {X}{RW}{RW}, copy it X times. You may choose new target for the copies.)[/i] => Attach target equipment you control to target creature you control.
+Refrain X — {X}{RW}{RW} [i](If you cast this spell for {X}{RW}{RW}, copy it X times. You may choose new targets for the copies.)[/i]
+
+Predict the Future
+rules_text: Chose a card name.
+Until the end of your next turn, whenever a player cast a spell with the chosen name, copy it. You may choose new target for the copy.
+Refrain 2 — {3}{U}{U}{U} [i](If you cast this spell for {3}{U}{U}{U}, copy it two times. You may choose new target for the copies.)[/i] => Chose a card name.
+Until the end of your next turn, whenever a player cast a spell with the chosen name, copy it. You may choose new target for the copy.
+Refrain 2 — {3}{U}{U}{U} [i](If you cast this spell for {3}{U}{U}{U}, copy it two times. You may choose new targets for the copies.)[/i]
+
+Four of a Kindred
+rules_text: Flying, haste
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {R} was spent to cast it, create three token that are copy of this creature, expect they have “At the beginning of your end step, sacrifice this creature. => Flying, haste
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {R} was spent to cast it, create three token that are copy of this creature, expect they have “At the beginning of your end step, sacrifice this creature”.
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Torneach's Choice added.
