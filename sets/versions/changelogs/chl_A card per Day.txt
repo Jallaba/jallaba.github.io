@@ -1,4 +1,115 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+Mercenary Warlord added.
+Secret Message added.
+Drain Dry added.
+Dark Interstice added.
+Demon-blessed Warlock added.
+Spiritual Guardian added.
+Bloody Charge added.
+Reborn in Battle added.
+Elder of the Forest added.
+Ancient Ringmaker added.
+
+Mercarny Warlord removed.
+
+Penitent Sinner
+rules_text: Menace
+Whenever a player cast a spell that's one or more colors, they lose 1 life for each of that's spell's color. => Menace
+Whenever a player cast a spell that's one or more colors, they lose 1 life for each of this spell's colors.
+
+Song of the Forest
+rules_text: Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} [i](If you cast this spell for {3}{G}{G}, copy it two times. You may choose new targets for the copies.)[/i] => Target creature you control gets +2/+2 and gains vigilance and trample until end of turn.
+Refrain 2 — {3}{G}{G} [i](If you cast this spell for its refrain cost, copy it two times. You may choose new targets for the copies.)[/i]
+
+Into Uneasy Paths
+rules_text: Target creature can't be block. If it is an equipped creature you control, it gets +2/+1 until end of turn instead.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for {3}{RW}{RW}, copy it four times. You may choose new targets for the copies.)[/i] => Target creature can't be block. If it is an equipped creature you control, it gets +2/+1 until end of turn instead.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for its refrain cost, copy it four times. You may choose new targets for the copies.)[/i]
+
+Special Attack
+rules_text: Double target creature's power until end of turn.
+Refrain 2 — {6}{RG}{RG} [i](If you cast this spell for {6}{RG}{RG}, copy it two times. You may choose new targets for the copies.)[/i] => Double target creature's power until end of turn.
+Refrain 2 — {6}{RG}{RG} [i](If you cast this spell for its refrain cost, copy it two times. You may choose new targets for the copies.)[/i]
+
+Gear Up
+rules_text: Attach target equipment you control to target creature you control.
+Refrain X — {X}{RW}{RW} [i](If you cast this spell for {X}{RW}{RW}, copy it X times. You may choose new targets for the copies.)[/i] => Attach target equipment you control to target creature you control.
+Refrain X — {X}{RW}{RW} [i](If you cast this spell for its refrain cost, copy it X times. You may choose new targets for the copies.)[/i]
+
+Glimpse the True Self
+rules_text: Draw a card.
+Refrain 2 — {3}{U}{U} [i](If you cast this spell for {3}{U}{U}, copy it two times. )[/i] => Draw a card.
+Refrain 2 — {3}{U}{U} [i](If you cast this spell for its refrain cost, copy it two times. )[/i]
+
+Partner's Sword
+rules_text: When this Equipment enters, create a 1/1 white Human creature token, then attach this to it.
+Equipped creature gets +1/+1
+Equip {1}
+Refrain 1 — {3}{W}{W} [i](If you cast this spell for {3}{W}{W}, copy it one time. Copies become tokens.)[/i] => When this Equipment enters, create a 1/1 white Human creature token, then attach this to it.
+Equipped creature gets +1/+1
+Equip {1}
+Refrain 1 — {3}{W}{W} [i](If you cast this spell for its refrain cost, copy it one time. Copies become tokens.)[/i]
+
+Border Patrol
+rules_text: Amass Soldiers X, where X is the number of differently named lands you control. [i](Put X +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Refrain 1 — {5}{G}{G} [i](If you cast this spell for {5}{G}{G}, copy it one time. )[/i] => Amass Soldiers X, where X is the number of differently named lands you control. [i](Put X +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Refrain 1 — {5}{G}{G} [i](If you cast this spell for its refrain cost, copy it one time. )[/i]
+
+Bladesinger's Dance
+rules_text: Flash
+Enchant creature
+Whenever this aura enters, enchanted creature gains hexproof until end of turn.
+Enchanted creature gets +1/+1 and ward {1}.
+Refrain 2 — {3}{WU}{WU} [i](If you cast this spell for {3}{WU}{WU}, copy it two times. Copies become tokens.)[/i] => Flash
+Enchant creature
+Whenever this aura enters, enchanted creature gains hexproof until end of turn.
+Enchanted creature gets +1/+1 and ward {1}.
+Refrain 2 — {3}{WU}{WU} [i](If you cast this spell for its refrain cost, copy it two times. Copies become tokens.)[/i]
+
+Predict the Future
+rules_text: Chose a card name.
+Until the end of your next turn, whenever a player cast a spell with the chosen name, copy it. You may choose new target for the copy.
+Refrain 2 — {3}{U}{U}{U} [i](If you cast this spell for {3}{U}{U}{U}, copy it two times. You may choose new targets for the copies.)[/i] => Chose a card name.
+Until the end of your next turn, whenever a player cast a spell with the chosen name, copy it. You may choose new target for the copy.
+Refrain 2 — {3}{U}{U}{U} [i](If you cast this spell for its refrain cost, copy it two times. You may choose new targets for the copies.)[/i]
+
+Outside the Realm of Possible
+rules_text: Exile a card you own from outside the game. You may cast it for as long as it is exiled.
+Refrain 3 — {5}{U}{U} [i](If you cast this spell for {5}{U}{U}, copy it three times. )[/i] => Exile a card you own from outside the game. You may cast it for as long as it is exiled.
+Refrain 3 — {5}{U}{U} [i](If you cast this spell for its refrain cost, copy it three times. )[/i]
+
+Lore of the Past
+rules_text: Mill three cards. You may return a permanent card milled this way to your hand.
+Refrain 1 — {3}{BG}{BG} [i](If you cast this spell for {3}{BG}{BG}, copy it one time. )[/i] => Mill three cards. You may return a permanent card milled this way to your hand.
+Refrain 1 — {3}{BG}{BG} [i](If you cast this spell for its refrain cost, copy it one time. )[/i]
+
+Total Bisection
+rules_text: Each player lose half their life total, rounded up.
+Refrain 1 — {5}{B}{B} [i](If you cast this spell for {5}{B}{B}, copy it one time. )[/i] => Each player lose half their life total, rounded up.
+Refrain 1 — {5}{B}{B} [i](If you cast this spell for its refrain cost, copy it one time. )[/i]
+
+Honor the Fallen
+rules_text: Exile up to two cards in any graveyard.
+Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Refrain X — {X}{WB}{WB} [i](If you cast this spell for {X}{WB}{WB}, copy it X times. )[/i] => Exile up to two cards in any graveyard.
+Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Refrain X — {X}{WB}{WB} [i](If you cast this spell for its refrain cost, copy it X times. )[/i]
+
+Through Patches of Violet
+rules_text: Until end of turn, target creature you control gains “Whenever this creature attacks, it can't be blocked this turn unless defending player discards a card.”
+Refrain X — {X}{UB}{UB} [i](If you cast this spell for {X}{UB}{UB}, copy it X times. You may choose new targets for the copies.)[/i] => Until end of turn, target creature you control gains “Whenever this creature attacks, it can't be blocked this turn unless defending player discards a card.”
+Refrain X — {X}{UB}{UB} [i](If you cast this spell for its refrain cost, copy it X times. You may choose new targets for the copies.)[/i]
+
+Robotic Reveal
+rules_text: Target creature becomes an artifact Robot in addition to its other type. [i](This effect lasts indefinitely.)[/i]
+Create X token copies of that creature, except they are Robot artifact in addition to its other type. They gain haste until end of turn. At the beginning of the next end step, sacrifice them. => Target creature becomes an artifact Robot in addition to its other type. [i](This effect lasts indefinitely.)[/i]
+Create X token copies of that creature, except they are Robot artifact in addition to its other type. Those tokens gain haste until end of turn. Sacrifice them at the beginning of the next end step.
+
+
+VERSION 12 CHANGELOG
 ====================
 
 Through Patches of Violet added.
