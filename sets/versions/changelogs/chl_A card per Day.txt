@@ -1,4 +1,31 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+Soulfed Husk added.
+Unending Watch added.
+Weaponsmith Forge added.
+A Rainbow's End added.
+Serendipitous Experimenter added.
+Radiant Priestress added.
+
+
+Solar Dispersal
+
+Wandering Spring
+rules_text: Reach, trample, vigilance
+[i]Landfall[/i] — Whenever a land you control enters, reveal the top card of your library. You may pay {1} to cast this card without paying its mana coast. If you don't put, it into your hand => Reach, trample, vigilance
+[i]Landfall[/i] — Whenever a land you control enters, reveal the top card of your library. You may pay {1} to cast this card without paying its mana coast. If you don't, put it into your hand.
+
+Drain Dry
+
+Spiritual Guardian
+
+Bloody Charge
+
+Ancient Ringmaker
+
+
+VERSION 13 CHANGELOG
 ====================
 
 Mercenary Warlord added.
