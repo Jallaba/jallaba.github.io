@@ -1,4 +1,22 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+Brutal Charge added.
+Radiant Priestess added.
+Archking Charm added.
+Edgar, Wandering Thief added.
+Fae Reunion added.
+Sudden Death added.
+All the Lives Lost added.
+Maddened Rambling added.
+Fight in the Ruins added.
+Liv, Wandering Scholar added.
+
+Bloody Charge removed.
+Radiant Priestress removed.
+
+
+VERSION 14 CHANGELOG
 ====================
 
 Soulfed Husk added.
