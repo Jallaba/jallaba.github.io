@@ -1,4 +1,46 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+Chirat, King of Azure Seas added.
+Nithael, King of Argent Field added.
+Elgar, Wandering Thief added.
+Rigule, King of the Gules Peak added.
+Hardworking Weaponsmith added.
+Rock Avalanche added.
+Angelic Arsenal added.
+Village Matron added.
+Make Unreal added.
+
+Chirat, King of the Azure Seas removed.
+Nithael, King of the Argent Field removed.
+Edgar, Wandering Thief removed.
+
+Ayed, Weary Traveler
+rules_text: Vigilance
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, put a +1/+1 counter on this creature for each differently named lands you control. => Vigilance
+[i]Heroic[/i] — Whenever you cast a spell that targets this creature, put a +1/+1 counter on this creature for each differently named lands you control.
+
+Obnoxious Bard
+rules_text: [i]Heroic[/i] — Whenever you cast a spell targeting this creature, you may discard a card. If you do, draw a card.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {R} was spent to cast it, you may have this creature's power and toughness become equal to the number of noncreature, nonland cards in your graveyard until end of turn. => [i]Heroic[/i] — Whenever you cast a spell that targets this creature, you may discard a card. If you do, draw a card.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {R} was spent to cast it, you may have this creature's power and toughness become equal to the number of noncreature, nonland cards in your graveyard until end of turn.
+
+Giant Riftguard
+rules_text: Reach, trample
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, put a preparation counter on this creature.
+{T}, Remove a preparation counter from this creature: It fight target creature you don't control. Activate only as a sorcery. => Reach, trample
+[i]Heroic[/i] — Whenever you cast a spell that targets this creature, put a preparation counter on this creature.
+{T}, Remove a preparation counter from this creature: It fight target creature you don't control. Activate only as a sorcery.
+
+Mercenary Warlord
+rules_text: Haste
+[i]Heroic[/i] — Whenever you cast a spell targeting this creature, create a 1/1 red Human creature token. It gain haste until end of turn.
+Whenever this creature attacks, creature tokens you control get +X/+X, where X is this creature's power. => Haste
+[i]Heroic[/i] — Whenever you cast a spell that targets this creature, create a 1/1 red Human creature token. It gain haste until end of turn.
+Whenever this creature attacks, creature tokens you control get +X/+X, where X is this creature's power.
+
+
+VERSION 15 CHANGELOG
 ====================
 
 Brutal Charge added.
