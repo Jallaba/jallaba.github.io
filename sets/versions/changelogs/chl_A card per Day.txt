@@ -1,4 +1,162 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+Bathin, Queen of Sable Waste added.
+Rigule, King of Gules Peak added.
+Rhea, Queen of Verdant Wood added.
+Busy Researcher added.
+Dimensional Traveler added.
+In the Hands of Giants added.
+The Worldmaker added.
+No Kings added.
+Stand With a Friend added.
+
+Bathin, Demon Mentor removed.
+Rigule, King of the Gules Peak removed.
+
+Make Your Dream Real
+
+Star of Predation
+
+Chirat, King of Azure Seas
+
+Sudden Redirection
+
+Penitent Sinner
+
+Mourning Combattant
+
+Bane of the Azure Seas
+
+Ayed, Weary Traveler
+
+Magic Circle: Drei
+
+Dawngrove Unicorn
+
+Steel Sentinel
+
+Horizon Wanderer
+
+Obnoxious Bard
+
+Song of the Forest
+
+Chromatic Storm
+
+Misplaced Girl
+
+Good Night's Rest
+
+Army of the Verdant Woods
+
+Final Breath
+
+Frontline Summoner
+
+Battlefield Standard
+
+Xenophobia
+
+Stories of the Realm
+
+Fated Duel
+
+Keep Quiet
+
+Nithael, King of Argent Field
+
+Glimpse the True Self
+
+Novice Channeler
+
+Moment of Eternity
+
+Partner's Sword
+
+Border Patrol
+
+Skullface Infiltrator
+
+Predict the Future
+
+Giant Riftguard
+
+Flanking Attack
+
+Outside the Realm of Possible
+
+Sunrise Commander
+
+Chosen by the Sword
+
+Total Bisection
+
+Elven Clock
+
+Samuel, Wandering Hero
+
+Pocket Dimension
+
+Firecharged Catapult
+
+Slumbering Predator
+
+Azure Sapphire
+
+Prison Warden
+
+Sudden Invasion
+
+Sanguine Predator
+
+Soulcapture Shield
+
+Four of a Kindred
+
+Central, Grand Capital
+
+Solar Dispersal
+
+Robotic Reveal
+
+Secret Message
+
+Drain Dry
+
+Dark Interstice
+
+Spiritual Guardian
+
+Brutal Charge
+
+Ancient Ringmaker
+
+Soulfed Husk
+
+A Rainbow's End
+
+Radiant Priestess
+
+Archking Charm
+
+Sudden Death
+
+All the Lives Lost
+
+Maddened Rambling
+
+Hardworking Weaponsmith
+
+Rock Avalanche
+
+Village Matron
+
+Make Unreal
+cost: {1}{U} => {U}
+
+
+VERSION 16 CHANGELOG
 ====================
 
 Chirat, King of Azure Seas added.
