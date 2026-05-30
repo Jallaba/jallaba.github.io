@@ -1,4 +1,28 @@
-﻿VERSION 17 CHANGELOG
+﻿VERSION 18 CHANGELOG
+====================
+
+Cut to Shred added.
+Final Thanks added.
+Longhorn Drake added.
+Spellbane Recruiter added.
+Tormented Bard added.
+Armored Battering Ram added.
+Repeated Charge added.
+Battlefield Champion added.
+
+Sudden Death removed.
+
+In the Hands of Giants
+
+Stand With a Friend
+rules_text: You may cast this spell only if you control two or more creature.
+Copy this spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+Put a +1/+1 counter on target creature. It gains vigilance until end of turn. Gain 1 life. => You may cast this spell only if you control two or more creatures.
+When you cast this spell, copy this spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+Put a +1/+1 counter on target creature. It gains vigilance until end of turn. Gain 1 life.
+
+
+VERSION 17 CHANGELOG
 ====================
 
 Bathin, Queen of Sable Waste added.
