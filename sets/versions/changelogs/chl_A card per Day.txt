@@ -1,4 +1,17 @@
-﻿VERSION 18 CHANGELOG
+﻿VERSION 19 CHANGELOG
+====================
+
+A Bountiful Year added.
+Rune of Awareness added.
+Flying Shipyard added.
+Uld, Misanthropic Historian added.
+Blessing of Seasons added.
+Hundred Years Sleep added.
+Inflexible Front added.
+
+
+
+VERSION 18 CHANGELOG
 ====================
 
 Cut to Shred added.
