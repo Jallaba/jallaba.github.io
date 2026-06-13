@@ -1,4 +1,22 @@
-﻿VERSION 19 CHANGELOG
+﻿VERSION 20 CHANGELOG
+====================
+
+Hardened Survivor added.
+Armored Interceptor added.
+Sylvan Council added.
+The Hero's Party added.
+Lost to the Woods added.
+Thirst for Purpose added.
+Explore the Realm added.
+
+
+Inflexible Front
+cost: {W}{W} => {1}{W}{W}
+rules_text: At the beginning of each opponent's end step, amass Soldiers 1 for each creature that attacked you this turn. [i](To amass Soldiers 1, put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+At the beginning of your end step, each opponents amass Soldiers 1 for each creature that attacked them this turn. => At the beginning of each opponent's end step, amass Soldiers 1 for each creature that attacked you this turn. [i](To amass Soldiers 1, put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+
+
+VERSION 19 CHANGELOG
 ====================
 
 A Bountiful Year added.
