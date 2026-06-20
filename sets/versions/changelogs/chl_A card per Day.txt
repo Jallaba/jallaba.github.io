@@ -1,4 +1,45 @@
-﻿VERSION 20 CHANGELOG
+﻿VERSION 21 CHANGELOG
+====================
+
+Core of Darkness added.
+Racketeering Leader added.
+Studious Witch added.
+Doomed Astologist added.
+Sorin, on a Holiday added.
+Splendid Moon added.
+Army of the Gules Peak added.
+
+
+Fated Duel
+rules_text: This spell cost {1} less if it target a creature with mana value five or greater.
+Target creature you control fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i] => This spell cost {1} less if it target a creature with mana value 5 or greater.
+Target creature you control fight target creature you don't control. [i](Each deals damage equal to its power to the other.)[/i]
+
+Manacharged Crystal
+rules_text: Once each turn, you may cast a spell with mana value 4 or less as though they cost {1} more. If you do so, draw a card.
+Once each turn, you may cast a spell with mana value 5 or more as though they cost {1} less. => Once each turn, you may cast a spell with mana value 4 or less as though they cost {1} more. If you do so, draw a card.
+Once each turn, you may cast a spell with mana value 5 or greater as though they cost {1} less.
+
+Elder of the Forest
+rules_text: At the beginning of your upkeep, put a age counter on this creature.
+Whenever this creature dies or you cast a spell with mana value 5 or more, create an X/X green Beast creature token, where X is the amount of age counter on this creature. => At the beginning of your upkeep, put a age counter on this creature.
+Whenever this creature dies or you cast a spell with mana value 5 or greater, create an X/X green Beast creature token, where X is the amount of age counter on this creature.
+
+Fae Reunion
+rules_text: Look at the top seven cards of your library. You may reveal a card with mana value one or lesser among them, and a card with mana value five or greater among them. Put the revealed cards into your hand, and the other cards on the bottom of your library in a random order. => Look at the top seven cards of your library. You may reveal a card with mana value 1 or less among them, and a card with mana value 5 or greater among them. Put the revealed cards into your hand, and the other cards on the bottom of your library in a random order.
+
+Tormented Bard
+rules_text: When this creature enters, and whenever you copy, each creatures your opponents control gets -1/-0 until end of turn. => When this creature enters, and whenever you copy a spell, each creatures your opponents control gets -1/-0 until end of turn.
+
+Armored Interceptor
+
+The Hero's Party
+rules_text: Whenever this enchantment enters or you cast another legendary spell, create a treasure token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, search your library for a legendary creature card with mana value four or less, reveal it and put it on the battlefield, then shuffle. => Whenever this enchantment enters or you cast another legendary spell, create a treasure token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, search your library for a legendary creature card with mana value 4 or less, reveal it and put it on the battlefield, then shuffle.
+
+
+VERSION 20 CHANGELOG
 ====================
 
 Hardened Survivor added.
