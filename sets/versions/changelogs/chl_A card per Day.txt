@@ -1,4 +1,108 @@
-﻿VERSION 21 CHANGELOG
+﻿VERSION 22 CHANGELOG
+====================
+
+Backstreet Dealing added.
+Sent to Heaven added.
+Group Hunt added.
+Write Down History added.
+Mystic Warlord added.
+Flying Grandship added.
+Overconfident Squire added.
+Reality Collapse added.
+Poseida, Flying Flagship added.
+Chestshell Crab added.
+Colossal Titan added.
+Archer Carrier added.
+Maria, Dark Ancestor added.
+Grave Rider added.
+
+
+Make Your Dream Real
+
+Endless Seas
+
+Sudden Redirection
+rules_text: Gain control of target triggered or activated ability. You may choose new target for it. => Gain control of target activated or triggered ability. You may choose new target for it.
+
+Boundless Roads
+
+Evergreen Canopy
+
+Obnoxious Bard
+
+Bottomless Chasm
+
+Army of the Verdant Woods
+rules_text: [i]Landfall[/i] — Whenever a land enters under your control, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creatures you control have trample. => [i]Landfall[/i] — Whenever this enchantment or a land enters under your control, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creatures you control have trample.
+
+Final Breath
+
+Veteran Swordmaster
+
+Gear Up
+
+Keep Quiet
+
+Moment of Eternity
+
+Partner's Sword
+
+Border Patrol
+
+Predict the Future
+
+Sunrise Commander
+
+Chosen by the Sword
+
+Army of the Argent Fields
+rules_text: Whenever you gain life, amass Soldiers 2. This ability only trigger once each turn. [i](To amass Soldiers 2, put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creature you control have vigilance. => Whenever this enchantment enters or you gain life, amass Soldiers 2. This ability only trigger once each turn. [i](To amass Soldiers 2, put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creature you control have vigilance.
+
+Torneach's Choice
+
+Sanguine Predator
+
+Demon-blessed Warlock
+
+All the Lives Lost
+
+Maddened Rambling
+
+Hardworking Weaponsmith
+
+Busy Researcher
+
+Stand With a Friend
+
+Armored Battering Ram
+rules_text: Trample
+Whenever this creature attacks, it gets +1/+1 for each tapped creature you control until end of turn.
+Whenever this creature deals combat damage to an opponent, destroy target artifact that player control. => Trample
+Whenever this creature attacks, it gets +1/+1 until end of turn for each other tapped creature you control.
+
+Battlefield Champion
+
+Hundred Years Sleep
+
+Hardened Survivor
+rules_text: This creature cost {1} less for each creature cards in your graveyard.
+Discard a card: Put a +1/+1 counter on this creature and tap it. It gains indestructible until end of turn. => This creature cost {1} less to cast for each creature cards in your graveyard.
+
+Lost to the Woods
+rules_text: Shuffle target artifact or enchantment into its owner's library.
+Refrain X — {X}{X}{G}{G} [i](If you cast this spell for its refrain cost, copy it X times. You may choose new targets for the copies.)[/i] => Shuffle target artifact or enchantment into its owner's library.
+
+Army of the Gules Peak
+rules_text: Whenever you cast an instant or sorcery, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army you control have hast. => Whenever this enchantment enters or you cast an instant or sorcery spell, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creature you control have haste.
+
+
+VERSION 21 CHANGELOG
 ====================
 
 Core of Darkness added.
