@@ -1,4 +1,43 @@
-﻿VERSION 22 CHANGELOG
+﻿VERSION 23 CHANGELOG
+====================
+
+Inexplicable Invasion added.
+Juvenile Manticore. added.
+Unending Valor added.
+Enchanted Evening added.
+Covetous Urge added.
+Spiteful Visions added.
+Manamorphose added.
+Growing Ranks added.
+Divinity of Pride added.
+Teach by Example added.
+Fiend Artisan added.
+Blade Historian added.
+Thunderous Snapper added.
+Featherfall Ascetic added.
+Neural Contagion added.
+Opportunistic Raiders added.
+Persistent Guide added.
+Travel Companions added.
+Through the Divine Gate added.
+Eversoul added.
+Oracle's Disciple added.
+Thrashing Sundew added.
+Triumphant Tactics added.
+Anuran Encounter added.
+Aneliz, Wandering Dancer added.
+Apothecary Duo added.
+Spatial Separation added.
+Astral Dreamer added.
+Acclaimed Finale added.
+
+Sudden Invasion removed.
+Chestshell Crab removed.
+
+Penitent Sinner
+
+
+VERSION 22 CHANGELOG
 ====================
 
 Backstreet Dealing added.
