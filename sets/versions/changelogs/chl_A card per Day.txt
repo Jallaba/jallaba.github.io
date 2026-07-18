@@ -1,4 +1,22 @@
-﻿VERSION 23 CHANGELOG
+﻿VERSION 24 CHANGELOG
+====================
+
+Woodland Explorers added.
+Bark Elemental added.
+Unseen Wizard added.
+Corpse Grown Millipede added.
+Wild Rhythmspeaker added.
+Rouge, Wandering Fighter added.
+Pegasus Knight added.
+
+
+Solar Dispersal
+rules_text: This spell cost {1} less to cast for each Plains you control.
+Exile target creature with mana value X or less. => Affinity for Plains [i](This spell costs {1} less to cast for each Plains you control.)[/i]
+Exile target creature with mana value X or less.
+
+
+VERSION 23 CHANGELOG
 ====================
 
 Inexplicable Invasion added.
