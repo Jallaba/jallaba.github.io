@@ -1,4 +1,299 @@
-﻿VERSION 24 CHANGELOG
+﻿VERSION 25 CHANGELOG
+====================
+
+Tactical Council added.
+Dreams of Freedom added.
+Dreams of Companionship added.
+Dreams of Curiosity added.
+Reinforcement General added.
+Know the Enemy added.
+Angelic Incarnation added.
+Enemy in the Shadow added.
+Decrypt added.
+Wandering Brain added.
+Alluring Drowner added.
+Starlit Enchantress added.
+Disorder in the Rank added.
+Alea Jecta Est added.
+Sleeping Colossus added.
+Flowering Knight added.
+Paul, Wandering Knight added.
+Sheltered Princess added.
+Soultouched Wolf added.
+Arcane Grimoire added.
+Leisuring Royal added.
+Midnight Gathering added.
+
+Strategic Council removed.
+Dream of Freedom removed.
+Dream of Companionship removed.
+Dream of Curiosity removed.
+Reinforcment General removed.
+Secret Message removed.
+Make Unreal removed.
+Final Thanks removed.
+
+Pay the Devil's Due
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying.
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card.
+II — You may discard three cards. If you do, create a 3/3 black Demon Rogue creature token with flying.
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card.
+II — If you have five or more cards in hand, create a 3/3 black Demon Rogue creature token with flying.
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Whenever a Pirate or Rogue creature you control deals combat damage to a player this turn, draw a card.
+II — You may discard three cards. If you do, create a 3/3 black Demon Rogue creature token with flying.
+III — Destroy all non-Demon creature tokens. Exile this Saga, then return it to the battlefield transformed.
+
+Traumatized Soldier
+rules_text: Whenever an opponent cast a spell, this creature deals 1 damage to you. Put a grudge counter on it.
+{1}{BR}{BR}: Transform this creature. If it has three or more grudge counter, draw a cards. You may only activate this ability once each turn. => Whenever an opponent cast a spell, this creature deals 1 damage to you. Put a grudge counter on it.
+Exhaust — {1}{BR}: This creature lose all other abilities. Put a +1/+1 counter for each counter on this creature. [i](Activate each exhaust ability only once.)[/i]
+
+Xenophobia
+
+Keep Quiet
+cost: {1}{U} => {2}{U}{U}
+rules_text: Counter target spell unless its controller pays {2}. If they do, players can't cast spells this turn. => Choose one or both:
+• Counter target spell.
+• Counter target triggered ability.
+
+Torneach's Choice
+rules_text: Choose X:
+• Copy target instant or sorcery spell you control. You may choose new target for the copy.
+• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+• Switch the power and toughness of each of up to two target creatures until end of turn. => Choose X:
+• Copy target instant or sorcery spell you control. You may choose new target for the copy.
+• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+• Create a 1/1 red and blue Elemental creature token with “Whenever you copy a spell, put a +1/+1 counter on this creature”.
+
+Drain Dry
+
+Dark Interstice
+
+Demon-blessed Warlock
+rules_text: Flying
+Whenever this creature deals combat damage to a player, if they have more cards in hand than you, draw a card. Otherwise, exile the top card of that player's library. You may play the exiled card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell. => Flying
+Whenever a player discard a card, draw a card. This ability only trigger once each turn.
+
+Spiritual Guardian
+
+Brutal Charge
+
+Reborn in Battle
+
+Elder of the Forest
+
+Ancient Ringmaker
+
+Soulfed Husk
+
+Unending Watch
+
+Weaponsmith Forge
+
+A Rainbow's End
+
+Serendipitous Experimenter
+
+Radiant Priestess
+
+Archking Charm
+
+Elgar, Wandering Thief
+
+Fae Reunion
+
+Cut to Shred
+
+All the Lives Lost
+
+Maddened Rambling
+
+Fight in the Ruins
+
+Liv, Wandering Scholar
+
+Rigule, King of Gules Peak
+
+Hardworking Weaponsmith
+
+Rock Avalanche
+
+Angelic Arsenal
+
+Village Matron
+
+Rhea, Queen of Verdant Wood
+
+Busy Researcher
+
+Dimensional Traveler
+
+In the Hands of Giants
+
+The Worldmaker
+
+No Kings
+
+Stand With a Friend
+
+Longhorn Drake
+
+Spellbane Recruiter
+
+Tormented Bard
+
+Armored Battering Ram
+
+Repeated Charge
+
+Battlefield Champion
+
+A Bountiful Year
+
+Rune of Awareness
+
+Flying Shipyard
+
+Uld, Misanthropic Historian
+
+Blessing of Seasons
+
+Hundred Years Sleep
+
+Inflexible Front
+
+Hardened Survivor
+
+Armored Interceptor
+
+Sylvan Council
+
+The Hero's Party
+
+Lost to the Woods
+
+Thirst for Purpose
+
+Explore the Realm
+
+Core of Darkness
+
+Racketeering Leader
+
+Studious Witch
+
+Doomed Astologist
+
+Sorin, on a Holiday
+
+Splendid Moon
+
+Army of the Gules Peak
+
+Backstreet Dealing
+
+Sent to Heaven
+
+Group Hunt
+
+Write Down History
+
+Mystic Warlord
+
+Flying Grandship
+
+Overconfident Squire
+
+Reality Collapse
+
+Poseida, Flying Flagship
+
+Juvenile Manticore.
+
+Colossal Titan
+
+Archer Carrier
+
+Maria, Dark Ancestor
+
+Grave Rider
+
+Unending Valor
+
+Enchanted Evening
+
+Covetous Urge
+
+Spiteful Visions
+
+Manamorphose
+
+Growing Ranks
+
+Divinity of Pride
+
+Teach by Example
+
+Fiend Artisan
+
+Blade Historian
+
+Thunderous Snapper
+
+Featherfall Ascetic
+
+Neural Contagion
+
+Opportunistic Raiders
+
+Persistent Guide
+
+Travel Companions
+
+Through the Divine Gate
+
+Eversoul
+
+Oracle's Disciple
+
+Thrashing Sundew
+
+Triumphant Tactics
+
+Anuran Encounter
+
+Aneliz, Wandering Dancer
+
+Apothecary Duo
+
+Spatial Separation
+
+Astral Dreamer
+
+Acclaimed Finale
+
+Woodland Explorers
+
+Bark Elemental
+
+Unseen Wizard
+
+Corpse Grown Millipede
+
+Wild Rhythmspeaker
+
+Rouge, Wandering Fighter
+
+Pegasus Knight
+
+
+VERSION 24 CHANGELOG
 ====================
 
 Woodland Explorers added.
