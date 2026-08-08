@@ -1,4 +1,114 @@
-﻿VERSION 25 CHANGELOG
+﻿VERSION 26 CHANGELOG
+====================
+
+Maddened Murderer added.
+Faerie Fly, Faerie Lie added.
+Boon of the Gules Mountain added.
+Relaxing Pond added.
+Backline General added.
+Enraged Ogre added.
+Unending Journey added.
+Highest Peak added.
+
+
+Magic Circle: Drei
+rules_text: No two mana spent to cast this spell may be the same color. For each color of mana spent this way:
+• {W}: You gain 3 life.
+• {U}: Scry 3, then draw a card.
+• {B}: Each opponent loses 3 life.
+• {R}: Create three 1/1 red Elemental creature tokens.
+• {G}: Put a +1/+1 counter on up to three creatures you control. => No two mana spent to cast this spell may be the same color. For each color of mana spent this way:
+• {W}: You gain 3 life.
+• {U}: Scry 3, then draw a card.
+• {B}: Each opponent loses 3 life.
+• {R}: Create three 1/1 red Human creature tokens.
+• {G}: Put a +1/+1 counter on up to three creatures you control.
+
+The Romance of Gules
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight creature token.
+II — Create a Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight Human creature token.
+II — Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight creature token.
+II — Create a Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight Human creature token.
+II — Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed.
+
+Sunrise Commander
+rules_text: When this creature enters, create a red and white 2/2 Knight creature token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, put a +1/+1 counter on each creatures you control. => When this creature enters, create a red and white 2/2 Knight Human creature token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, put a +1/+1 counter on each creatures you control.
+
+Brychan, Wandering Druid
+rules_text: Vigilance
+Whenever this creature enters, create a 1/1 white Bird creature token with flying.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, for each non-Wolf creature token you control, create a 2/2 green Wolf creature token. => Vigilance
+Whenever this creature enters, create a 1/1 white Bird creature token with flying.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, create a X/X green Beast creature token, where X is that spell's mana value.
+
+Caller of the Flock
+rules_text: Flying
+Whenever an enchantment enters under your control, create a 1/1 white Bird token creature with flying. => Flying
+Whenever an enchantment enters under your control, create a 1/1 white Bird creature token with flying.
+
+Early Risers
+rules_text: Create three tapped 1/1 white and green Human tokens. => Create three tapped 1/1 white Human creature tokens.
+
+Unending Watch
+rules_text: Vigilance, reach
+If a spell or ability an opponent controls causes you to discard this card, put it onto the battlefield instead of putting it into your graveyard.
+Whenever you or a creature not named Unending Watch becomes the target of a spell or ability an opponent controls, create a token that's a copy of this creature. => Vigilance, reach
+If a spell or ability an opponent controls causes you to discard this card, put it onto the battlefield instead of putting it into your graveyard.
+Whenever you or a creature not named Unending Watch becomes the target of a spell or ability an opponent controls, create a token that's a copy of Unending Watch.
+
+Weaponsmith Forge
+rules_text: Equipment spell you cast cost {1} less to cast.
+Equip ability you activate cost {1} less to activate.
+{5}, {T}: Create a Equipment artifact tokens with equip {1} and “equipped creature gets +1/+1”. => Equipment spell you cast cost {1} less to cast.
+Equip ability you activate cost {1} less to activate.
+{5}, {T}: Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+
+Fight in the Ruins
+rules_text: X can't be zero.
+Target player creates a 3/3 green Ogre creature token.
+Another target player creates X 2/2 white Human creature tokens. => X can't be zero.
+Target player creates a 3/3 green Ogre creature token.
+Another target player creates X 2/2 white and red Human Knight creature tokens.
+
+Hardworking Weaponsmith
+rules_text: This creature has first strike during your turn.
+[i]Heroic[/i] — Whenever you cast a spell that targets this creature, create an Equipment token with equip {1} and “Equipped creature gets +1/+1”. => This creature has first strike during your turn.
+[i]Heroic[/i] — Whenever you cast a spell that targets this creature, create an Equipment token with equip {2} and “Equipped creature gets +1/+1”.
+
+Blessing of Seasons
+rules_text: Whenever you cast a spell that targets a creature you control, choose one that hasn't been chosen this turn:
+• Add two mana of any color.
+• Put a +1/+1 counter on target creature. It gains haste and trample until end of turn.
+• Create a Food token.
+• Draw a card. => Whenever you cast a spell that targets a creature you control, choose one that hasn't been chosen this turn:
+• Add two mana of any color.
+• Put a +1/+1 counter on target creature. It gains haste and trample until end of turn.
+• You gain 3 life.
+• Draw a card.
+
+The Hero's Party
+rules_text: Whenever this enchantment enters or you cast another legendary spell, create a treasure token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, search your library for a legendary creature card with mana value 4 or less, reveal it and put it on the battlefield, then shuffle. => Whenever this enchantment enters or you cast another legendary spell, create a Treasure token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, search your library for a legendary creature card with mana value 4 or less, reveal it and put it on the battlefield, then shuffle.
+
+Pegasus Knight
+rules_text: Flying, vigilance
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, create two 2/2 white Pegasus creature token with flying. => Flying, vigilance
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, create a 3/3 white Angel creature token with flying.
+
+
+VERSION 25 CHANGELOG
 ====================
 
 Tactical Council added.
