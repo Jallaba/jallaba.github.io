@@ -1,4 +1,23 @@
-﻿VERSION 26 CHANGELOG
+﻿VERSION 27 CHANGELOG
+====================
+
+Weaponsmith Veteran added.
+Greater Heights added.
+Guardian of Old Secrets added.
+Distorted Ruins added.
+Bustling Market added.
+Sculpting Shepherd added.
+Sadistic Butcher added.
+Fae's Crowning added.
+Firecast Hammer added.
+
+Weaponsmith Forge removed.
+Highest Peak removed.
+
+Unending Journey
+
+
+VERSION 26 CHANGELOG
 ====================
 
 Maddened Murderer added.
