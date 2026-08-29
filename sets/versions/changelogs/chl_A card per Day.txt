@@ -1,4 +1,79 @@
-﻿VERSION 27 CHANGELOG
+﻿VERSION 28 CHANGELOG
+====================
+
+Horizon Explorer added.
+Eternity Intruder added.
+Lea, Observer of the Edge added.
+Grieving Stranger added.
+Walking Spring added.
+Woodland Drifter added.
+Drifting Brain added.
+Fae Help added.
+Voidtouched Entity added.
+Jeanne, Youthful General added.
+Aftermath Survivor added.
+Restful Bivouac added.
+Repentant Trailblazer added.
+Caravan Leader added.
+Carnivorous Flower added.
+Unholy Baptism added.
+Plunder the Stars added.
+Belltoll Spider added.
+Footman's Spear added.
+Angelic Shield added.
+Edge of the World added.
+
+Horizon Wanderer removed.
+Eternity Wanderer removed.
+Lea, Wanderer of the Edge removed.
+Grieving Wanderer removed.
+Wandering Spring removed.
+Woodland Explorers removed.
+Wandering Brain removed.
+
+Dormant Monument
+cost: {2}{GU} => {1}{GU}
+pt: 4/4 => 3/3
+
+The Romance of Gules
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight Human creature token.
+II — Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Human Knight creature token.
+II — Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Knight Human creature token.
+II — Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed. => [i](As this Saga enters and after your draw step, add a lore counter)[/i]
+I — Create a 2/2 red and white Human Knight creature token.
+II — Create a Equipment artifact tokens with equip {2} and “equipped creature gets +1/+1”.
+III — Knights and Warriors creatures you control gets +1/+1 and gains first strike until end of turn. Exile this Saga, then return it to the battlefield transformed.
+
+Sunrise Commander
+rules_text: When this creature enters, create a red and white 2/2 Knight Human creature token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, put a +1/+1 counter on each creatures you control. => When this creature enters, create a red and white 2/2 Human Knight creature token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least five {W} was spent to cast it, put a +1/+1 counter on each creatures you control.
+
+Fae's Crowning
+cost: {2}{W} => {W}
+rules_text: Enchant creature
+When this enchantment enters, draw a card.
+Enchanted creature gets +1/+1 and flying. => Enchant creature
+Enchanted creature gets +1/+1 and flying.
+
+Firecast Hammer
+rules_text: Flash
+When this artifact enters, it deals 3 damage to target attacking or blocking creature.
+Equipped creature gets +3/+3.
+Equip {3} => Flash
+When this artifact enters, it deals 3 damage to target attacking or blocking creature your opponent control.
+Equipped creature gets +3/+3.
+Equip {3}
+
+
+VERSION 27 CHANGELOG
 ====================
 
 Weaponsmith Veteran added.
