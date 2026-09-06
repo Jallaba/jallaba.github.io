@@ -1,4 +1,525 @@
-﻿VERSION 28 CHANGELOG
+﻿VERSION 29 CHANGELOG
+====================
+
+Courageous Fisherman added.
+Die Another Day added.
+Military Camp added.
+Breaking the Tree added.
+Bloodtipped Spear added.
+Climactic Knighting added.
+Lost Survivor added.
+Dancing in the Fields added.
+
+
+Star of Predation
+rules_text: Destroy target land. Create a 20/20 green Horror Elemental creature token with vigilance and ward {20}. [i](Whenever that permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {20}.)[/i] => Destroy target land. Create a 20/20 green Horror Elemental creature token with vigilance and ward {20}. [i](Whenever this sorcery becomes the target of a spell or ability an opponent controls, counter it unless that player pays {20}.)[/i]
+
+Boundless Roads
+
+Ice Princess
+
+Steel Sentinel
+
+Dreams of Peace
+
+Dusk on the Battlefield
+
+Horizon Explorer
+
+Evergreen Canopy
+
+Obnoxious Bard
+
+Dreams of Freedom
+
+Song of the Forest
+
+Fated Vanguard
+
+Angelic Pity
+
+Bathin, Queen of Sable Waste
+
+Bottomless Chasm
+
+Chromatic Storm
+
+Misplaced Girl
+
+Good Night's Rest
+
+Traumatized Soldier
+
+Above the Clouds
+
+Into Uneasy Paths
+
+Army of the Verdant Woods
+
+Special Attack
+
+Dormant Monument
+
+Final Breath
+
+Frontline Summoner
+
+Battlefield Standard
+
+Xenophobia
+
+Veteran Swordmaster
+
+Stories of the Realm
+
+Gear Up
+
+Fated Duel
+
+Keep Quiet
+
+Erratic Prophet
+
+Nithael, King of Argent Field
+
+Dreams of Companionship
+
+Glimpse the True Self
+
+Novice Channeler
+
+Moment of Eternity
+
+Leading Vanguard
+
+Partner's Sword
+
+Border Patrol
+
+Bladesinger's Dance
+
+Eternity Intruder
+
+Crime of Passion
+
+Dreams of Curiosity
+
+Skullface Infiltrator
+
+Lea, Observer of the Edge
+
+Predict the Future
+
+Giant Riftguard
+
+Flanking Attack
+
+Grieving Stranger
+
+Survivors of Battle
+
+Outside the Realm of Possible
+
+Torneach, Wandering Wizard
+
+Sunrise Commander
+
+Chosen by the Sword
+
+Lore of the Past
+
+Total Bisection
+
+Elven Clock
+
+Pocket Dimension
+
+War's Shadow
+
+Firecharged Catapult
+
+Slumbering Predator
+
+Brychan, Wandering Druid
+
+Ellana, Wandering Hunter
+
+Army of the Argent Fields
+
+Manacharged Crystal
+
+Diamond Dragon
+
+Platinum Golem
+
+Prison Warden
+
+Torneach's Choice
+
+Inexplicable Invasion
+
+The Beginning of the End
+
+Sanguine Predator
+
+Savior's Blade
+
+Soulcapture Shield
+
+Caller of the Flock
+
+Honor the Fallen
+
+Reinforcement General
+
+Early Risers
+
+Four of a Kindred
+
+Through Patches of Violet
+
+Central, Grand Capital
+
+Solar Dispersal
+
+Mercenary Warlord
+
+Walking Spring
+
+Robotic Reveal
+
+Drain Dry
+
+Dark Interstice
+
+Demon-blessed Warlock
+
+Spiritual Guardian
+
+Brutal Charge
+
+Reborn in Battle
+
+Elder of the Forest
+
+Ancient Ringmaker
+
+Soulfed Husk
+
+Unending Watch
+
+Weaponsmith Veteran
+
+A Rainbow's End
+
+Serendipitous Experimenter
+
+Radiant Priestess
+
+Archking Charm
+
+Elgar, Wandering Thief
+
+Fae Reunion
+
+Cut to Shred
+
+All the Lives Lost
+
+Maddened Rambling
+
+Fight in the Ruins
+
+Liv, Wandering Scholar
+
+Rigule, King of Gules Peak
+
+Hardworking Weaponsmith
+
+Rock Avalanche
+
+Angelic Arsenal
+
+Village Matron
+
+Rhea, Queen of Verdant Wood
+
+Busy Researcher
+
+Dimensional Traveler
+
+In the Hands of Giants
+
+No Kings
+
+Stand With a Friend
+
+Longhorn Drake
+
+Spellbane Recruiter
+
+Tormented Bard
+
+Armored Battering Ram
+
+Repeated Charge
+
+Battlefield Champion
+
+A Bountiful Year
+
+Rune of Awareness
+
+Flying Shipyard
+
+Uld, Misanthropic Historian
+
+Blessing of Seasons
+
+Hundred Years Sleep
+
+Inflexible Front
+
+Hardened Survivor
+
+Armored Interceptor
+
+Sylvan Council
+
+The Hero's Party
+
+Lost to the Woods
+
+Thirst for Purpose
+
+Explore the Realm
+
+Core of Darkness
+
+Racketeering Leader
+
+Studious Witch
+
+Doomed Astologist
+
+Splendid Moon
+
+Army of the Gules Peak
+
+Backstreet Dealing
+
+Sent to Heaven
+
+Group Hunt
+
+Write Down History
+
+Mystic Warlord
+
+Flying Grandship
+
+Overconfident Squire
+
+Reality Collapse
+
+Poseida, Flying Flagship
+
+Juvenile Manticore.
+
+Colossal Titan
+
+Archer Carrier
+
+Maria, Dark Ancestor
+
+Grave Rider
+
+Unending Valor
+
+Enchanted Evening
+
+Covetous Urge
+
+Spiteful Visions
+
+Manamorphose
+
+Growing Ranks
+
+Divinity of Pride
+
+Teach by Example
+
+Fiend Artisan
+
+Blade Historian
+
+Thunderous Snapper
+
+Featherfall Ascetic
+
+Neural Contagion
+
+Opportunistic Raiders
+
+Persistent Guide
+
+Travel Companions
+
+Through the Divine Gate
+
+Eversoul
+
+Oracle's Disciple
+
+Thrashing Sundew
+
+Triumphant Tactics
+
+Anuran Encounter
+
+Aneliz, Wandering Dancer
+
+Apothecary Duo
+
+Spatial Separation
+
+Astral Dreamer
+
+Acclaimed Finale
+
+Woodland Drifter
+
+Bark Elemental
+
+Unseen Wizard
+
+Corpse Grown Millipede
+
+Wild Rhythmspeaker
+
+Rouge, Wandering Fighter
+
+Pegasus Knight
+
+Know the Enemy
+
+Angelic Incarnation
+
+Enemy in the Shadow
+
+Decrypt
+
+Drifting Brain
+
+Alluring Drowner
+
+Starlit Enchantress
+
+Disorder in the Rank
+
+Alea Jecta Est
+
+Sleeping Colossus
+
+Flowering Knight
+
+Paul, Wandering Knight
+
+Sheltered Princess
+
+Soultouched Wolf
+
+Arcane Grimoire
+
+Leisuring Royal
+
+Midnight Gathering
+
+Maddened Murderer
+
+Boon of the Gules Mountain
+
+Relaxing Pond
+
+Backline General
+
+Enraged Ogre
+
+Unending Journey
+
+Greater Heights
+
+Guardian of Old Secrets
+
+Distorted Ruins
+
+Bustling Market
+
+Sculpting Shepherd
+
+Sadistic Butcher
+
+Fae's Crowning
+
+Firecast Hammer
+
+Fae Help
+
+Voidtouched Entity
+
+Jeanne, Youthful General
+
+Aftermath Survivor
+
+Restful Bivouac
+
+Repentant Trailblazer
+
+Caravan Leader
+
+Carnivorous Flower
+
+Unholy Baptism
+
+Plunder the Stars
+
+Belltoll Spider
+
+Footman's Spear
+
+Angelic Shield
+
+Edge of the World
+
+Samuel, Wandering Hero
+
+Gules Ruby
+
+Azure Sapphire
+
+Verdant Emerald
+
+Argent Pearl
+
+Sable Jet
+
+The Worldmaker
+
+Sorin, on a Holiday
+
+Pay the Devil's Due
+
+The Bird's Flight
+
+The Romance of Gules
+
+Fall from Heaven
+
+Faerie Fly, Faerie Lie
+
+
+VERSION 28 CHANGELOG
 ====================
 
 Horizon Explorer added.
