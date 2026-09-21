@@ -1,4 +1,52 @@
-﻿VERSION 29 CHANGELOG
+﻿VERSION 30 CHANGELOG
+====================
+
+Inactive Monument added.
+An Empty Future added.
+Dormant Robot added.
+Call Upon Higher Beings added.
+Fullmoon Bats added.
+Pearl Gate General added.
+City-Wide Fire added.
+Innanna, Lovely Traveler added.
+Dimensional Travel added.
+Chainbound Prisoner added.
+Firehoof Charger added.
+Enthralled Couple added.
+Experimental Arquebus added.
+Army of the Sable Waste added.
+Roadside Extorsion added.
+Deepwood Ruins added.
+
+Dormant Monument removed.
+
+Inexplicable Invasion
+
+Fated Duel
+
+Backstreet Dealing
+
+Persistent Guide
+
+Maddened Rambling
+
+Hardened Survivor
+
+Disorder in the Rank
+rules_text: Gain control of target creature until end of turn. Untap it. Until end of turn, it gains haste and “[i]Heroic[/i] — Whenever you cast a spell targeting this creature, gain control of target creature until end of turn. Untap it. It gains haste until end of turn”. => Gain control of target creature until end of turn. Untap it. Until end of turn, it gains haste and “[i]Heroic[/i] — Whenever you cast a spell that targets this creature, gain control of target creature until end of turn. Untap it. It gains haste until end of turn”.
+
+Maddened Murderer
+
+Leisuring Royal
+
+Bloodtipped Spear
+
+Lost Survivor
+
+Unholy Baptism
+
+
+VERSION 29 CHANGELOG
 ====================
 
 Courageous Fisherman added.
