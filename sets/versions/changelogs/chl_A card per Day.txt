@@ -1,4 +1,95 @@
-﻿VERSION 30 CHANGELOG
+﻿VERSION 31 CHANGELOG
+====================
+
+Autumnal Blabberer added.
+Desperate Resurrection added.
+Threadspinning Witch added.
+Full Assault added.
+Winning Joust added.
+Escorted Wagon added.
+Dragon Knight added.
+Warfront Drummer added.
+Lost to the Sea added.
+Cursesmith Sorceress added.
+Fae Swarm added.
+Project of a Lifetime added.
+
+
+Predict the Future
+
+Into Uneasy Paths
+cost: {RW} => {R}
+rules_text: Target creature can't be block. If it is an equipped creature you control, it gets +2/+1 until end of turn instead.
+Refrain 4 — {3}{RW}{RW} [i](If you cast this spell for its refrain cost, copy it four times. You may choose new targets for the copies.)[/i] => Target creature can't be block.
+Refrain 6 — {3}{R}{R} [i](If you cast this spell for its refrain cost, copy it six times. You may choose new targets for the copies.)[/i]
+
+Bathin, Queen of Sable Waste
+
+Weaponsmith Veteran
+
+Elgar, Wandering Thief
+
+Spiritual Guardian
+
+Sanguine Predator
+
+Armored Interceptor
+
+Reinforcement General
+
+Poseida, Flying Flagship
+
+Spiteful Visions
+
+Teach by Example
+
+Cut to Shred
+
+Lost to the Woods
+
+Travel Companions
+
+Spatial Separation
+
+Woodland Drifter
+
+Grave Rider
+
+Stand With a Friend
+cost: {3}{GW}{GW} => {GW}
+rules_text: You may cast this spell only if you control two or more creatures.
+When you cast this spell, copy this spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+Put a +1/+1 counter on target creature. It gains vigilance until end of turn. Gain 1 life. => Put a +1/+1 counter on target creature. It gains vigilance until end of turn. Gain 1 life.
+Refrain X — {3}{GW}{GW}. X is equal to the number of creatures you control minus one. [i](If you cast this spell for its refrain cost, copy it X times. You may choose new targets for the copies.)[/i]
+
+Armored Battering Ram
+
+Inflexible Front
+
+Racketeering Leader
+
+Write Down History
+
+Mystic Warlord
+
+Unseen Wizard
+
+Decrypt
+
+Bark Elemental
+
+Backline General
+
+Flowering Knight
+
+Die Another Day
+
+Repentant Trailblazer
+
+Bloodtipped Spear
+
+
+VERSION 30 CHANGELOG
 ====================
 
 Inactive Monument added.
