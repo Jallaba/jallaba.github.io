@@ -1,4 +1,384 @@
-﻿VERSION 32 CHANGELOG
+﻿VERSION 33 CHANGELOG
+====================
+
+A Past Best Forgotten added.
+Woodland Knight added.
+Incubating Entity added.
+Emerging Pupae added.
+Encounter on the Road added.
+Stirrer of the Pot added.
+Fireside Tale added.
+Roguish Save added.
+Templeback Walker added.
+Harvest's Festival added.
+Cackling Vampire added.
+Slow Execution added.
+Rune Bag added.
+Pull from Yesterday added.
+Subtle Poisoner added.
+Cosmic Apotheosis added.
+Astra, Wandering Cleric added.
+Forgotten Effigy added.
+Feathershroud Stinger added.
+Artful Pirouette added.
+Lightning Diadem added.
+Opening the Gates of Time added.
+Mutual End added.
+
+Deepwood Ruins removed.
+
+No Coming Back
+
+Make Your Dream Real
+
+Star of Predation
+
+Endless Seas
+
+Chirat, King of Azure Seas
+
+Sudden Redirection
+
+Mourning Combattant
+
+Glorious Slayer
+
+Strategic Surrender
+
+Bane of the Azure Seas
+
+Magic Circle: Drei
+
+Tactical Council
+
+Dawngrove Unicorn
+
+Ethelred, the Dealmaker
+
+Boundless Roads
+
+Ice Princess
+
+Dreams of Peace
+
+Dusk on the Battlefield
+
+Dreams of Curiosity
+
+Evergreen Canopy
+
+Dreams of Freedom
+
+Song of the Forest
+
+Fated Vanguard
+
+Angelic Pity
+
+Torneach, Wandering Wizard
+
+Bottomless Chasm
+
+Chromatic Storm
+
+Traumatized Soldier
+rules_text: Whenever an opponent cast a spell, this creature deals 1 damage to you. Put a grudge counter on it.
+Exhaust — {1}{BR}: This creature lose all other abilities. Put a +1/+1 counter for each counter on this creature. [i](Activate each exhaust ability only once.)[/i] => Whenever an opponent cast a spell, this creature deals 1 damage to you. Put a grudge counter on it.
+Exhaust — {1}{BR}: This creature lose all other abilities. Put a +1/+1 counter for each grudge counter on this creature. [i](Activate each exhaust ability only once.)[/i]
+
+Above the Clouds
+
+Into Uneasy Paths
+
+Army of the Verdant Woods
+
+Special Attack
+
+Inactive Monument
+
+Battlefield Standard
+
+Xenophobia
+
+Veteran Swordmaster
+
+Gear Up
+
+Inexplicable Invasion
+
+Keep Quiet
+
+Erratic Prophet
+
+Nithael, King of Argent Field
+
+Dreams of Companionship
+
+Novice Channeler
+
+Moment of Eternity
+
+Leading Vanguard
+
+Partner's Sword
+
+Border Patrol
+
+Bladesinger's Dance
+
+Eternity Intruder
+cost: {7}{UB}{UB}{UB} => {UB}{UB}{UB}
+rules_text: This spell cost {X} less, where X is the greatest amount of cards in an opponent's hand.
+This creature gets -1/-1 for each cards in your hand.
+When this creature dies, draw two cards if an opponent has more cards in hands than you. => This spell cost {X} more, where X is the greatest amount of cards in an opponent's hand.
+This creature gets -1/-1 for each cards in your hand.
+When this creature dies, draw two cards if an opponent has more cards in hands than you.
+
+Crime of Passion
+
+Skullface Infiltrator
+
+Lea, Observer of the Edge
+
+Bathin, Queen of Sable Waste
+
+Giant Riftguard
+rules_text: Reach, trample
+[i]Heroic[/i] — Whenever you cast a spell that targets this creature, put a preparation counter on this creature.
+{T}, Remove a preparation counter from this creature: It fight target creature you don't control. Activate only as a sorcery. => Reach, trample
+[i]Heroic[/i] — {T}: It fight target creature you don't control. Activate only as a sorcery, and only if you cast a spell that target this creature this turn.
+
+Flanking Attack
+
+Grieving Stranger
+
+Survivors of Battle
+
+Outside the Realm of Possible
+
+Lore of the Past
+
+Elven Clock
+
+War's Shadow
+
+Firecharged Catapult
+
+Brychan, Wandering Druid
+
+Ellana, Wandering Hunter
+
+Army of the Argent Fields
+
+Manacharged Crystal
+
+Diamond Dragon
+
+Platinum Golem
+
+Prison Warden
+
+Torneach's Choice
+
+Fated Duel
+
+The Beginning of the End
+
+Weaponsmith Veteran
+
+Savior's Blade
+
+Soulcapture Shield
+
+Caller of the Flock
+
+Honor the Fallen
+
+Early Risers
+
+Four of a Kindred
+
+Through Patches of Violet
+
+Central, Grand Capital
+
+Mercenary Warlord
+
+Walking Spring
+rules_text: Reach, trample, vigilance
+[i]Landfall[/i] — Whenever a land you control enters, reveal the top card of your library. You may pay {1} to cast this card without paying its mana coast. If you don't, put it into your hand. => Reach, trample, vigilance
+[i]Landfall[/i] — Whenever a land you control enters, reveal the top card of your library. You may pay {1} to cast this card without paying its mana cost. If you don't, put it into your hand.
+
+Robotic Reveal
+
+Drain Dry
+
+Dark Interstice
+
+Demon-blessed Warlock
+
+Elgar, Wandering Thief
+
+Brutal Charge
+
+Reborn in Battle
+
+Elder of the Forest
+
+Sunrise Commander
+
+Unending Watch
+
+Rune of Awareness
+
+Serendipitous Experimenter
+
+Slumbering Predator
+
+Archking Charm
+
+Sanguine Predator
+
+Fae Reunion
+
+Armored Interceptor
+
+All the Lives Lost
+
+Reinforcement General
+
+Backstreet Dealing
+
+Fight in the Ruins
+
+Liv, Wandering Scholar
+
+Rigule, King of Gules Peak
+
+Hardworking Weaponsmith
+
+Angelic Arsenal
+
+Village Matron
+
+Rhea, Queen of Verdant Wood
+
+Busy Researcher
+
+Dimensional Traveler
+rules_text: Whenever this creature enters, is put into a graveyard from anywhere or is put into exile from anywhere, you may pay {U}{U}. If you do, draw a card.
+{0}: Exile this card from your graveyard.
+{0}: Discard this card.
+{0}: Sacrifice this creature. => Whenever this creature enters, is put into a graveyard from anywhere or is put into exile from anywhere, you may pay {U}{U}. If you do, draw a card.
+{0}: Exile this card from your graveyard.
+{0}: Sacrifice this creature.
+{0}: Discard this card.
+
+In the Hands of Giants
+
+No Kings
+
+Poseida, Flying Flagship
+
+Longhorn Drake
+
+Spellbane Recruiter
+
+Tormented Bard
+
+Repeated Charge
+
+Battlefield Champion
+
+A Bountiful Year
+
+Spiritual Guardian
+
+Flying Shipyard
+
+Uld, Misanthropic Historian
+
+Blessing of Seasons
+
+Hundred Years Sleep
+
+Cut to Shred
+
+Sylvan Council
+
+The Hero's Party
+rules_text: Whenever this enchantment enters or you cast another legendary spell, create a Treasure token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, search your library for a legendary creature card with mana value 4 or less, reveal it and put it on the battlefield, then shuffle. => Whenever this enchantment enters or you cast another legendary spell, create a tapped Treasure token.
+[i]Baroque[/i] — Whenever you cast another spell, if at least {W}{U}{B}{R}{G} was spent to cast it, search your library for a legendary creature card with mana value 4 or less, reveal it and put it on the battlefield, then shuffle.
+
+Lost to the Woods
+
+Thirst for Purpose
+
+Explore the Realm
+
+Core of Darkness
+
+Studious Witch
+
+Doomed Astologist
+
+Splendid Moon
+
+Army of the Gules Peak
+rules_text: Whenever this enchantment enters or you cast an instant or sorcery spell, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creature you control have haste. => Whenever this enchantment enters or you cast a noncreature spell, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Army creature you control have haste.
+
+Flying Grandship
+
+Sent to Heaven
+
+Group Hunt
+
+Spatial Separation
+
+Woodland Drifter
+
+Maddened Rambling
+
+Overconfident Squire
+
+Reality Collapse
+
+Grave Rider
+
+Juvenile Manticore.
+
+Colossal Titan
+
+Archer Carrier
+
+Maria, Dark Ancestor
+rules_text: Flying, haste
+Pay X life: Untap target creature with mana value X and gain control of it until end of turn. It and Maria gain haste and must attack this turn if able. Activate only as a sorcery and only once each turn. => Flying, haste
+Pay X life: Untap target creature with mana value X and gain control of it until end of turn. It and Maria gain haste and must attack this turn if able. Activate only as a sorcery before combat and only once each turn.
+
+Stand With a Friend
+
+Wild Rhythmspeaker
+
+Leisuring Royal
+pt: 2/2 => 1/3
+
+Maddened Murderer
+
+Firecast Hammer
+
+Die Another Day
+
+Bloodtipped Spear
+
+Knockout Punch
+cost: {RG}{RG} => {1}{RG}
+
+
+VERSION 32 CHANGELOG
 ====================
 
 Distorting Voice added.
